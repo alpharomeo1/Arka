@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* Center the divs on the page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #466365;
+        }
+
+        /* Styling the container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+
+        /* Styling the divs */
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            background-color: white;
+        }
+
+        /* Styling the buttons */
+        button {
+            padding: 8px 16px;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #FEFFA5;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aviation At A Glance</h1>
+    <div class="container">
+        <!-- Create 7 divs with buttons and image tags -->
+        <div class="card">
+            <img src="info.png" alt="Image 1" width="100%" height="auto">
+            <button onclick="openPage('page1.html')">Know Your Airports</button>
+        </div>
+        <div class="card">
+            <img src="diagram.png" alt="Image 2" width="100%" height="auto">
+            <button onclick="openPage('page2.html')">Airport Statistics for 2022-2023</button>
+        </div>
+        <div class="card">
+            <img src="flight.png" alt="Image 3" width="100%" height="auto">
+            <button onclick="openPage('page3.html')">Total flights per Day</button>
+        </div>
+        <div class="card">
+            <img src="airplane.png" alt="Image 4" width="100%" height="auto">
+            <button onclick="openPage('page4.html')">Departures by airline</button>
+        </div>
+        <div class="card">
+            <img src="ticket.png" alt="Image 5" width="100%" height="auto">
+            <button onclick="openPage('page5.html')">Top Domestic Destinations</button>
+        </div>
+        <div class="card">
+            <img src="boarding-pass.png" alt="Image 6" width="100%" height="auto">
+            <button onclick="openPage('page6.html')">Top International Destinations</button>
+        </div>
+        <div class="card">
+            <img src="service.png" alt="Image 7" width="100%" height="auto">
+            <button onclick="openPage('page7.html')">Flight Finder </button>
+        </div>
+    </div>
+
+    <script>
+        function openPage(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+
+</html>

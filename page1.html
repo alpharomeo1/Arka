@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIS Portal</title>
+    <link rel="stylesheet" href="ol.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+h1{
+    
+    text-align: center;
+    color: #FEFFA5;;
+}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+
+        #header {
+            background-color: #466365;
+            position: fixed;
+            top: 0;
+            width: 80%;
+            height: 80px;
+            text-align: center;
+        }
+
+        #map {
+            height: 95%;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 20%;
+            background-color: black;
+        }
+
+        /* Right panel */
+#rpanel {
+    background-color: #769fb6;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    border-left: 5px solid #C33C54;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: space-evenly;  /* Distribute items evenly */
+}
+
+/* Style for radio buttons and labels */
+#rpanel input[type="radio"], #rpanel label {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between radio buttons and labels */
+}
+
+        /* Styles for the popup */
+        #popup {
+            background-color: #D4CDF4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .navButton{
+            width: 100%;
+        }
+        .resetButton{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <div id="header">
+        <h1>Know Your Airports</h1>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Right Panel -->
+    <div id="rpanel">
+        <!-- High Altitude Airports radio button and label -->
+        <div>
+            <input type="radio" id="highElevationRadio" name="filter" />
+            <label for="highElevationRadio">High Elevation Airports</label>
+        </div>
+        <div>
+            <!-- Lowest Elevations radio button and label -->
+            <input type="radio" id="lowElevationRadio" name="filter" />
+            <label for="lowElevationRadio">Lowest Elevation Airports</label>
+        </div>
+        <!-- Continue for other radio buttons and labels -->
+        <div>
+            <input type="radio" id="runwayRadio" name="filter" />
+            <label for="runwayRadio">Airports with Long Runways</label>
+        </div>
+        <div>
+            <input type="radio" id="shortRunwayRadio" name="filter" />
+            <label for="shortRunwayRadio">Airports with Short Runways</label>
+        </div>
+        <div>
+            <input type="radio" id="detailsRadio" name="filter" />
+            <label for="detailsRadio">Show all airports</label>
+        </div>
+        
+            <!-- Reset view button -->
+            <button id="resetButton">Reset View</button>
+        
+        <!-- Additional buttons if needed -->
+        <!-- Add buttons at the bottom of the right panel -->
+        <input type="text" id="searchInput" placeholder="Search by City or IATA" />
+        <button id="searchButton">Search</button>
+        <br>
+
+<div id="buttonContainer">
+    <button class="navButton" onclick="openPage('page1.html')">Know Your Airports</button>
+    <button class="navButton" onclick="openPage('page2.html')">Airport Statistics for 2022-2023</button>
+    <button class="navButton" onclick="openPage('page3.html')">Total Flights per Day</button>
+    <button class="navButton" onclick="openPage('page4.html')">Departures by Airline</button>
+    <button class="navButton" onclick="openPage('page5.html')">Top Domestic Destinations</button>
+    <button class="navButton" onclick="openPage('page6.html')">Top International Destinations</button>
+    <button class="navButton" onclick="openPage('page7.html')">Flight Finder</button>
+    <button class="navButton" onclick="openPage('index.html')">Back to Home Page</button>
+</div>
+</div>
+
+<!-- JavaScript function to handle button click -->
+<script>
+    function openPage(url) {
+        window.location.href = url;
+    }
+</script>
+
+    </div>
+    <script src="ol.js"></script>
+    <script>
+        // Initialize the map
+        var map = new ol.Map({
+            view: new ol.View({
+                center: [9000000, 2500000], // Initial center in EPSG:3857 coordinates
+                zoom: 4.8
+            }),
+            target: 'map'
+        });
+
+        // Store the initial view for resetting
+        var initialView = map.getView().getCenter();
+        var initialZoom = map.getView().getZoom();
+
+        // Layers
+        var osmLayer = new ol.layer.Tile({
+            source: new ol.source.OSM()
+        });
+
+        var googleMapTileLayer = new ol.layer.Tile({
+            source: new ol.source.XYZ({
+                url: 'https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}',
+                attributions: '&copy;&nbsp;<a href="https://developers.google.com/maps/documentation/tile" target="_blank">Google Tile Map Contributors</a>',
+                attributionsCollapsible: false
+            }),
+            visible: false,
+            opacity: 1,
+            title: 'Google Map layer'
+        });
+
+        // Layer group
+        var tileLayerGroup = new ol.layer.Group({
+            layers: [googleMapTileLayer, osmLayer]
+        });
+
+        map.addLayer(tileLayerGroup);
+
+        // Popup container and overlay
+        var popupContainer = document.createElement('div');
+        popupContainer.className = 'ol-popup';
+        popupContainer.id = 'popup';
+        document.body.appendChild(popupContainer);
+
+        var popupOverlay = new ol.Overlay({
+            element: popupContainer,
+            positioning: 'center',
+            stopEvent: false,
+            offset: [0, 0]
+        });
+
+        map.addOverlay(popupOverlay);
+
+        // Variables for layers
+        var highElevationLayer;
+        var lowElevationLayer;
+        var top10RunwayLayer;
+        var shortRunwayLayer;
+        var airportDetailsLayer;
+
+        // Add event listeners
+        function addRadioEventListeners() {
+            document.getElementById('highElevationRadio').addEventListener('change', function (event) {
+                if (event.target.checked) {
+                    removeOtherLayers();
+
+                    fetch('./Elevations.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            var vectorSource = new ol.source.Vector({
+                                features: new ol.format.GeoJSON().readFeatures(data, {
+                                    featureProjection: 'EPSG:3857'
+                                })
+                            });
+
+                            var sortedFeatures = vectorSource.getFeatures().sort(function (a, b) {
+                                return b.get('Elevation (in ft)') - a.get('Elevation (in ft)');
+                            });
+
+                            var top10Features = sortedFeatures.slice(0, 10);
+                            var top10Source = new ol.source.Vector({
+                                features: top10Features
+                            });
+
+                            highElevationLayer = new ol.layer.Vector({
+                                source: top10Source,
+                                style: new ol.style.Style({
+                                    image: new ol.style.Circle({
+                                        radius: 5,
+                                        fill: new ol.style.Fill({
+                                            color: 'red'
+                                        }),
+                                        stroke: new ol.style.Stroke({
+                                            color: 'black',
+                                            width: 1
+                                        })
+                                    })
+                                })
+                            });
+
+                            map.addLayer(highElevationLayer);
+
+                            map.on('click', function (event) {
+                                popupOverlay.setPosition(undefined);
+
+                                map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+                                    if (layer === highElevationLayer) {
+                                        var clickedCoordinate = event.coordinate;
+                                        var attributes = feature.getProperties();
+
+                                        var popupContent = '';
+                    var cityName = attributes['City'] || '';
+                    popupContent += '<h3>' + cityName + '</h3><ul>';
+
+                    for (var key in attributes) {
+                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID' && key !== 'City') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+                                        popupContent += '</ul>';
+
+                                        popupContainer.innerHTML = popupContent;
+                                        popupOverlay.setPosition(clickedCoordinate);
+
+                                        var view = map.getView();
+                                        view.setCenter(clickedCoordinate);
+                                        view.setZoom(6);
+                                    }
+                                });
+                            });
+
+                            highElevationRadio.addEventListener('change', function (event) {
+                                if (!event.target.checked) {
+                                    map.removeLayer(highElevationLayer);
+                                    highElevationLayer = null;
+                                }
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error loading Elevations.json:', error);
+                        });
+                }
+            });
+
+            document.getElementById('lowElevationRadio').addEventListener('change', function (event) {
+                if (event.target.checked) {
+                    removeOtherLayers();
+
+                    fetch('Elevations.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            var vectorSource = new ol.source.Vector({
+                                features: new ol.format.GeoJSON().readFeatures(data, {
+                                    featureProjection: 'EPSG:3857'
+                                })
+                            });
+
+                            var sortedFeatures = vectorSource.getFeatures().sort(function (a, b) {
+                                return a.get('Elevation (in ft)') - b.get('Elevation (in ft)');
+                            });
+
+                            var bottom10Features = sortedFeatures.slice(0, 10);
+                            var bottom10Source = new ol.source.Vector({
+                                features: bottom10Features
+                            });
+
+                            lowElevationLayer = new ol.layer.Vector({
+                                source: bottom10Source,
+                                style: new ol.style.Style({
+                                    image: new ol.style.Circle({
+                                        radius: 5,
+                                        fill: new ol.style.Fill({
+                                            color: 'purple'
+                                        }),
+                                        stroke: new ol.style.Stroke({
+                                            color: 'black',
+                                            width: 1
+                                        })
+                                    })
+                                })
+                            });
+
+                            map.addLayer(lowElevationLayer);
+
+                            map.on('click', function (event) {
+                                popupOverlay.setPosition(undefined);
+
+                                map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+                                    if (layer === lowElevationLayer) {
+                                        var clickedCoordinate = event.coordinate;
+                                        var attributes = feature.getProperties();
+
+                                        var popupContent = '';
+                    var cityName = attributes['City'] || '';
+                    popupContent += '<h3>' + cityName + '</h3><ul>';
+
+                    for (var key in attributes) {
+                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID' && key !== 'City') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+                                        popupContent += '</ul>';
+
+                                        popupContainer.innerHTML = popupContent;
+                                        popupOverlay.setPosition(clickedCoordinate);
+
+                                        var view = map.getView();
+                                        view.setCenter(clickedCoordinate);
+                                        view.setZoom(6);
+                                    }
+                                });
+                            });
+
+                            lowElevationRadio.addEventListener('change', function (event) {
+                                if (!event.target.checked) {
+                                    map.removeLayer(lowElevationLayer);
+                                    lowElevationLayer = null;
+                                }
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error loading Elevations.json:', error);
+                        });
+                }
+            });
+
+            document.getElementById('runwayRadio').addEventListener('change', function (event) {
+                if (event.target.checked) {
+                    removeOtherLayers();
+
+                    fetch('Runway Lengths.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            var vectorSource = new ol.source.Vector({
+                                features: new ol.format.GeoJSON().readFeatures(data, {
+                                    featureProjection: 'EPSG:3857'
+                                })
+                            });
+
+                            var sortedFeatures = vectorSource.getFeatures().sort(function (a, b) {
+                                return b.get('Runway length (in km)') - a.get('Runway length (in km)');
+                            });
+
+                            var top10Features = sortedFeatures.slice(0, 10);
+                            var top10Source = new ol.source.Vector({
+                                features: top10Features
+                            });
+
+                            top10RunwayLayer = new ol.layer.Vector({
+                                source: top10Source,
+                                style: new ol.style.Style({
+                                    image: new ol.style.Circle({
+                                        radius: 5,
+                                        fill: new ol.style.Fill({
+                                            color: 'blue'
+                                        }),
+                                        stroke: new ol.style.Stroke({
+                                            color: 'black',
+                                            width: 1
+                                        })
+                                    })
+                                })
+                            });
+
+                            map.addLayer(top10RunwayLayer);
+
+                            map.on('click', function (event) {
+                                popupOverlay.setPosition(undefined);
+
+                                map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+                                    if (layer === top10RunwayLayer) {
+                                        var clickedCoordinate = event.coordinate;
+                                        var attributes = feature.getProperties();
+
+                                        var popupContent = '';
+                    var cityName = attributes['City'] || '';
+                    popupContent += '<h3>' + cityName + '</h3><ul>';
+
+                    for (var key in attributes) {
+                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID' && key !== 'City') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+                                        popupContent += '</ul>';
+
+                                        popupContainer.innerHTML = popupContent;
+                                        popupOverlay.setPosition(clickedCoordinate);
+
+                                        var view = map.getView();
+                                        view.setCenter(clickedCoordinate);
+                                        view.setZoom(6);
+                                    }
+                                });
+                            });
+
+                            runwayRadio.addEventListener('change', function (event) {
+                                if (!event.target.checked) {
+                                    map.removeLayer(top10RunwayLayer);
+                                    top10RunwayLayer = null;
+                                }
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error loading RunwayLengths.json:', error);
+                        });
+                }
+            });
+
+            document.getElementById('shortRunwayRadio').addEventListener('change', function (event) {
+                if (event.target.checked) {
+                    removeOtherLayers();
+
+                    fetch('Runway Lengths.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            var vectorSource = new ol.source.Vector({
+                                features: new ol.format.GeoJSON().readFeatures(data, {
+                                    featureProjection: 'EPSG:3857'
+                                })
+                            });
+
+                            var sortedFeatures = vectorSource.getFeatures().sort(function (a, b) {
+                                return a.get('Runway length (in km)') - b.get('Runway length (in km)');
+                            });
+
+                            var bottom10Features = sortedFeatures.slice(0, 10);
+                            var bottom10Source = new ol.source.Vector({
+                                features: bottom10Features
+                            });
+
+                            shortRunwayLayer = new ol.layer.Vector({
+                                source: bottom10Source,
+                                style: new ol.style.Style({
+                                    image: new ol.style.Circle({
+                                        radius: 5,
+                                        fill: new ol.style.Fill({
+                                            color: 'orange'
+                                        }),
+                                        stroke: new ol.style.Stroke({
+                                            color: 'black',
+                                            width: 1
+                                        })
+                                    })
+                                })
+                            });
+
+                            map.addLayer(shortRunwayLayer);
+
+                            map.on('click', function (event) {
+                                popupOverlay.setPosition(undefined);
+
+                                map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+                                    if (layer === shortRunwayLayer) {
+                                        var clickedCoordinate = event.coordinate;
+                                        var attributes = feature.getProperties();
+
+                                        var popupContent = '';
+                    var cityName = attributes['City'] || '';
+                    popupContent += '<h3>' + cityName + '</h3><ul>';
+
+                    for (var key in attributes) {
+                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID' && key !== 'City') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+                                        popupContent += '</ul>';
+
+                                        popupContainer.innerHTML = popupContent;
+                                        popupOverlay.setPosition(clickedCoordinate);
+
+                                        var view = map.getView();
+                                        view.setCenter(clickedCoordinate);
+                                        view.setZoom(6);
+                                    }
+                                });
+                            });
+
+                            shortRunwayRadio.addEventListener('change', function (event) {
+                                if (!event.target.checked) {
+                                    map.removeLayer(shortRunwayLayer);
+                                    shortRunwayLayer = null;
+                                }
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error loading RunwayLengths.json:', error);
+                        });
+                }
+            });
+
+            document.getElementById('detailsRadio').addEventListener('change', function (event) {
+                if (event.target.checked) {
+                    removeOtherLayers();
+
+                    fetch('Airport Details.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            var vectorSource = new ol.source.Vector({
+                                features: new ol.format.GeoJSON().readFeatures(data, {
+                                    featureProjection: 'EPSG:3857'
+                                })
+                            });
+
+                            airportDetailsLayer = new ol.layer.Vector({
+                                source: vectorSource,
+                                style: new ol.style.Style({
+                                    image: new ol.style.Circle({
+                                        radius: 5,
+                                        fill: new ol.style.Fill({
+                                            color: 'green'
+                                        }),
+                                        stroke: new ol.style.Stroke({
+                                            color: 'black',
+                                            width: 1
+                                        })
+                                    })
+                                })
+                            });
+
+                            map.addLayer(airportDetailsLayer);
+
+                            map.on('click', function (event) {
+                                popupOverlay.setPosition(undefined);
+
+                                map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+                                    if (layer === airportDetailsLayer) {
+                                        var clickedCoordinate = event.coordinate;
+                                        var attributes = feature.getProperties();
+
+                                        var popupContent = '';
+                    var cityName = attributes['City'] || '';
+                    popupContent += '<h3>' + cityName + '</h3><ul>';
+
+                    for (var key in attributes) {
+                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID' && key !== 'City') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+                                        popupContent += '</ul>';
+
+                                        popupContainer.innerHTML = popupContent;
+                                        popupOverlay.setPosition(clickedCoordinate);
+
+                                        var view = map.getView();
+                                        view.setCenter(clickedCoordinate);
+                                        view.setZoom(6);
+                                    }
+                                });
+                            });
+
+                            detailsRadio.addEventListener('change', function (event) {
+                                if (!event.target.checked) {
+                                    map.removeLayer(airportDetailsLayer);
+                                    airportDetailsLayer = null;
+                                }
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error loading Airport Details.json:', error);
+                        });
+                }
+            });
+
+            // Search functionality
+            document.getElementById('searchButton').addEventListener('click', function () {
+                var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+                fetch('Airport Details.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (airportDetailsLayer) {
+                            map.removeLayer(airportDetailsLayer);
+                            airportDetailsLayer = null;
+                        }
+
+                        var vectorSource = new ol.source.Vector({
+                            features: new ol.format.GeoJSON().readFeatures(data, {
+                                featureProjection: 'EPSG:3857'
+                            })
+                        });
+
+                        var filteredFeatures = vectorSource.getFeatures().filter(function (feature) {
+                            var city = feature.get('City').toLowerCase();
+                            var iata = feature.get('IATA').toLowerCase();
+                            return city.includes(searchTerm) || iata.includes(searchTerm);
+                        });
+
+                        var filteredSource = new ol.source.Vector({
+                            features: filteredFeatures
+                        });
+
+                        airportDetailsLayer = new ol.layer.Vector({
+                            source: filteredSource,
+                            style: new ol.style.Style({
+                                image: new ol.style.Circle({
+                                    radius: 5,
+                                    fill: new ol.style.Fill({
+                                        color: 'yellow'
+                                    }),
+                                    stroke: new ol.style.Stroke({
+                                        color: 'black',
+                                        width: 1
+                                    })
+                                })
+                            })
+                        });
+
+                        map.addLayer(airportDetailsLayer);
+
+                        map.on('click', function (event) {
+                            popupOverlay.setPosition(undefined);
+
+                            map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+                                if (layer === airportDetailsLayer) {
+                                    var clickedCoordinate = event.coordinate;
+                                    var attributes = feature.getProperties();
+
+                                    var popupContent = '<h3>Details</h3><ul>';
+                                    for (var key in attributes) {
+                                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID') {
+                                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                                        }
+                                    }
+                                    popupContent += '</ul>';
+
+                                    popupContainer.innerHTML = popupContent;
+                                    popupOverlay.setPosition(clickedCoordinate);
+
+                                    var view = map.getView();
+                                    view.setCenter(clickedCoordinate);
+                                    view.setZoom(6);
+                                }
+                            });
+                        });
+
+                        // Zoom in to the first result if available
+                        if (filteredFeatures.length > 0) {
+                            var firstFeature = filteredFeatures[0];
+                            var clickedCoordinate = firstFeature.getGeometry().getCoordinates();
+
+                            var view = map.getView();
+                            view.setCenter(clickedCoordinate);
+                            view.setZoom(6);
+
+                            // Display popup with the first feature's attributes
+                            var attributes = firstFeature.getProperties();
+                            var popupContent = '<h3>Details</h3><ul>';
+                            for (var key in attributes) {
+                                if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID') {
+                                    popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                                }
+                            }
+                            popupContent += '</ul>';
+
+                            popupContainer.innerHTML = popupContent;
+                            popupOverlay.setPosition(clickedCoordinate);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error loading Airport Details.json:', error);
+                    });
+            });
+        }
+
+        // Function to remove other layers
+        function removeOtherLayers() {
+            if (highElevationLayer) {
+                map.removeLayer(highElevationLayer);
+                highElevationLayer = null;
+            }
+            if (lowElevationLayer) {
+                map.removeLayer(lowElevationLayer);
+                lowElevationLayer = null;
+            }
+            if (top10RunwayLayer) {
+                map.removeLayer(top10RunwayLayer);
+                top10RunwayLayer = null;
+            }
+            if (shortRunwayLayer) {
+                map.removeLayer(shortRunwayLayer);
+                shortRunwayLayer = null;
+            }
+            if (airportDetailsLayer) {
+                map.removeLayer(airportDetailsLayer);
+                airportDetailsLayer = null;
+            }
+        }
+
+        // Add reset button functionality
+        document.getElementById('resetButton').addEventListener('click', function () {
+    // Reset map view to initial center and zoom level
+    map.getView().setCenter(initialView);
+    map.getView().setZoom(initialZoom);
+
+    // Close any open popup
+    popupOverlay.setPosition(undefined);
+
+    // Remove all layers
+    removeOtherLayers();
+    document.getElementById('searchInput').value = '';
+});
+
+        // Call the function to add event listeners
+        addRadioEventListeners();
+
+        document.getElementById('button1').addEventListener('click', function () {
+        window.open('page1.html', '_blank');
+    });
+
+    document.getElementById('button2').addEventListener('click', function () {
+        window.open('page2.html', '_blank');
+    });
+
+    document.getElementById('button3').addEventListener('click', function () {
+        window.open('https://example.com/page3', '_blank');
+    });
+
+    document.getElementById('button4').addEventListener('click', function () {
+        window.open('https://example.com/page4', '_blank');
+    });
+
+    document.getElementById('button5').addEventListener('click', function () {
+        window.open('https://example.com/page5', '_blank');
+    });
+
+    document.getElementById('button6').addEventListener('click', function () {
+        window.open('https://example.com/page6', '_blank');
+    });
+    </script>
+</body>
+
+</html>

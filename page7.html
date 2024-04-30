@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.1.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.1.0/dist/ol.js"></script>
+    <style>
+        #map {
+            width: 100%;
+            height: 600px;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+        #controls {
+            margin-bottom: 5px;
+            margin-top: 2px;
+            height: 100%;
+        }
+
+        /* Style for the popup */
+        .popup {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            position: relative;
+            bottom: 10px;
+        }
+
+        .popup img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        #goBackButton {
+            margin-left: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="controls" style="background-color: #E0E1DD;">
+        <h2 style="color: #240115; text-align: center;">Flight Finder</h2>
+        <label for="origin">Origin:</label>
+        <select id="origin">
+            <!-- Options will be populated dynamically -->
+        </select>
+
+        <label for="destination">Destination:</label>
+        <select id="destination">
+            <!-- Options will be populated dynamically -->
+        </select>
+
+        <label for="airline">Airline:</label>
+        <select id="airline">
+            <!-- Options will be populated dynamically -->
+            <option value="">Any</option> <!-- Allow no airline selection -->
+        </select>
+
+        <button id="searchButton">Search</button>
+        <button id="resetButton">Reset</button>
+
+        <button id="goBackButton">Back to Home Page</button>
+    </div>
+    <div id="map"></div>
+
+    <!-- Popup container -->
+    <div id="popup" class="popup" style="display: none;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    // Add event listener for the "Go Back" button
+    $('#goBackButton').on('click', function() {
+        // Navigate back to page1.html
+        window.location.href = 'index.html';
+    });
+            // Declare vectorSource and vectorLayer variables in the top-level scope
+            let vectorSource;
+            let vectorLayer;
+            let allFeatures; // Store all features
+
+            // Create an OpenLayers map
+            const map = new ol.Map({
+                target: 'map',
+                layers: [
+                    new ol.layer.Tile({
+                        source: new ol.source.OSM()
+                    })
+                ],
+                view: new ol.View({
+                    center: ol.proj.fromLonLat([0, 0]),
+                    zoom: 2
+                })
+            });
+
+            // Create an overlay for the popup
+           // Create an overlay for the popup
+const popupElement = document.getElementById('popup');
+const popup = new ol.Overlay({
+    element: popupElement,
+    positioning: 'center-center', // Change positioning to 'center-center'
+    stopEvent: true,
+    autoPan: true, // Enable auto-pan if needed
+    autoPanAnimation: {
+        duration: 250,
+    },
+});
+map.addOverlay(popup);
+
+// Add a singleclick event listener for the routes
+map.on('singleclick', function(event) {
+    // Use forEachFeatureAtPixel to find features at the clicked pixel
+    map.forEachFeatureAtPixel(event.pixel, function(feature) {
+        // Check if a feature was clicked
+        if (feature) {
+            // Get the properties of the feature
+            const properties = feature.getProperties();
+
+            // Filter out unwanted properties
+            const filteredProperties = Object.entries(properties).filter(([key]) => {
+                // Remove "geometry", "OID", "ID", "Type", and "Shape_Length" properties
+                return !["geometry", "OID", "ID", "Type", "Shape_Length"].includes(key);
+            });
+
+            // Create the content for the popup
+            const popupContent = `
+                
+                <p><strong>Origin:</strong> ${properties.Origin}</p>
+                <p><strong>Destination:</strong> ${properties.Destination}</p>
+                <p><strong>Other Attributes:</strong></p>
+                <ul>
+                    ${filteredProperties.map(([key, value]) => {
+                        // Display "Distance (in km)" instead of "Distance"
+                        const displayKey = key === "Distance" ? "Distance (in km)" : key;
+                        return `<li><strong>${displayKey}:</strong> ${value}</li>`;
+                    }).join('')}
+                </ul>
+            `;
+
+            // Set the content of the popup
+            popupElement.innerHTML = popupContent;
+
+            // Calculate the center of the map and set the popup position
+            const mapCenter = map.getView().getCenter();
+            popup.setPosition(mapCenter);
+
+            // Display the popup
+            popupElement.style.display = 'block';
+        }
+    });
+});
+
+
+            // Load GeoJSON data from file
+            $.getJSON('n.json', function(data) {
+                // Parse the GeoJSON data and create a vector source
+                vectorSource = new ol.source.Vector({
+                    features: new ol.format.GeoJSON().readFeatures(data, {
+                        featureProjection: 'EPSG:3857'
+                    })
+                });
+
+                // Create a custom style for the vector layer
+                const vectorStyle = new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: 'blue', // Set the line color
+                        width: 6 // Set the line width (thicker line)
+                    })
+                });
+
+                // Create a vector layer with the custom style
+                vectorLayer = new ol.layer.Vector({
+                    source: vectorSource,
+                    style: vectorStyle
+                });
+                map.addLayer(vectorLayer);
+                vectorLayer.setVisible(false);
+
+                // Store all features for later use in resetting
+                allFeatures = vectorSource.getFeatures();
+
+                // Populate the origin, destination, and airline dropdowns
+                const originDropdown = $('#origin');
+                const destinationDropdown = $('#destination');
+                const airlineDropdown = $('#airline');
+
+                // Use sets to store unique origins, destinations, and airlines
+                const origins = new Set();
+                const destinations = new Set();
+                const airlines = new Set();
+
+                // Iterate through features to extract unique origins, destinations, and airlines
+                allFeatures.forEach(function(feature) {
+                    const properties = feature.getProperties();
+                    origins.add(properties.Origin);
+                    destinations.add(properties.Destination);
+                    airlines.add(properties.Airline);
+                });
+
+                // Populate the origin, destination, and airline dropdowns
+                origins.forEach(function(origin) {
+                    originDropdown.append(`<option value="${origin}">${origin}</option>`);
+                });
+
+                destinations.forEach(function(destination) {
+                    destinationDropdown.append(`<option value="${destination}">${destination}</option>`);
+                });
+
+                // Allow no airline selection in the airline dropdown
+                airlineDropdown.append('<option value="">Any</option>');
+
+                airlines.forEach(function(airline) {
+                    airlineDropdown.append(`<option value="${airline}">${airline}</option>`);
+                });
+
+                // Function to handle search
+                function handleSearch() {
+    // Hide the popup and reset its position
+    popupElement.style.display = 'none';
+    popup.setPosition(undefined);
+
+    // Get the selected origin, destination, and optional airline
+    const selectedOrigin = originDropdown.val();
+    const selectedDestination = destinationDropdown.val();
+    const selectedAirline = airlineDropdown.val();
+
+    // Filter flights based on selected origin, destination, and optional airline
+    const filterFlights = (flights) => {
+        return flights.filter(feature => {
+            const properties = feature.getProperties();
+            const matchesOrigin = properties.Origin === selectedOrigin;
+            const matchesDestination = properties.Destination === selectedDestination;
+            const matchesAirline = selectedAirline === '' || properties.Airline === selectedAirline;
+
+            return matchesOrigin && matchesDestination && matchesAirline;
+        });
+    };
+
+    const directFlights = filterFlights(allFeatures);
+
+    // If there are direct flights, display them on the map
+    if (directFlights.length > 0) {
+        showRoutesOnMap([directFlights[0]]);
+    } else {
+        // No direct flights found, ask user to change airline preference to "Any" if an airline was specified
+        let proceedToTransitSearch = true;
+
+        if (selectedAirline !== '') {
+            const changeToAnyAirline = confirm('No direct flights found. Do you want to change to any available airline?');
+            if (changeToAnyAirline) {
+                // Retry search with airline preference set to "Any"
+                const directFlightsAnyAirline = filterFlights(allFeatures);
+                if (directFlightsAnyAirline.length > 0) {
+                    showRoutesOnMap([directFlightsAnyAirline[0]]);
+                    proceedToTransitSearch = false;
+                }
+            }
+        }
+
+        // If direct flights still not found or if proceeding to search for best transit route
+        if (proceedToTransitSearch) {
+            alert('Searching for the best transit route...');
+
+            // Function to find and return the best transit route (origin to transit to destination)
+            const findBestTransitRoute = () => {
+                let bestRoute = null;
+                let minDistance = Infinity;
+
+                // Search for flights from the user's origin to transit airports
+                const originToTransitFlights = allFeatures.filter(feature => {
+                    const properties = feature.getProperties();
+                    return properties.Origin === selectedOrigin;
+                });
+
+                // Search for flights from transit airports to the destination
+                const transitToDestinationFlights = allFeatures.filter(feature => {
+                    const properties = feature.getProperties();
+                    return properties.Destination === selectedDestination;
+                });
+
+                // Calculate the best transit route based on the smallest "Distance" value
+                originToTransitFlights.forEach(originFlight => {
+                    const originProperties = originFlight.getProperties();
+                    const transitAirport = originProperties.Destination;
+
+                    transitToDestinationFlights.forEach(transitFlight => {
+                        const transitProperties = transitFlight.getProperties();
+
+                        // Check if the origin of the transit flight matches the transit airport
+                        if (transitProperties.Origin === transitAirport) {
+                            const totalDistance = originProperties.Distance + transitProperties.Distance;
+
+                            if (totalDistance < minDistance) {
+                                minDistance = totalDistance;
+                                bestRoute = {
+                                    originFlight,
+                                    transitFlight
+                                };
+                            }
+                        }
+                    });
+                });
+
+                return bestRoute;
+            };
+
+            // Find the best transit route
+            const bestTransitRoute = findBestTransitRoute();
+
+            // If a best transit route was found, display it on the map
+            if (bestTransitRoute) {
+                const combinedRoutes = [bestTransitRoute.originFlight, bestTransitRoute.transitFlight];
+                showRoutesOnMap(combinedRoutes);
+            } else {
+                alert('No suitable transit routes found.');
+                vectorLayer.setVisible(false);
+            }
+        }
+    }
+}
+
+                // Add click event listener for search button
+                $('#searchButton').on('click', handleSearch);
+
+                // Function to show routes on map and enable popups
+                // Function to show routes on map and enable popups
+// Function to show routes on map and enable popups
+// Function to show routes on map and enable popups
+// Function to show routes on map and enable popups
+function showRoutesOnMap(routes) {
+    // Clear the existing features from the vector source
+    vectorSource.clear();
+
+    // Add the routes to the vector source
+    vectorSource.addFeatures(routes);
+
+    // Fit the map view to the extent of the routes
+    map.getView().fit(vectorSource.getExtent(), {
+        duration: 1000,
+        padding: [50, 50, 50, 50], // Optional padding to control zoom level
+    });
+
+    // Make the vector layer visible
+    vectorLayer.setVisible(true);
+
+    // Add a singleclick event listener for the routes
+    map.on('singleclick', function(event) {
+        // Use forEachFeatureAtPixel to find features at the clicked pixel
+        map.forEachFeatureAtPixel(event.pixel, function(feature) {
+            // Check if a feature was clicked
+            if (feature) {
+                // Get the properties of the feature
+                const properties = feature.getProperties();
+
+                // Use a set to track unique properties
+                const uniquePropertiesSet = new Set();
+
+                // Create an array to hold the filtered properties (avoid duplicates)
+                const filteredProperties = [];
+
+                // Filter out unwanted and duplicate properties
+                Object.entries(properties).forEach(([key, value]) => {
+                    // Skip unwanted properties
+                    if (["geometry", "OID", "ID", "Type", "Shape_Length", "Origin", "Destination"].includes(key)) {
+                        return;
+                    }
+
+                    // Add the property if it hasn't been added yet
+                    if (!uniquePropertiesSet.has(key)) {
+                        uniquePropertiesSet.add(key);
+                        filteredProperties.push([key, value]);
+                    }
+                });
+
+                // Create the content for the popup
+                const popupContent = `
+                    <p><strong>Origin:</strong> ${properties.Origin}</p>
+                    <p><strong>Destination:</strong> ${properties.Destination}</p>
+                    
+                    <ul>
+                        ${filteredProperties.map(([key, value]) => {
+                            // Display "Distance (in km)" instead of "Distance"
+                            const displayKey = key === "Distance" ? "Distance (in km)" : key;
+                            return `<li><strong>${displayKey}:</strong> ${value}</li>`;
+                        }).join('')}
+                    </ul>
+                `;
+
+                // Set the content of the popup
+                popupElement.innerHTML = popupContent;
+
+                // Position the popup at the center of the screen
+                const mapCenter = map.getView().getCenter();
+                popup.setPosition(mapCenter);
+
+                // Display the popup
+                popupElement.style.display = 'block';
+            }
+        });
+    });
+
+    // Disable the dropdowns once a route is selected
+    $('#origin').prop('disabled', true);
+    $('#destination').prop('disabled', true);
+    $('#airline').prop('disabled', true);
+}
+
+
+
+                // Function to handle reset
+                function handleReset() {
+                    // Reset map view to its initial state
+                    map.getView().setCenter(ol.proj.fromLonLat([0, 0]));
+                    map.getView().setZoom(2);
+
+                    // Clear the vector source and add all features back to it
+                    vectorSource.clear();
+                    vectorSource.addFeatures(allFeatures);
+                    vectorLayer.setVisible(false);
+
+                    // Hide the popup
+                    popupElement.style.display = 'none';
+                    popup.setPosition(undefined);
+
+                    // Re-enable the dropdowns
+                    $('#origin').prop('disabled', false);
+                    $('#destination').prop('disabled', false);
+                    $('#airline').prop('disabled', false);
+
+                    // Reset dropdowns to default values
+                    $('#origin').val('');
+                    $('#destination').val('');
+                    $('#airline').val('');
+                }
+
+                // Add click event listener for reset button
+                $('#resetButton').on('click', handleReset);
+            });
+
+            // Hide the popup on map clicks
+            map.on('singleclick', function() {
+                popupElement.style.display = 'none';
+            });
+            
+        });
+        
+    </script>
+</body>
+</html>

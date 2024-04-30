@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIS Portal</title>
+    <link rel="stylesheet" href="ol.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1{
+            color: #FEFFA5;
+        }
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+
+        #header {
+            background-color: #466365;
+            position: fixed;
+            top: 0;
+            width: 80%;
+            height: 80px;
+            text-align: center;
+            color: white;
+        }
+
+        #map {
+            height: 95%;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 20%;
+            background-color: #e5e5e5;
+        }
+
+        #rpanel {
+            background-color: #769fb6;
+            height: 100%;
+            width: 20%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            border-left: 5px solid #C33C54;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        #popup {
+            background-color: #D4CDF4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .navButton {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <h1>Airport Statistics for 2022-2023</h1>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Right Panel -->
+    <div id="rpanel">
+        <div>
+            <input type="radio" id="highCargoRadio" name="filter" />
+            <label for="highCargoRadio"> Maximum Cargo Handeled </label>
+        </div>
+
+        <div>
+            <input type="radio" id="lowCargoRadio" name="filter" />
+            <label for="lowCargoRadio">Minimum Cargo Handeled</label>
+        </div>
+
+        <div>
+            <input type="radio" id="highPassengerRadio" name="filter" />
+            <label for="highPassengerRadio">Highest Passenger Count</label>
+        </div>
+
+        <div>
+            <input type="radio" id="lowPassengerRadio" name="filter" />
+            <label for="lowPassengerRadio">Lowest Passenger Count</label>
+        </div>
+
+        <div>
+            <input type="radio" id="highestFlightMovementsRadio" name="filter" />
+            <label for="highestFlightMovementsRadio">Highest Flight Movements</label>
+        </div>
+
+        <div>
+            <input type="radio" id="lowestFlightMovementsRadio" name="filter" />
+            <label for="lowestFlightMovementsRadio">Lowest Flight Movements</label>
+        </div>
+
+        <div>
+            <input type="radio" id="coRadio" name="filter" />
+            <label for="coRadio">Show all airports</label>
+        </div>
+
+        <button id="resetButton">Reset View</button>
+
+        <div id="buttonContainer">
+            <button class="navButton" onclick="openPage('page1.html')">Know Your Airports</button>
+            <button class="navButton" onclick="openPage('page2.html')">Airport Statistics for 2022-2023</button>
+            <button class="navButton" onclick="openPage('page3.html')">Total Flights per Day</button>
+            <button class="navButton" onclick="openPage('page4.html')">Departures by Airline</button>
+            <button class="navButton" onclick="openPage('page5.html')">Top Domestic Destinations</button>
+            <button class="navButton" onclick="openPage('page6.html')">Top International Destinations</button>
+            <button class="navButton" onclick="openPage('page7.html')">Flight Finder</button>
+            <button class="navButton" onclick="openPage('index.html')">Back to Home Page</button>
+        </div>
+    </div>
+
+    <script src="ol.js"></script>
+    <script>
+        // Initialize the map
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                })
+            ],
+            view: new ol.View({
+                center: [9000000, 2500000], // Initial center in EPSG:3857 coordinates
+                zoom: 4.8
+            })
+        });
+
+        // Store the initial view
+        var initialView = map.getView().getCenter();
+        var initialZoom = map.getView().getZoom();
+
+        // Layers
+        var highCargoLayer, lowCargoLayer, highPassengerLayer, lowPassengerLayer, highestFlightMovementsLayer, lowestFlightMovementsLayer, coLayer;
+
+        // Overlay for popup
+        var popupContainer = document.createElement('div');
+        popupContainer.className = 'ol-popup';
+        popupContainer.id = 'popup';
+        document.body.appendChild(popupContainer);
+
+        var popupOverlay = new ol.Overlay({
+            element: popupContainer,
+            positioning: 'center',
+            stopEvent: false,
+            offset: [0, 0]
+        });
+
+        map.addOverlay(popupOverlay);
+
+        // Function to remove other layers
+        function removeOtherLayers() {
+            [highCargoLayer, lowCargoLayer, highPassengerLayer, lowPassengerLayer, highestFlightMovementsLayer, lowestFlightMovementsLayer, coLayer].forEach(layer => {
+                if (layer) {
+                    map.removeLayer(layer);
+                }
+            });
+
+            highCargoLayer = lowCargoLayer = highPassengerLayer = lowPassengerLayer = highestFlightMovementsLayer = lowestFlightMovementsLayer = coLayer = null;
+        }
+
+        // Add event listeners
+        function addRadioEventListeners() {
+            function addLayerEventListeners(layerId, fileName, minRank, maxRank, color) {
+                document.getElementById(layerId).addEventListener('change', function(event) {
+                    if (event.target.checked) {
+                        removeOtherLayers();
+
+                        fetch(fileName)
+                            .then(response => response.json())
+                            .then(data => {
+                                var vectorSource = new ol.source.Vector({
+                                    features: new ol.format.GeoJSON().readFeatures(data, {
+                                        featureProjection: 'EPSG:3857'
+                                    })
+                                });
+
+                                var filteredFeatures = vectorSource.getFeatures().filter(function(feature) {
+                                    var rank = feature.get('Rank');
+                                    return rank >= minRank && rank <= maxRank;
+                                });
+
+                                var filteredSource = new ol.source.Vector({
+                                    features: filteredFeatures
+                                });
+
+                                var newLayer = new ol.layer.Vector({
+                                    source: filteredSource,
+                                    style: new ol.style.Style({
+                                        image: new ol.style.Circle({
+                                            radius: 5,
+                                            fill: new ol.style.Fill({
+                                                color: color
+                                            }),
+                                            stroke: new ol.style.Stroke({
+                                                color: 'black',
+                                                width: 1
+                                            })
+                                        })
+                                    })
+                                });
+
+                                map.addLayer(newLayer);
+                                map.on('click', function(event) {
+                                    handlePopup(event, newLayer);
+                                });
+
+                                switch (layerId) {
+                                    case 'highCargoRadio':
+                                        highCargoLayer = newLayer;
+                                        break;
+                                    case 'lowCargoRadio':
+                                        lowCargoLayer = newLayer;
+                                        break;
+                                    case 'highPassengerRadio':
+                                        highPassengerLayer = newLayer;
+                                        break;
+                                    case 'lowPassengerRadio':
+                                        lowPassengerLayer = newLayer;
+                                        break;
+                                    case 'highestFlightMovementsRadio':
+                                        highestFlightMovementsLayer = newLayer;
+                                        break;
+                                    case 'lowestFlightMovementsRadio':
+                                        lowestFlightMovementsLayer = newLayer;
+                                        break;
+                                    default:
+                                        break;
+                                }
+
+                            })
+                            .catch(error => console.error('Error loading data:', error));
+                    }
+                });
+            }
+
+            addLayerEventListeners('highCargoRadio', 'Cargo.json', 1, 10, 'red');
+            addLayerEventListeners('lowCargoRadio', 'Cargo.json', 40, 50, 'purple');
+            addLayerEventListeners('highPassengerRadio', 'Passenger.json', 1, 10, 'blue');
+            addLayerEventListeners('lowPassengerRadio', 'Passenger.json', 40, 50, 'orange');
+            addLayerEventListeners('highestFlightMovementsRadio', 'Flight Movements.json', 1, 10, 'green');
+            addLayerEventListeners('lowestFlightMovementsRadio', 'Flight Movements.json', 40, 50, 'indigo');
+
+            // Event listener for the CO Data layer
+            document.getElementById('coRadio').addEventListener('change', function(event) {
+                if (event.target.checked) {
+                    removeOtherLayers();
+
+                    fetch('co.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            var vectorSource = new ol.source.Vector({
+                                features: new ol.format.GeoJSON().readFeatures(data, {
+                                    featureProjection: 'EPSG:3857'
+                                })
+                            });
+
+                            coLayer = new ol.layer.Vector({
+                                source: vectorSource,
+                                style: new ol.style.Style({
+                                    image: new ol.style.Circle({
+                                        radius: 5,
+                                        fill: new ol.style.Fill({
+                                            color: '#C33C54'
+                                        }),
+                                        stroke: new ol.style.Stroke({
+                                                color: 'black',
+                                                width: 1
+                                            })
+                                        })
+                                    })
+                                });
+
+                                map.addLayer(coLayer);
+
+                                map.on('click', function(event) {
+                                    handlePopup(event, coLayer);
+                                });
+
+                                document.getElementById('coRadio').addEventListener('change', function(event) {
+                                    if (!event.target.checked) {
+                                        map.removeLayer(coLayer);
+                                        coLayer = null;
+                                    }
+                                });
+                            })
+                            .catch(error => console.error('Error loading co.json:', error));
+                }
+            });
+        }
+
+        // Function to handle popups
+        function handlePopup(event, layer) {
+            // Hide the popup
+            popupOverlay.setPosition(undefined);
+
+            // Find the clicked feature
+            map.forEachFeatureAtPixel(event.pixel, function(feature, clickedLayer) {
+                if (clickedLayer === layer) {
+                    // Get the clicked location
+                    var clickedCoordinate = event.coordinate;
+
+                    // Get the feature properties
+                    var attributes = feature.getProperties();
+
+                    // Construct the popup content
+                    var popupContent = '';
+                    var cityName = attributes['City'] || '';
+                    popupContent += '<h3>' + cityName + '</h3><ul>';
+
+                    for (var key in attributes) {
+                        if (attributes.hasOwnProperty(key) && key !== 'geometry' && key !== 'ObjectID' && key !== 'City') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+
+                    popupContent += '</ul>';
+
+                    // Set the popup content and position
+                    popupContainer.innerHTML = popupContent;
+                    popupOverlay.setPosition(clickedCoordinate);
+
+                    // Zoom in on the clicked point
+                    var view = map.getView();
+                    view.setCenter(clickedCoordinate);
+                    view.setZoom(6);
+                }
+            });
+        }
+
+        // Add reset button functionality
+        document.getElementById('resetButton').addEventListener('click', function() {
+            // Reset map view
+            map.getView().setCenter(initialView);
+            map.getView().setZoom(initialZoom);
+
+            // Close any open popup
+            popupOverlay.setPosition(undefined);
+
+            // Remove all layers
+            removeOtherLayers();
+        });
+
+        // Function to open different pages
+        function openPage(url) {
+            window.location.href = url;
+        }
+
+        // Initialize event listeners
+        addRadioEventListeners();
+    </script>
+</body>
+
+</html>

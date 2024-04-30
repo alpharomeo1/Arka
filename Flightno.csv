@@ -1,0 +1,3919 @@
+Flight No,Origin,Destination,Airline,Equipment,Type,o_iata,d_iata
+2C622,Paris,Mumbai,CMA CGM Air Cargo,A332,I,CDG,BOM
+2C622,Mumbai,Guangzhou,CMA CGM Air Cargo,A332,I,BOM,CAN
+3L111,Abu Dhabi,Ahmedabad,Air Arabia,A320,I,AUH,AMD
+3L112,Ahmedabad,Abu Dhabi,Air Arabia,A320,I,AMD,AUH
+3L125,Abu Dhabi,Cochin,Air Arabia,A320,I,AUH,COK
+3L126,Cochin,Abu Dhabi,Air Arabia,A320,I,COK,AUH
+3L127,Abu Dhabi,Cochin,Air Arabia,A320,I,AUH,COK
+3L128,Cochin,Abu Dhabi,Air Arabia,A320,I,COK,AUH
+3L141,Abu Dhabi,Chennai,Air Arabia,A320,I,AUH,MAA
+3L142,Chennai,Abu Dhabi,Air Arabia,A320,I,MAA,AUH
+3L143,Abu Dhabi,Chennai,Air Arabia,A320,I,AUH,MAA
+3L144,Chennai,Abu Dhabi,Air Arabia,A320,I,MAA,AUH
+3S531,Bengaluru,Leipzig,DHL,B77L,I,BLR,LEJ
+3S531,Bangkok,Bengaluru,DHL,B77L,I,BKK,BLR
+3S593,Hong Kong,Delhi,AeroLogic,B77L,I,HKG,DEL
+3S593,Delhi,Leipzig,AeroLogic,B77L,I,DEL,LEJ
+3S614,Frankfurt,Delhi,AeroLogic,B77L,I,FRA,DEL
+3S615,Delhi,Frankfurt,AeroLogic,B77L,I,DEL,FRA
+3S622,Frankfurt,Mumbai,DHL,B77L,I,FRA,BOM
+3S623,Mumbai,Frankfurt,DHL,B77L,I,BOM,FRA
+3U3701,Xi'an,Delhi,Sichuan Airlines,33X,I,XIY,DEL
+3U3709,Chengdu,Mumbai,Sichuan Airlines,33X,I,CTU,BOM
+3U3809,Chengdu,Chennai,Sichuan Airlines,33X,I,CTU,MAA
+3U9641,Chengdu,Chennai,Sichuan Airlines,A333,I,TFU,MAA
+3U9645,Chengdu,Mumbai,Sichuan Airlines,33F,I,TFU,BOM
+3U9646,Mumbai,Chengdu,Sichuan Airlines,A333,I,BOM,TFU
+3U9656,Delhi,Chengdu,Sichuan Airlines,33F,I,DEL,TFU
+5X15,Delhi,Cologne,UPS,B748,I,DEL,CGN
+5X15,Bangkok,Delhi,UPS,B748,I,BKK,DEL
+5X9,Shenzhen,Bengaluru,UPS,B748,I,SZX,BLR
+5X9,Bengaluru,Cologne,UPS,B748,I,BLR,CGN
+5Y8139,Hong Kong,Delhi,Atlas Air,B744,I,HKG,DEL
+5Y8140,Delhi,Hong Kong,Atlas Air,B744,I,DEL,HKG
+6E1001,Chennai,Singapore,IndiGo,A320,I,MAA,SIN
+6E1002,Singapore,Chennai,IndiGo,A320,I,SIN,MAA
+6E1003,Chennai,Singapore,IndiGo,A21N,I,MAA,SIN
+6E1004,Singapore,Chennai,IndiGo,A21N,I,SIN,MAA
+6E1005,Bengaluru,Singapore,IndiGo,A21N,I,BLR,SIN
+6E1006,Singapore,Bengaluru,IndiGo,A21N,I,SIN,BLR
+6E1011,Mumbai,Singapore,IndiGo,A21N,I,BOM,SIN
+6E1012,Singapore,Mumbai,IndiGo,A21N,I,SIN,BOM
+6E1013,Delhi,Singapore,IndiGo,A21N,I,DEL,SIN
+6E1014,Singapore,Delhi,IndiGo,A21N,I,SIN,DEL
+6E1015,Kolkata,Singapore,IndiGo,A21N,I,CCU,SIN
+6E1016,Singapore,Kolkata,IndiGo,A21N,I,SIN,CCU
+6.00E+102,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E1027,Hyderabad,Singapore,IndiGo,A21N,I,HYD,SIN
+6E1028,Singapore,Hyderabad,IndiGo,A21N,I,SIN,HYD
+6.00E+103,Pune,Hyderabad,IndiGo,A20N,D,PNQ,HYD
+6E1031,Chennai,Kuala Lumpur,IndiGo,A20N,I,MAA,KUL
+6E1032,Kuala Lumpur,Chennai,IndiGo,A20N,I,KUL,MAA
+6.00E+105,Bengaluru,Pune,IndiGo,A20N,D,BLR,PNQ
+6E1051,Mumbai,Bangkok,IndiGo,A20N,I,BOM,BKK
+6E1052,Bangkok,Mumbai,IndiGo,A20N,I,BKK,BOM
+6E1053,Delhi,Bangkok,IndiGo,A20N,I,DEL,BKK
+6E1054,Bangkok,Delhi,IndiGo,A20N,I,BKK,DEL
+6E1055,Bengaluru,Bangkok,IndiGo,A20N,I,BLR,BKK
+6E1056,Bangkok,Bengaluru,IndiGo,A20N,I,BKK,BLR
+6E1057,Kolkata,Bangkok,IndiGo,A320,I,CCU,BKK
+6E1058,Bangkok,Kolkata,IndiGo,A20N,I,BKK,CCU
+6E1067,Hyderabad,Bangkok,IndiGo,A20N,I,HYD,BKK
+6E1068,Bangkok,Hyderabad,IndiGo,A20N,I,BKK,HYD
+6.00E+107,Pune,Bengaluru,IndiGo,A20N,D,PNQ,BLR
+6E1071,Mumbai,Phuket,IndiGo,A20N,I,BOM,HKT
+6E1072,Phuket,Mumbai,IndiGo,A20N,I,HKT,BOM
+6E1073,Delhi,Phuket,IndiGo,A20N,I,DEL,HKT
+6E1074,Phuket,Delhi,IndiGo,A20N,I,HKT,DEL
+6E1077,Bengaluru,Phuket,IndiGo,A20N,I,BLR,HKT
+6E1078,Phuket,Bengaluru,IndiGo,A20N,I,HKT,BLR
+6.00E+108,Hyderabad,Chandigarh,IndiGo,A21N,D,HYD,IXC
+6.00E+109,Bengaluru,Mangalore,IndiGo,A21N,D,BLR,IXE
+6.00E+11,Delhi,Istanbul,IndiGo,B77W,I,DEL,IST
+6E1103,Delhi,Dhaka,IndiGo,A21N,I,DEL,DAC
+6E1104,Dhaka,Delhi,IndiGo,A21N,I,DAC,DEL
+6E1105,Kolkata,Dhaka,IndiGo,A21N,I,CCU,DAC
+6E1106,Dhaka,Kolkata,IndiGo,A21N,I,DAC,CCU
+6E1113,Chennai,Dhaka,IndiGo,A20N,I,MAA,DAC
+6E1114,Dhaka,Chennai,IndiGo,A20N,I,DAC,MAA
+6E1115,Mumbai,Dhaka,IndiGo,A20N,I,BOM,DAC
+6E1116,Dhaka,Mumbai,IndiGo,A20N,I,DAC,BOM
+6.00E+112,Chandigarh,Ahmedabad,IndiGo,A20N,D,IXC,AMD
+6E1127,Bengaluru,Male,IndiGo,A21N,I,BLR,MLE
+6E1128,Male,Bengaluru,IndiGo,A21N,I,MLE,BLR
+6.00E+113,Bengaluru,Cochin,IndiGo,A320,D,BLR,COK
+6E1131,Mumbai,Male,IndiGo,A20N,I,BOM,MLE
+6E1132,Male,Mumbai,IndiGo,A20N,I,MLE,BOM
+6E1133,Cochin,Male,IndiGo,A20N,I,COK,MLE
+6E1134,Male,Cochin,IndiGo,A20N,I,MLE,COK
+6.00E+114,Kolkata,Jaipur,IndiGo,A320,D,CCU,JAI
+6.00E+115,Kolkata,Mumbai,IndiGo,A20N,D,CCU,BOM
+6E1151,Delhi,Kathmandu,IndiGo,A20N,I,DEL,KTM
+6E1152,Kathmandu,Delhi,IndiGo,A20N,I,KTM,DEL
+6E1153,Delhi,Kathmandu,IndiGo,A20N,I,DEL,KTM
+6E1154,Kathmandu,Delhi,IndiGo,A20N,I,KTM,DEL
+6E1155,Delhi,Kathmandu,IndiGo,A20N,I,DEL,KTM
+6E1156,Kathmandu,Delhi,IndiGo,A20N,I,KTM,DEL
+6E1157,Mumbai,Kathmandu,IndiGo,A20N,I,BOM,KTM
+6E1158,Kathmandu,Mumbai,IndiGo,A20N,I,KTM,BOM
+6.00E+116,Bengaluru,Pune,IndiGo,A20N,D,BLR,PNQ
+6E1167,Bengaluru,Colombo,IndiGo,A21N,I,BLR,CMB
+6E1168,Colombo,Bengaluru,IndiGo,A21N,I,CMB,BLR
+6.00E+117,Goa,Hyderabad,IndiGo,A20N,D,GOI,HYD
+6E1171,Chennai,Colombo,IndiGo,A20N,I,MAA,CMB
+6E1172,Colombo,Chennai,IndiGo,A20N,I,CMB,MAA
+6E1175,Chennai,Colombo,IndiGo,A20N,I,MAA,CMB
+6E1176,Colombo,Chennai,IndiGo,A20N,I,CMB,MAA
+6.00E+118,Lucknow,Pune,IndiGo,A20N,D,LKO,PNQ
+6E1181,Hyderabad,Colombo,IndiGo,A21N,I,HYD,CMB
+6E1182,Colombo,Hyderabad,IndiGo,A21N,I,CMB,HYD
+6E1185,Mumbai,Colombo,IndiGo,A20N,I,BOM,CMB
+6E1186,Colombo,Mumbai,IndiGo,A20N,I,CMB,BOM
+6.00E+119,Guwahati,Chennai,IndiGo,A320,D,GAU,MAA
+6.00E+12,Istanbul,Delhi,IndiGo,B77W,I,IST,DEL
+6E1201,Mumbai,Bahrain,IndiGo,A20N,I,BOM,BAH
+6E1202,Bahrain,Mumbai,IndiGo,A20N,I,BAH,BOM
+6.00E+121,Hyderabad,Goa,IndiGo,A20N,D,HYD,GOI
+6.00E+122,Nagpur,Delhi,IndiGo,A20N,D,NAG,DEL
+6.00E+123,Delhi,Leh,IndiGo,A20N,D,DEL,IXL
+6E1231,Delhi,Kuwait City,IndiGo,A20N,I,DEL,KWI
+6E1232,Kuwait City,Delhi,IndiGo,A20N,I,KWI,DEL
+6E1233,Hyderabad,Kuwait City,IndiGo,A20N,I,HYD,KWI
+6E1236,Kuwait City,Mumbai,IndiGo,A20N,I,KWI,BOM
+6E1237,Cochin,Kuwait City,IndiGo,A20N,I,COK,KWI
+6E1238,Kuwait City,Cochin,IndiGo,A20N,I,KWI,COK
+6E1241,Chennai,Kuwait City,IndiGo,A20N,I,MAA,KWI
+6E1242,Kuwait City,Chennai,IndiGo,A20N,I,KWI,MAA
+6E1243,Ahmedabad,Kuwait City,IndiGo,A20N,I,AMD,KWI
+6E1244,Kuwait City,Ahmedabad,IndiGo,A20N,I,KWI,AMD
+6.00E+125,Bengaluru,Jharsuguda,IndiGo,A320,D,BLR,JRG
+6.00E+126,Patna,Pune,IndiGo,A20N,D,PAT,PNQ
+6E1267,Mumbai,Muscat,IndiGo,A20N,I,BOM,MCT
+6E1268,Muscat,Mumbai,IndiGo,A20N,I,MCT,BOM
+6E1271,Cochin,Muscat,IndiGo,A20N,I,COK,MCT
+6E1272,Muscat,Cochin,IndiGo,A20N,I,MCT,COK
+6E1273,Hyderabad,Muscat,IndiGo,A20N,I,HYD,MCT
+6E1274,Muscat,Hyderabad,IndiGo,A20N,I,MCT,HYD
+6.00E+128,Jharsuguda,Bengaluru,IndiGo,A320,D,JRG,BLR
+6.00E+129,Delhi,Ahmedabad,IndiGo,A320,D,DEL,AMD
+6E1301,Bengaluru,Doha,IndiGo,A20N,I,BLR,DOH
+6E1302,Doha,Bengaluru,IndiGo,A20N,I,DOH,BLR
+6E1303,Mumbai,Doha,IndiGo,A21N,I,BOM,DOH
+6E1306,Doha,Mumbai,IndiGo,A21N,I,DOH,BOM
+6E1307,Delhi,Doha,IndiGo,A20N,I,DEL,DOH
+6E1308,Doha,Delhi,IndiGo,A20N,I,DOH,DEL
+6.00E+131,Indore,Delhi,IndiGo,A320,D,IDR,DEL
+6E1313,Hyderabad,Doha,IndiGo,A20N,I,HYD,DOH
+6E1314,Doha,Hyderabad,IndiGo,A20N,I,DOH,HYD
+6E1315,Hyderabad,Doha,IndiGo,A20N,I,HYD,DOH
+6E1316,Doha,Hyderabad,IndiGo,A20N,I,DOH,HYD
+6E1317,Hyderabad,Doha,IndiGo,A320,I,HYD,DOH
+6E1318,Doha,Hyderabad,IndiGo,A20N,I,DOH,HYD
+6E1321,Chennai,Doha,IndiGo,A20N,I,MAA,DOH
+6E1322,Doha,Chennai,IndiGo,A320,I,DOH,MAA
+6E1323,Cochin,Doha,IndiGo,A21N,I,COK,DOH
+6E1324,Doha,Cochin,IndiGo,A21N,I,DOH,COK
+6.00E+133,Pune,Jodhpur,IndiGo,A320,D,PNQ,JDH
+6.00E+134,Hyderabad,Ahmedabad,IndiGo,A20N,D,HYD,AMD
+6E1341,Mumbai,Doha,IndiGo,A20N,I,BOM,DOH
+6E1342,Doha,Mumbai,IndiGo,A20N,I,DOH,BOM
+6E1345,Delhi,Doha,IndiGo,A20N,I,DEL,DOH
+6E1346,Doha,Delhi,IndiGo,A20N,I,DOH,DEL
+6.00E+135,Kolkata,Pune,IndiGo,A320,D,CCU,PNQ
+6.00E+135,Pune,Vadodara,IndiGo,A320,D,PNQ,BDQ
+6.00E+136,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6.00E+137,Pune,Bengaluru,IndiGo,A20N,D,PNQ,BLR
+6.00E+138,Mumbai,Kolkata,IndiGo,A21N,D,BOM,CCU
+6.00E+139,Kolkata,Raipur,IndiGo,A320,D,CCU,RPR
+6E1401,Mumbai,Abu Dhabi,IndiGo,A20N,I,BOM,AUH
+6E1402,Abu Dhabi,Mumbai,IndiGo,A20N,I,AUH,BOM
+6E1403,Cochin,Abu Dhabi,IndiGo,A20N,I,COK,AUH
+6E1404,Abu Dhabi,Cochin,IndiGo,A20N,I,AUH,COK
+6E1405,Delhi,Abu Dhabi,IndiGo,A20N,I,DEL,AUH
+6E1406,Abu Dhabi,Delhi,IndiGo,A20N,I,AUH,DEL
+6E1407,Hyderabad,Abu Dhabi,IndiGo,A20N,I,HYD,AUH
+6E1408,Abu Dhabi,Hyderabad,IndiGo,A20N,I,AUH,HYD
+6.00E+141,Bhubaneswar,Chennai,IndiGo,A20N,D,BBI,MAA
+6E1411,Chennai,Abu Dhabi,IndiGo,A20N,I,MAA,AUH
+6E1412,Abu Dhabi,Chennai,IndiGo,A20N,I,AUH,MAA
+6.00E+142,Lucknow,Ahmedabad,IndiGo,A320,D,LKO,AMD
+6E1421,Hyderabad,Sharjah,IndiGo,A20N,I,HYD,SHJ
+6E1422,Sharjah,Hyderabad,IndiGo,A20N,I,SHJ,HYD
+6.00E+143,Chennai,Bhubaneswar,IndiGo,A20N,D,MAA,BBI
+6E1431,Ahmedabad,Abu Dhabi,IndiGo,A20N,I,AMD,AUH
+6E1432,Abu Dhabi,Ahmedabad,IndiGo,A20N,I,AUH,AMD
+6.00E+144,Varanasi,Bengaluru,IndiGo,A20N,D,VNS,BLR
+6.00E+144,Bengaluru,Cochin,IndiGo,A20N,D,BLR,COK
+6.00E+145,Bhubaneswar,Chennai,IndiGo,A20N,D,BBI,MAA
+6E1451,Mumbai,Dubai,IndiGo,A20N,I,BOM,DXB
+6E1452,Dubai,Mumbai,IndiGo,A20N,I,DXB,BOM
+6E1453,Mumbai,Dubai,IndiGo,A20N,I,BOM,DXB
+6E1454,Dubai,Mumbai,IndiGo,32N,I,DXB,BOM
+6E1455,Mumbai,Dubai,IndiGo,A20N,I,BOM,DXB
+6E1456,Dubai,Mumbai,IndiGo,A20N,I,DXB,BOM
+6E1461,Delhi,Dubai,IndiGo,A20N,I,DEL,DXB
+6E1462,Dubai,Delhi,IndiGo,32N,I,DXB,DEL
+6E1463,Delhi,Dubai,IndiGo,A20N,I,DEL,DXB
+6E1464,Dubai,Delhi,IndiGo,A20N,I,DXB,DEL
+6E1465,Hyderabad,Dubai,IndiGo,A20N,I,HYD,DXB
+6E1466,Dubai,Hyderabad,IndiGo,A20N,I,DXB,HYD
+6.00E+147,Indore,Pune,IndiGo,A20N,D,IDR,PNQ
+6E1471,Chennai,Dubai,IndiGo,A20N,I,MAA,DXB
+6E1472,Dubai,Ahmedabad,IndiGo,A20N,I,DXB,AMD
+6E1475,Cochin,Dubai,IndiGo,A20N,I,COK,DXB
+6E1476,Dubai,Cochin,IndiGo,A20N,I,DXB,COK
+6E1477,Ahmedabad,Dubai,IndiGo,A20N,I,AMD,DXB
+6E1478,Dubai,Ahmedabad,IndiGo,A20N,I,DXB,AMD
+6E1483,Hyderabad,Dubai,IndiGo,32N,I,HYD,DXB
+6E1484,Dubai,Hyderabad,IndiGo,A20N,I,DXB,HYD
+6E1485,Bengaluru,Dubai,IndiGo,A20N,I,BLR,DXB
+6E1486,Dubai,Bengaluru,IndiGo,A20N,I,DXB,BLR
+6.00E+149,Hyderabad,Siliguri,IndiGo,A20N,D,HYD,IXB
+6E1491,Mumbai,Ra'sal-Khaymah,IndiGo,A20N,I,BOM,RKT
+6E1492,Ra'sal-Khaymah,Mumbai,IndiGo,A20N,I,RKT,BOM
+6E1496,Ra'sal-Khaymah,Hyderabad,IndiGo,A20N,I,RKT,HYD
+6.00E+151,Hyderabad,Bengaluru,IndiGo,A20N,D,HYD,BLR
+6E1511,Mumbai,Dubai,IndiGo,A20N,I,BOM,DXB
+6E1512,Dubai,Mumbai,IndiGo,32N,I,DXB,BOM
+6.00E+152,Bengaluru,Kozhikode,IndiGo,A20N,D,BLR,CCJ
+6.00E+153,Kozhikode,Bengaluru,IndiGo,A20N,D,CCJ,BLR
+6.00E+154,Delhi,Pune,IndiGo,A20N,D,DEL,PNQ
+6.00E+156,Chennai,Cochin,IndiGo,A20N,D,MAA,COK
+6.00E+157,Dibrugarh,Delhi,IndiGo,A20N,D,DIB,DEL
+6.00E+159,Pune,Chennai,IndiGo,A20N,D,PNQ,MAA
+6E1601,Mumbai,Jakarta,IndiGo,A20N,I,BOM,CGK
+6E1602,Jakarta,Mumbai,IndiGo,A20N,I,CGK,BOM
+6E1605,Bengaluru,Denpasar,IndiGo,A20N,I,BLR,DPS
+6E1606,Denpasar,Bengaluru,IndiGo,A20N,I,DPS,BLR
+6.00E+162,Goa,Kolkata,IndiGo,A20N,D,GOI,CCU
+6E1631,Kolkata,Hanoi,IndiGo,A20N,I,CCU,HAN
+6E1632,Hanoi,Kolkata,IndiGo,A20N,I,HAN,CCU
+6.00E+164,Mangalore,Mumbai,IndiGo,A21N,D,IXE,BOM
+6E1641,Kolkata,Ho Chi Minh City,IndiGo,A20N,I,CCU,SGN
+6E1642,Ho Chi Minh City,Kolkata,IndiGo,A20N,I,SGN,CCU
+6.00E+167,Hyderabad,Amritsar,IndiGo,A20N,D,HYD,ATQ
+6.00E+168,Amritsar,Hyderabad,IndiGo,A20N,D,ATQ,HYD
+6.00E+169,Chennai,Cochin,IndiGo,A20N,D,MAA,COK
+6.00E+17,Mumbai,Istanbul,IndiGo,B77W,I,BOM,IST
+6E1707,Delhi,Hong Kong,IndiGo,A21N,I,DEL,HKG
+6E1708,Hong Kong,Delhi,IndiGo,A21N,I,HKG,DEL
+6.00E+171,Cochin,Chennai,IndiGo,A20N,D,COK,MAA
+6.00E+172,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6.00E+173,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6.00E+175,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6.00E+176,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6.00E+177,Pune,Visakhapatnam,IndiGo,A20N,D,PNQ,VTZ
+6.00E+178,Patna,Ahmedabad,IndiGo,A20N,D,PAT,AMD
+6.00E+18,Istanbul,Mumbai,IndiGo,B77W,I,IST,BOM
+6E1802,Almaty,Delhi,IndiGo,A20N,I,ALA,DEL
+6E1803,Delhi,Baku,IndiGo,A20N,I,DEL,GYD
+6E1804,Baku,Delhi,IndiGo,A20N,I,GYD,DEL
+6E1805,Delhi,Tashkent,IndiGo,A20N,I,DEL,TAS
+6E1808,Tbilisi,Delhi,IndiGo,A20N,I,TBS,DEL
+6.00E+182,Cochin,Chennai,IndiGo,A20N,D,COK,MAA
+6.00E+183,Chennai,Pune,IndiGo,A320,D,MAA,PNQ
+6.00E+184,Delhi,Ahmedabad,SmartLynx,A320,D,DEL,AMD
+6E1853,Mumbai,Nairobi,IndiGo,A20N,I,BOM,NBO
+6E1854,Nairobi,Mumbai,IndiGo,A20N,I,NBO,BOM
+6.00E+187,Guwahati,Hyderabad,IndiGo,A21N,D,GAU,HYD
+6.00E+189,Chennai,Bengaluru,IndiGo,A20N,D,MAA,BLR
+6E1911,Mumbai,Phuket,IndiGo,A20N,I,BOM,HKT
+6E1912,Phuket,Mumbai,IndiGo,A20N,I,HKT,BOM
+6.00E+193,Chennai,Hyderabad,IndiGo,A320,D,MAA,HYD
+6.00E+194,Bengaluru,Goa,IndiGo,A21N,D,BLR,GOI
+6.00E+196,Cochin,Bengaluru,IndiGo,A20N,D,COK,BLR
+6.00E+196,Bengaluru,Lucknow,IndiGo,A20N,D,BLR,LKO
+6E2002,Raipur,Chennai,IndiGo,A20N,D,RPR,MAA
+6E2003,Delhi,Leh,IndiGo,A20N,D,DEL,IXL
+6E2004,Leh,Delhi,IndiGo,A20N,D,IXL,DEL
+6E2005,Hyderabad,Tirupati,IndiGo,A20N,D,HYD,TIR
+6E2006,Delhi,Leh,IndiGo,A20N,D,DEL,IXL
+6E2007,Leh,Delhi,IndiGo,A20N,D,IXL,DEL
+6E2008,Guwahati,Delhi,IndiGo,A320,D,GAU,DEL
+6E2009,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6.00E+201,Guwahati,Kolkata,IndiGo,A20N,D,GAU,CCU
+6.00E+201,Kolkata,Dehradun,IndiGo,A20N,D,CCU,DED
+6E2011,Delhi,Guwahati,IndiGo,A21N,D,DEL,GAU
+6E2012,Madurai,Mumbai,IndiGo,A21N,D,IXM,BOM
+6E2013,Delhi,Ahmedabad,IndiGo,A21N,D,DEL,AMD
+6E2014,Amritsar,Delhi,IndiGo,A320,D,ATQ,DEL
+6E2015,Leh,Delhi,IndiGo,A20N,D,IXL,DEL
+6E2016,Delhi,Amritsar,IndiGo,A320,D,DEL,ATQ
+6E2018,Delhi,Dehradun,IndiGo,A20N,D,DEL,DED
+6E2019,Indore,Delhi,IndiGo,A21N,D,IDR,DEL
+6.00E+202,Nagpur,Pune,IndiGo,A320,D,NAG,PNQ
+6E2021,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E2022,Delhi,Ranchi,IndiGo,A20N,D,DEL,IXR
+6E2023,Delhi,Bhubaneswar,IndiGo,A20N,D,DEL,BBI
+6E2026,Lucknow,Delhi,IndiGo,A20N,D,LKO,DEL
+6E2028,Delhi,Goa,IndiGo,A21N,D,DEL,GOI
+6E2029,Bhopal,Delhi,IndiGo,A21N,D,BHO,DEL
+6.00E+203,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E2031,Delhi,Dibrugarh,IndiGo,A20N,D,DEL,DIB
+6E2032,Ahmedabad,Delhi,IndiGo,A320,D,AMD,DEL
+6E2035,Nagpur,Delhi,IndiGo,A20N,D,NAG,DEL
+6E2042,Delhi,Jaipur,IndiGo,A20N,D,DEL,JAI
+6E2043,Mumbai,Patna,IndiGo,A20N,D,BOM,PAT
+6E2044,Delhi,Srinagar,IndiGo,A21N,D,DEL,SXR
+6E2045,Delhi,Amritsar,IndiGo,A21N,D,DEL,ATQ
+6E2046,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E2047,Mumbai,Raipur,IndiGo,A21N,D,BOM,RPR
+6E2049,Delhi,Leh,IndiGo,A20N,D,DEL,IXL
+6E2052,Goa,Delhi,IndiGo,A21N,D,GOI,DEL
+6E2056,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E2057,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6.00E+206,Goa,Hyderabad,IndiGo,A20N,D,GOI,HYD
+6E2061,Guwahati,Delhi,IndiGo,A21N,D,GAU,DEL
+6E2062,Delhi,Raipur,IndiGo,A21N,D,DEL,RPR
+6E2064,Delhi,Bhubaneswar,IndiGo,A21N,D,DEL,BBI
+6E2065,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6.00E+207,Jaipur,Kolkata,IndiGo,A20N,D,JAI,CCU
+6.00E+207,Kolkata,Guwahati,IndiGo,A20N,D,CCU,GAU
+6E2072,Dehradun,Delhi,IndiGo,A20N,D,DED,DEL
+6E2073,Hyderabad,Tiruchirapalli,IndiGo,A20N,D,HYD,TRZ
+6E2074,Patna,Delhi,IndiGo,A20N,D,PAT,DEL
+6E2076,Delhi,Ahmedabad,IndiGo,A20N,D,DEL,AMD
+6E2078,Surat,Delhi,IndiGo,A20N,D,STV,DEL
+6.00E+208,Hyderabad,Visakhapatnam,IndiGo,A20N,D,HYD,VTZ
+6E2081,Dimapur,Delhi,IndiGo,A20N,D,DMU,DEL
+6E2086,Gorakhpur,Delhi,IndiGo,A320,D,GOP,DEL
+6E2087,Delhi,Gorakhpur,IndiGo,A320,D,DEL,GOP
+6E2088,Madurai,Delhi,IndiGo,A20N,D,IXM,DEL
+6E2089,Delhi,Jabalpur,IndiGo,A20N,D,DEL,JLR
+6.00E+209,Ranchi,Chennai,IndiGo,A20N,D,IXR,MAA
+6E2091,Goa,Delhi,IndiGo,A21N,D,GOI,DEL
+6E2092,Delhi,Raipur,IndiGo,A20N,D,DEL,RPR
+6E2094,Delhi,Raipur,IndiGo,A320,D,DEL,RPR
+6E2095,Delhi,Guwahati,IndiGo,A21N,D,DEL,GAU
+6E2096,Durgapur,Delhi,SmartLynx,A320,D,RDP,DEL
+6E2097,Jabalpur,Delhi,IndiGo,A20N,D,JLR,DEL
+6E2099,Udaipur,Delhi,IndiGo,A20N,D,UDR,DEL
+6E2101,Delhi,Leh,IndiGo,A20N,D,DEL,IXL
+6E2102,Goa,Delhi,SmartLynx,A320,D,GOX,DEL
+6E2103,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E2106,Kolkata,Port Blair,IndiGo,A20N,D,CCU,IXZ
+6.00E+211,Cochin,Goa,IndiGo,A320,D,COK,GOI
+6.00E+211,Goa,Raipur,IndiGo,A320,D,GOI,RPR
+6E2111,Lucknow,Delhi,IndiGo,A320,D,LKO,DEL
+6E2113,Delhi,Lucknow,IndiGo,A20N,D,DEL,LKO
+6E2114,Delhi,Hubli,IndiGo,A320,D,DEL,HBX
+6E2115,Hubli,Delhi,IndiGo,A320,D,HBX,DEL
+6E2116,Dehradun,Delhi,IndiGo,A20N,D,DED,DEL
+6E2117,Delhi,Gwalior,IndiGo,A20N,D,DEL,GWL
+6E2118,Gwalior,Delhi,IndiGo,A20N,D,GWL,DEL
+6.00E+212,Kolkata,Guwahati,IndiGo,A21N,D,CCU,GAU
+6E2125,Delhi,Srinagar,IndiGo,A20N,D,DEL,SXR
+6E2126,Srinagar,Delhi,IndiGo,A20N,D,SXR,DEL
+6.00E+213,Guwahati,Kolkata,IndiGo,A21N,D,GAU,CCU
+6E2134,Patna,Delhi,IndiGo,A20N,D,PAT,DEL
+6E2135,Delhi,Dehradun,IndiGo,A20N,D,DEL,DED
+6E2137,Srinagar,Delhi,IndiGo,A320,D,SXR,DEL
+6E2137,Delhi,Jammu,IndiGo,A320,D,DEL,IXJ
+6E2139,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6.00E+214,Mumbai,Srinagar,IndiGo,A20N,D,BOM,SXR
+6E2143,Delhi,Deoghar,IndiGo,A20N,D,DEL,DGH
+6.00E+215,Srinagar,Mumbai,IndiGo,A20N,D,SXR,BOM
+6E2153,Delhi,Ahmedabad,IndiGo,A20N,D,DEL,AMD
+6E2154,Shirdi,Delhi,SmartLynx,A320,D,SAG,DEL
+6.00E+216,Visakhapatnam,Hyderabad,IndiGo,A20N,D,VTZ,HYD
+6.00E+216,Hyderabad,Ahmedabad,IndiGo,A20N,D,HYD,AMD
+6E2164,Goa,Delhi,IndiGo,A320,D,GOI,DEL
+6E2165,Jaipur,Delhi,IndiGo,A20N,D,JAI,DEL
+6E2166,Chennai,Delhi,IndiGo,A320,D,MAA,DEL
+6E2167,Patna,Mumbai,IndiGo,A20N,D,PAT,BOM
+6.00E+217,Bengaluru,Visakhapatnam,IndiGo,A21N,D,BLR,VTZ
+6E2171,Tiruchirapalli,Hyderabad,IndiGo,A320,D,TRZ,HYD
+6E2172,Delhi,Bhopal,IndiGo,A20N,D,DEL,BHO
+6E2174,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E2176,Jaipur,Delhi,IndiGo,A21N,D,JAI,DEL
+6.00E+218,Visakhapatnam,Bengaluru,IndiGo,A21N,D,VTZ,BLR
+6E2184,Delhi,Jammu,IndiGo,A21N,D,DEL,IXJ
+6E2186,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E2187,Delhi,Rajkot,IndiGo,A20N,D,DEL,HSR
+6E2189,Bhubaneswar,Mumbai,IndiGo,A20N,D,BBI,BOM
+6.00E+219,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E2191,Raipur,Delhi,IndiGo,A21N,D,RPR,DEL
+6E2192,Kanpur,Delhi,IndiGo,A20N,D,KNU,DEL
+6E2193,Chandigarh,Delhi,IndiGo,A20N,D,IXC,DEL
+6E2194,Delhi,Chandigarh,IndiGo,A20N,D,DEL,IXC
+6E2195,Chandigarh,Delhi,IndiGo,A21N,D,IXC,DEL
+6E2196,Delhi,Chandigarh,IndiGo,A21N,D,DEL,IXC
+6E2197,Srinagar,Delhi,IndiGo,A20N,D,SXR,DEL
+6E2201,Delhi,Bhubaneswar,IndiGo,A20N,D,DEL,BBI
+6E2202,Bhubaneswar,Delhi,IndiGo,A20N,D,BBI,DEL
+6E2203,Jodhpur,Delhi,IndiGo,A20N,D,JDH,DEL
+6E2204,Delhi,Jaipur,IndiGo,A21N,D,DEL,JAI
+6E2205,Raipur,Delhi,IndiGo,A21N,D,RPR,DEL
+6E2206,Delhi,Agartala,IndiGo,A320,D,DEL,IXA
+6E2208,Delhi,Indore,SmartLynx,A320,D,DEL,IDR
+6E2209,Ahmedabad,Delhi,IndiGo,A20N,D,AMD,DEL
+6.00E+221,Bengaluru,Ranchi,IndiGo,A20N,D,BLR,IXR
+6E2211,Delhi,Varanasi,IndiGo,A320,D,DEL,VNS
+6E2213,Nagpur,Delhi,IndiGo,A20N,D,NAG,DEL
+6E2214,Delhi,Nagpur,IndiGo,A20N,D,DEL,NAG
+6E2215,Bhopal,Delhi,IndiGo,A20N,D,BHO,DEL
+6E2216,Delhi,Indore,SmartLynx,A320,D,DEL,IDR
+6E2217,Srinagar,Delhi,IndiGo,A21N,D,SXR,DEL
+6E2218,Delhi,Ranchi,IndiGo,A320,D,DEL,IXR
+6E2219,Ranchi,Delhi,IndiGo,A320,D,IXR,DEL
+6E2221,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E2224,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6.00E+223,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E2232,Varanasi,Delhi,IndiGo,A21N,D,VNS,DEL
+6E2235,Delhi,Varanasi,IndiGo,A20N,D,DEL,VNS
+6E2238,Lucknow,Mumbai,IndiGo,A320,D,LKO,BOM
+6E2239,Delhi,Siliguri,IndiGo,A20N,D,DEL,IXB
+6.00E+224,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E2241,Surat,Delhi,IndiGo,A21N,D,STV,DEL
+6E2242,Udaipur,Delhi,IndiGo,A20N,D,UDR,DEL
+6E2243,Lucknow,Delhi,IndiGo,A20N,D,LKO,DEL
+6E2246,Patna,Delhi,IndiGo,A320,D,PAT,DEL
+6E2248,Delhi,Srinagar,IndiGo,A20N,D,DEL,SXR
+6E2249,Indore,Delhi,IndiGo,A20N,D,IDR,DEL
+6.00E+225,Mumbai,Indore,IndiGo,A320,D,BOM,IDR
+6E2251,Delhi,Visakhapatnam,IndiGo,A20N,D,DEL,VTZ
+6E2253,Dehradun,Delhi,IndiGo,A20N,D,DED,DEL
+6E2254,Delhi,Dibrugarh,IndiGo,A20N,D,DEL,DIB
+6E2255,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E2256,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E2258,Delhi,Lucknow,IndiGo,A20N,D,DEL,LKO
+6E2261,Delhi,Visakhapatnam,SmartLynx,A320,D,DEL,VTZ
+6E2262,Delhi,Pune,IndiGo,A21N,D,DEL,PNQ
+6E2263,Ahmedabad,Delhi,IndiGo,A21N,D,AMD,DEL
+6E2264,Mumbai,Chandigarh,IndiGo,A20N,D,BOM,IXC
+6E2268,Srinagar,Delhi,IndiGo,A21N,D,SXR,DEL
+6.00E+227,Bengaluru,Kolkata,SmartLynx,A320,D,BLR,CCU
+6E2272,Delhi,Surat,IndiGo,A20N,D,DEL,STV
+6E2273,Delhi,Pune,IndiGo,A21N,D,DEL,PNQ
+6E2276,Coimbatore,Delhi,SmartLynx,A320,D,CJB,DEL
+6E2277,Delhi,Goa,IndiGo,A21N,D,DEL,GOI
+6E2278,Pune,Delhi,IndiGo,A21N,D,PNQ,DEL
+6E2279,Pune,Delhi,IndiGo,A21N,D,PNQ,DEL
+6.00E+228,Mumbai,Guwahati,IndiGo,A320,D,BOM,GAU
+6E2281,Delhi,Chennai,IndiGo,32Q,D,DEL,MAA
+6E2282,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E2283,Delhi,Pune,IndiGo,A20N,D,DEL,PNQ
+6E2285,Pune,Delhi,IndiGo,A20N,D,PNQ,DEL
+6E2286,Ranchi,Delhi,SmartLynx,A320,D,IXR,DEL
+6E2287,Delhi,Chennai,IndiGo,A320,D,DEL,MAA
+6E2289,Delhi,Guwahati,IndiGo,A20N,D,DEL,GAU
+6E2291,Delhi,Dehradun,IndiGo,A20N,D,DEL,DED
+6E2292,Amritsar,Delhi,IndiGo,A320,D,ATQ,DEL
+6E2295,Siliguri,Delhi,IndiGo,A20N,D,IXB,DEL
+6E2296,Delhi,Bhubaneswar,IndiGo,A20N,D,DEL,BBI
+6E2301,Mumbai,Bhubaneswar,IndiGo,A20N,D,BOM,BBI
+6E2302,Delhi,Bhopal,IndiGo,A20N,D,DEL,BHO
+6E2303,Lucknow,Delhi,IndiGo,A20N,D,LKO,DEL
+6E2304,Bhubaneswar,Mumbai,IndiGo,A20N,D,BBI,BOM
+6E2305,Srinagar,Delhi,IndiGo,A21N,D,SXR,DEL
+6E2306,Agartala,Delhi,IndiGo,A320,D,IXA,DEL
+6E2308,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6.00E+231,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E2315,Delhi,Cochin,IndiGo,A20N,D,DEL,COK
+6E2316,Delhi,Jammu,IndiGo,A21N,D,DEL,IXJ
+6E2317,Goa,Delhi,IndiGo,A21N,D,GOI,DEL
+6E2319,Delhi,Lucknow,IndiGo,A320,D,DEL,LKO
+6.00E+232,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E2321,Varanasi,Delhi,IndiGo,A320,D,VNS,DEL
+6E2326,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E2327,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E2329,Delhi,Goa,IndiGo,A21N,D,DEL,GOI
+6.00E+233,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E2331,Delhi,Ahmedabad,IndiGo,A20N,D,DEL,AMD
+6E2332,Ranchi,Delhi,IndiGo,A20N,D,IXR,DEL
+6E2334,Delhi,Gorakhpur,IndiGo,A20N,D,DEL,GOP
+6.00E+234,Kolkata,Chennai,IndiGo,A21N,D,CCU,MAA
+6E2343,Delhi,Pune,IndiGo,A320,D,DEL,PNQ
+6E2344,Mangalore,Delhi,IndiGo,A21N,D,IXE,DEL
+6E2346,Delhi,Coimbatore,IndiGo,A20N,D,DEL,CJB
+6E2347,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6.00E+235,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E2356,Jammu,Delhi,IndiGo,A21N,D,IXJ,DEL
+6.00E+236,Bengaluru,Kolkata,SmartLynx,A320,D,BLR,CCU
+6E2361,Delhi,Varanasi,IndiGo,A21N,D,DEL,VNS
+6E2362,Raipur,Delhi,IndiGo,A20N,D,RPR,DEL
+6E2365,Bhubaneswar,Delhi,IndiGo,A21N,D,BBI,DEL
+6E2369,Goa,Delhi,IndiGo,A320,D,GOI,DEL
+6.00E+237,Chennai,Coimbatore,IndiGo,A20N,D,MAA,CJB
+6E2371,Mumbai,Raipur,IndiGo,A20N,D,BOM,RPR
+6E2372,Delhi,Mangalore,IndiGo,A21N,D,DEL,IXE
+6E2373,Delhi,Patna,IndiGo,A20N,D,DEL,PAT
+6E2376,Delhi,Indore,IndiGo,A20N,D,DEL,IDR
+6E2379,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6.00E+238,Pune,Chennai,IndiGo,A320,D,PNQ,MAA
+6E2381,Thiruvananthapuram,Mumbai,IndiGo,A20N,D,TRV,BOM
+6E2382,Cochin,Delhi,IndiGo,A20N,D,COK,DEL
+6E2383,Delhi,Surat,SmartLynx,A320,D,DEL,STV
+6E2384,Surat,Delhi,SmartLynx,A320,D,STV,DEL
+6E2385,Ahmedabad,Delhi,IndiGo,A20N,D,AMD,DEL
+6E2389,Indore,Mumbai,IndiGo,A21N,D,IDR,BOM
+6.00E+239,Bengaluru,Ahmedabad,IndiGo,A21N,D,BLR,AMD
+6E2391,Delhi,Cochin,IndiGo,A20N,D,DEL,COK
+6E2392,Siliguri,Delhi,IndiGo,A20N,D,IXB,DEL
+6E2393,Delhi,Coimbatore,SmartLynx,A320,D,DEL,CJB
+6E2394,Delhi,Amritsar,IndiGo,A320,D,DEL,ATQ
+6E2395,Varanasi,Delhi,IndiGo,A20N,D,VNS,DEL
+6E2402,Leh,Delhi,IndiGo,A20N,D,IXL,DEL
+6E2403,Leh,Delhi,IndiGo,A20N,D,IXL,DEL
+6E2404,Dehradun,Delhi,IndiGo,A20N,D,DED,DEL
+6E2408,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E2409,Coimbatore,Delhi,IndiGo,A320,D,CJB,DEL
+6.00E+241,Mumbai,Jaipur,IndiGo,A21N,D,BOM,JAI
+6E2411,Delhi,Varanasi,IndiGo,A320,D,DEL,VNS
+6E2412,Delhi,Vadodara,IndiGo,A20N,D,DEL,BDQ
+6E2413,Delhi,Goa,SmartLynx,A320,D,DEL,GOX
+6E2415,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E2416,Gaya,Delhi,IndiGo,A20N,D,GAY,DEL
+6E2417,Imphal,Delhi,IndiGo,A20N,D,IMF,DEL
+6E2418,Pune,Delhi,IndiGo,A20N,D,PNQ,DEL
+6E2419,Pune,Delhi,IndiGo,A320,D,PNQ,DEL
+6.00E+242,Cochin,Pune,IndiGo,A320,D,COK,PNQ
+6E2423,Delhi,Nagpur,IndiGo,A20N,D,DEL,NAG
+6E2425,Delhi,Patna,IndiGo,A20N,D,DEL,PAT
+6.00E+243,Hyderabad,Chennai,IndiGo,A21N,D,HYD,MAA
+6E2431,Delhi,Nagpur,IndiGo,A21N,D,DEL,NAG
+6E2432,Nagpur,Delhi,IndiGo,A21N,D,NAG,DEL
+6E2434,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E2439,Allahabad,Delhi,IndiGo,A21N,D,IXD,DEL
+6.00E+244,Chennai,Ahmedabad,IndiGo,A20N,D,MAA,AMD
+6E2442,Mumbai,Lucknow,IndiGo,A20N,D,BOM,LKO
+6E2447,Pune,Nagpur,IndiGo,A20N,D,PNQ,NAG
+6E2448,Delhi,Gaya,IndiGo,A320,D,DEL,GAY
+6E2449,Goa,Delhi,IndiGo,A20N,D,GOI,DEL
+6.00E+245,Kolkata,Ahmedabad,IndiGo,A20N,D,CCU,AMD
+6.00E+246,Ahmedabad,Delhi,IndiGo,A320,D,AMD,DEL
+6E2471,Delhi,Pune,IndiGo,A20N,D,DEL,PNQ
+6E2472,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6.00E+248,Mumbai,Kolkata,IndiGo,A21N,D,BOM,CCU
+6E2481,Pune,Nagpur,IndiGo,A320,D,PNQ,NAG
+6E2482,Delhi,Patna,IndiGo,A320,D,DEL,PAT
+6E2483,Patna,Delhi,IndiGo,A20N,D,PAT,DEL
+6E2486,Hyderabad,Tirupati,IndiGo,A20N,D,HYD,TIR
+6E2487,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6.00E+249,Goa,Bengaluru,IndiGo,A21N,D,GOI,BLR
+6E2501,Delhi,Ahmedabad,IndiGo,A20N,D,DEL,AMD
+6.00E+251,Delhi,Guwahati,IndiGo,A320,D,DEL,GAU
+6E2511,Delhi,Belgaum,IndiGo,A320,D,DEL,IXG
+6E2512,Belgaum,Delhi,IndiGo,A320,D,IXG,DEL
+6E2513,Kolkata,Silchar,IndiGo,A20N,D,CCU,IXS
+6E2516,Silchar,Kolkata,IndiGo,A20N,D,IXS,CCU
+6E2521,Delhi,Siliguri,IndiGo,A20N,D,DEL,IXB
+6E2527,Jammu,Delhi,IndiGo,A21N,D,IXJ,DEL
+6E2528,Mumbai,Madurai,IndiGo,A21N,D,BOM,IXM
+6.00E+253,Chennai,Pune,IndiGo,A20N,D,MAA,PNQ
+6E2555,Srinagar,Delhi,IndiGo,A21N,D,SXR,DEL
+6E2557,Delhi,Surat,IndiGo,A21N,D,DEL,STV
+6.00E+256,Mangalore,Bengaluru,IndiGo,A20N,D,IXE,BLR
+6E2577,Amritsar,Delhi,IndiGo,A21N,D,ATQ,DEL
+6E2583,Delhi,Leh,IndiGo,A20N,D,DEL,IXL
+6E2584,Leh,Delhi,IndiGo,A20N,D,IXL,DEL
+6E2587,Bhopal,Delhi,IndiGo,A20N,D,BHO,DEL
+6E2601,Delhi,Nagpur,IndiGo,A20N,D,DEL,NAG
+6E2607,Delhi,Srinagar,IndiGo,A21N,D,DEL,SXR
+6E2608,Visakhapatnam,Delhi,IndiGo,A20N,D,VTZ,DEL
+6E2609,Delhi,Jammu,IndiGo,A21N,D,DEL,IXJ
+6.00E+261,Ahmedabad,Bhubaneswar,IndiGo,A20N,D,AMD,BBI
+6E2616,Delhi,Durgapur,SmartLynx,A320,D,DEL,RDP
+6E2617,Vadodara,Delhi,IndiGo,A20N,D,BDQ,DEL
+6E2618,Delhi,Pune,IndiGo,A20N,D,DEL,PNQ
+6.00E+262,Delhi,Guwahati,IndiGo,A20N,D,DEL,GAU
+6E2625,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6.00E+263,Guwahati,Delhi,IndiGo,A20N,D,GAU,DEL
+6E2637,Delhi,Vadodara,IndiGo,A20N,D,DEL,BDQ
+6E2644,Delhi,Udaipur,IndiGo,A20N,D,DEL,UDR
+6E2651,Delhi,Nagpur,IndiGo,A320,D,DEL,NAG
+6.00E+266,Mumbai,Srinagar,IndiGo,A20N,D,BOM,SXR
+6E2661,Pune,Delhi,IndiGo,A21N,D,PNQ,DEL
+6E2674,Delhi,Pune,IndiGo,A21N,D,DEL,PNQ
+6E2676,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E2695,Delhi,Patna,IndiGo,A20N,D,DEL,PAT
+6E2698,Port Blair,Chennai,IndiGo,A20N,D,IXZ,MAA
+6E2701,Delhi,Ayodhya,IndiGo,A20N,D,DEL,AYJ
+6E2702,Ayodhya,Delhi,IndiGo,A20N,D,AYJ,DEL
+6E2706,Cochin,Delhi,IndiGo,A20N,D,COK,DEL
+6.00E+271,Kolkata,Guwahati,IndiGo,A20N,D,CCU,GAU
+6E2716,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6.00E+272,Mumbai,Amritsar,IndiGo,A20N,D,BOM,ATQ
+6.00E+273,Mumbai,Rajkot,IndiGo,A20N,D,BOM,HSR
+6E2736,Ahmedabad,Delhi,IndiGo,A20N,D,AMD,DEL
+6E2747,Delhi,Srinagar,IndiGo,A20N,D,DEL,SXR
+6.00E+275,Kolkata,Imphal,IndiGo,A320,D,CCU,IMF
+6E2759,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E2766,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E2769,Delhi,Patna,IndiGo,A20N,D,DEL,PAT
+6.00E+277,Ahmedabad,Lucknow,IndiGo,A20N,D,AMD,LKO
+6E2772,Visakhapatnam,Bengaluru,IndiGo,A21N,D,VTZ,BLR
+6E2774,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E2775,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E2776,Visakhapatnam,Delhi,SmartLynx,A320,D,VTZ,DEL
+6E2788,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6.00E+279,Lucknow,Ahmedabad,IndiGo,A20N,D,LKO,AMD
+6E2792,Patna,Delhi,IndiGo,A20N,D,PAT,DEL
+6E2794,Raipur,Delhi,IndiGo,A320,D,RPR,DEL
+6.00E+281,Goa,Ahmedabad,IndiGo,A20N,D,GOI,AMD
+6.00E+282,Delhi,Dimapur,IndiGo,A20N,D,DEL,DMU
+6.00E+283,Hyderabad,Kolkata,IndiGo,A21N,D,HYD,CCU
+6.00E+284,Pune,Indore,IndiGo,A20N,D,PNQ,IDR
+6.00E+285,Hyderabad,Bengaluru,IndiGo,A21N,D,HYD,BLR
+6E2856,Delhi,Hyderabad,IndiGo,A20N,D,DEL,HYD
+6.00E+288,Chennai,Bhubaneswar,IndiGo,A20N,D,MAA,BBI
+6.00E+289,Hyderabad,Chennai,IndiGo,A21N,D,HYD,MAA
+6.00E+292,Kolkata,Ahmedabad,IndiGo,A20N,D,CCU,AMD
+6.00E+292,Siliguri,Kolkata,IndiGo,A20N,D,IXB,CCU
+6.00E+293,Chennai,Hyderabad,IndiGo,A21N,D,MAA,HYD
+6.00E+294,Mumbai,Indore,IndiGo,A20N,D,BOM,IDR
+6.00E+297,Hyderabad,Jodhpur,IndiGo,A21N,D,HYD,JDH
+6.00E+298,Ranchi,Mumbai,IndiGo,A20N,D,IXR,BOM
+6E2981,Delhi,Srinagar,IndiGo,A20N,D,DEL,SXR
+6E2982,Srinagar,Delhi,IndiGo,A20N,D,SXR,DEL
+6.00E+301,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6.00E+302,Pune,Bengaluru,IndiGo,A20N,D,PNQ,BLR
+6.00E+304,Cochin,Hyderabad,IndiGo,A21N,D,COK,HYD
+6.00E+306,Mangalore,Bengaluru,IndiGo,A20N,D,IXE,BLR
+6E308,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E309,Bengaluru,Goa,IndiGo,A21N,D,BLR,GOX
+6E311,Hyderabad,Pune,IndiGo,A20N,D,HYD,PNQ
+6E313,Kolkata,Mumbai,IndiGo,A21N,D,CCU,BOM
+6E316,Guwahati,Bengaluru,IndiGo,A20N,D,GAU,BLR
+6E321,Chennai,Kolkata,IndiGo,A21N,D,MAA,CCU
+6E323,Siliguri,Chennai,IndiGo,A20N,D,IXB,MAA
+6E325,Lucknow,Bengaluru,IndiGo,A320,D,LKO,BLR
+6E326,Kolkata,Jorhat,IndiGo,A20N,D,CCU,JRH
+6E333,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E334,Kolkata,Hyderabad,IndiGo,A21N,D,CCU,HYD
+6E335,Thiruvananthapuram,Hyderabad,IndiGo,A21N,D,TRV,HYD
+6E336,Pune,Hyderabad,IndiGo,A320,D,PNQ,HYD
+6E337,Hyderabad,Pune,IndiGo,A320,D,HYD,PNQ
+6E338,Pune,Lucknow,IndiGo,A320,D,PNQ,LKO
+6E339,Coimbatore,Chennai,IndiGo,A20N,D,CJB,MAA
+6E341,Chennai,Hyderabad,IndiGo,A20N,D,MAA,HYD
+6E342,Patna,Kolkata,IndiGo,A20N,D,PAT,CCU
+6E344,Kolkata,Chennai,IndiGo,A21N,D,CCU,MAA
+6E345,Kolkata,Gaya,IndiGo,A20N,D,CCU,GAY
+6E348,Ahmedabad,Chennai,IndiGo,A320,D,AMD,MAA
+6E351,Hyderabad,Pune,IndiGo,A20N,D,HYD,PNQ
+6E352,Pune,Hyderabad,IndiGo,A20N,D,PNQ,HYD
+6E353,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E354,Delhi,Mumbai,IndiGo,A320,D,DEL,BOM
+6E355,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E356,Bengaluru,Chennai,IndiGo,A20N,D,BLR,MAA
+6E358,Visakhapatnam,Pune,IndiGo,A20N,D,VTZ,PNQ
+6E361,Pune,Bengaluru,IndiGo,A20N,D,PNQ,BLR
+6E365,Chennai,Bengaluru,IndiGo,A320,D,MAA,BLR
+6E368,Bengaluru,Bhopal,IndiGo,A21N,D,BLR,BHO
+6E373,Jaipur,Bengaluru,IndiGo,A320,D,JAI,BLR
+6E375,Pune,Delhi,IndiGo,A20N,D,PNQ,DEL
+6E376,Hyderabad,Kolkata,IndiGo,A21N,D,HYD,CCU
+6E377,Hyderabad,Indore,IndiGo,A20N,D,HYD,IDR
+6E378,Indore,Hyderabad,IndiGo,A20N,D,IDR,HYD
+6E381,Goa,Ahmedabad,IndiGo,A20N,D,GOI,AMD
+6E382,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E383,Ahmedabad,Hyderabad,IndiGo,A20N,D,AMD,HYD
+6E384,Hyderabad,Visakhapatnam,IndiGo,A20N,D,HYD,VTZ
+6E385,Visakhapatnam,Hyderabad,IndiGo,A320,D,VTZ,HYD
+6E386,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E387,Cochin,Chennai,IndiGo,A20N,D,COK,MAA
+6E388,Mangalore,Bengaluru,IndiGo,A21N,D,IXE,BLR
+6E389,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E391,Pune,Bengaluru,IndiGo,A21N,D,PNQ,BLR
+6E393,Bhopal,Bengaluru,IndiGo,A21N,D,BHO,BLR
+6E394,Kolkata,Jaipur,IndiGo,A20N,D,CCU,JAI
+6E394,Guwahati,Kolkata,IndiGo,A20N,D,GAU,CCU
+6E395,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E397,Mumbai,Bhopal,IndiGo,A20N,D,BOM,BHO
+6E398,Ranchi,Hyderabad,IndiGo,A21N,D,IXR,HYD
+6E399,Lucknow,Goa,IndiGo,A20N,D,LKO,GOI
+6E401,Chennai,Varanasi,IndiGo,A20N,D,MAA,VNS
+6E402,Dehradun,Pune,IndiGo,A20N,D,DED,PNQ
+6E403,Pune,Dehradun,IndiGo,A20N,D,PNQ,DED
+6E404,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E405,Bengaluru,Raipur,IndiGo,A20N,D,BLR,RPR
+6E406,Raipur,Bengaluru,IndiGo,A20N,D,RPR,BLR
+6E407,Pune,Hyderabad,IndiGo,A20N,D,PNQ,HYD
+6E408,Bengaluru,Pune,IndiGo,A21N,D,BLR,PNQ
+6E409,Hyderabad,Visakhapatnam,IndiGo,A20N,D,HYD,VTZ
+6E411,Bengaluru,Bhubaneswar,IndiGo,A20N,D,BLR,BBI
+6E412,Udaipur,Bengaluru,IndiGo,A320,D,UDR,BLR
+6E413,Hyderabad,Bengaluru,IndiGo,A20N,D,HYD,BLR
+6E414,Jodhpur,Pune,IndiGo,A320,D,JDH,PNQ
+6E415,Bengaluru,Jaipur,IndiGo,A20N,D,BLR,JAI
+6E417,Kolkata,Raipur,IndiGo,A20N,D,CCU,RPR
+6E418,Goa,Surat,IndiGo,A21N,D,GOI,STV
+6E419,Surat,Goa,IndiGo,A21N,D,STV,GOI
+6E421,Hyderabad,Ranchi,IndiGo,A21N,D,HYD,IXR
+6E422,Hyderabad,Dehradun,IndiGo,A20N,D,HYD,DED
+6E423,Dehradun,Hyderabad,IndiGo,A20N,D,DED,HYD
+6E426,Hyderabad,Pune,IndiGo,A20N,D,HYD,PNQ
+6E429,Chandigarh,Bengaluru,IndiGo,A320,D,IXC,BLR
+6E432,Patna,Hyderabad,IndiGo,A20N,D,PAT,HYD
+6E433,Aizawl,Kolkata,IndiGo,A20N,D,AJL,CCU
+6E434,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E435,Bengaluru,Cochin,IndiGo,A20N,D,BLR,COK
+6E441,Bengaluru,Pune,IndiGo,A20N,D,BLR,PNQ
+6E442,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E443,Bengaluru,Siliguri,IndiGo,A21N,D,BLR,IXB
+6E445,Siliguri,Bengaluru,IndiGo,A21N,D,IXB,BLR
+6E446,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6E447,Chennai,Cochin,IndiGo,A20N,D,MAA,COK
+6E449,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E451,Bengaluru,Lucknow,IndiGo,A320,D,BLR,LKO
+6E452,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E453,Hyderabad,Lucknow,IndiGo,A20N,D,HYD,LKO
+6E455,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E456,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E457,Bengaluru,Guwahati,IndiGo,A20N,D,BLR,GAU
+6E464,Vadodara,Hyderabad,IndiGo,A20N,D,BDQ,HYD
+6E465,Bengaluru,Surat,IndiGo,A21N,D,BLR,STV
+6E469,Bengaluru,Jaipur,IndiGo,A21N,D,BLR,JAI
+6E471,Jaipur,Hyderabad,IndiGo,A20N,D,JAI,HYD
+6E472,Cochin,Bengaluru,IndiGo,A20N,D,COK,BLR
+6E473,Raipur,Hyderabad,IndiGo,A20N,D,RPR,HYD
+6E474,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E475,Coimbatore,Bengaluru,IndiGo,A20N,D,CJB,BLR
+6E476,Kolkata,Pune,IndiGo,A320,D,CCU,PNQ
+6E477,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E478,Amritsar,Bengaluru,IndiGo,A21N,D,ATQ,BLR
+6E478,Bengaluru,Chennai,IndiGo,A21N,D,BLR,MAA
+6E479,Ahmedabad,Chennai,IndiGo,A20N,D,AMD,MAA
+6E479,Chennai,Coimbatore,IndiGo,A20N,D,MAA,CJB
+6E481,Ahmedabad,Bengaluru,IndiGo,A21N,D,AMD,BLR
+6E484,Bengaluru,Hyderabad,IndiGo,A20N,D,BLR,HYD
+6E485,Kolkata,Agartala,IndiGo,A21N,D,CCU,IXA
+6E486,Bengaluru,Nagpur,IndiGo,A21N,D,BLR,NAG
+6E489,Chennai,Indore,IndiGo,A21N,D,MAA,IDR
+6E493,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E494,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E495,Chennai,Hyderabad,IndiGo,A20N,D,MAA,HYD
+6E496,Kolkata,Bengaluru,SmartLynx,A320,D,CCU,BLR
+6E498,Jaipur,Bengaluru,IndiGo,A20N,D,JAI,BLR
+6E499,Varanasi,Bengaluru,IndiGo,A20N,D,VNS,BLR
+6E5002,Nagpur,Mumbai,IndiGo,A320,D,NAG,BOM
+6E5004,Mumbai,Bhubaneswar,IndiGo,A20N,D,BOM,BBI
+6E5006,Guwahati,Delhi,IndiGo,A21N,D,GAU,DEL
+6E501,Hyderabad,Varanasi,IndiGo,A21N,D,HYD,VNS
+6E5011,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5012,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5016,Delhi,Jodhpur,IndiGo,A20N,D,DEL,JDH
+6E5017,Delhi,Bhopal,IndiGo,A21N,D,DEL,BHO
+6E5018,Goa,Mumbai,IndiGo,A21N,D,GOX,BOM
+6E5019,Goa,Mumbai,IndiGo,A20N,D,GOI,BOM
+6E502,Chennai,Pune,IndiGo,A20N,D,MAA,PNQ
+6E5021,Rajkot,Delhi,IndiGo,A20N,D,HSR,DEL
+6E5022,Mumbai,Aurangabad,IndiGo,A20N,D,BOM,IXU
+6E503,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E5034,Surat,Bengaluru,IndiGo,A21N,D,STV,BLR
+6E5038,Mumbai,Udaipur,IndiGo,A21N,D,BOM,UDR
+6E5039,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E504,Varanasi,Hyderabad,IndiGo,A20N,D,VNS,HYD
+6E5041,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E5042,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E5044,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E5045,Chennai,Delhi,IndiGo,A20N,D,MAA,DEL
+6E5047,Mumbai,Bengaluru,IndiGo,A20N,D,BOM,BLR
+6E5048,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5049,Raipur,Mumbai,IndiGo,A20N,D,RPR,BOM
+6E505,Lucknow,Kolkata,IndiGo,A20N,D,LKO,CCU
+6E5051,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5053,Indore,Mumbai,IndiGo,A20N,D,IDR,BOM
+6E5054,Bhubaneswar,Mumbai,IndiGo,A20N,D,BBI,BOM
+6E5056,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5057,Bhubaneswar,Delhi,IndiGo,A20N,D,BBI,DEL
+6E5058,Delhi,Patna,IndiGo,A20N,D,DEL,PAT
+6E5065,Kolkata,Mumbai,IndiGo,A21N,D,CCU,BOM
+6E5067,Delhi,Chandigarh,IndiGo,A21N,D,DEL,IXC
+6E5068,Chandigarh,Delhi,IndiGo,A21N,D,IXC,DEL
+6E507,Varanasi,Kolkata,IndiGo,A20N,D,VNS,CCU
+6E5072,Aurangabad,Delhi,IndiGo,A20N,D,IXU,DEL
+6E5073,Raipur,Mumbai,IndiGo,A21N,D,RPR,BOM
+6E5074,Delhi,Indore,IndiGo,A320,D,DEL,IDR
+6E5075,Varanasi,Delhi,IndiGo,A320,D,VNS,DEL
+6E5076,Delhi,Allahabad,IndiGo,A21N,D,DEL,IXD
+6E5077,Jammu,Delhi,IndiGo,A21N,D,IXJ,DEL
+6E5079,Ahmedabad,Delhi,IndiGo,A20N,D,AMD,DEL
+6E508,Bengaluru,Durgapur,IndiGo,A20N,D,BLR,RDP
+6E5081,Delhi,Lucknow,IndiGo,A20N,D,DEL,LKO
+6E5082,Lucknow,Delhi,IndiGo,A20N,D,LKO,DEL
+6E5083,Bhopal,Mumbai,IndiGo,A20N,D,BHO,BOM
+6E5086,Mumbai,Kolkata,IndiGo,A320,D,BOM,CCU
+6E5087,Delhi,Udaipur,IndiGo,A20N,D,DEL,UDR
+6E5088,Srinagar,Delhi,IndiGo,A20N,D,SXR,DEL
+6E509,Durgapur,Bengaluru,IndiGo,A20N,D,RDP,BLR
+6E5093,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5094,Bengaluru,Mumbai,IndiGo,A320,D,BLR,BOM
+6E5095,Delhi,Ranchi,SmartLynx,A320,D,DEL,IXR
+6E5098,Bhubaneswar,Delhi,IndiGo,A20N,D,BBI,DEL
+6E5099,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E5101,Goa,Mumbai,IndiGo,A20N,D,GOX,BOM
+6E5106,Mumbai,Goa,IndiGo,A20N,D,BOM,GOI
+6E5107,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5108,Mumbai,Coimbatore,IndiGo,A21N,D,BOM,CJB
+6E5109,Coimbatore,Mumbai,IndiGo,A21N,D,CJB,BOM
+6E511,Indore,Hyderabad,IndiGo,A21N,D,IDR,HYD
+6E5111,Mumbai,Coimbatore,IndiGo,A21N,D,BOM,CJB
+6E5112,Coimbatore,Mumbai,IndiGo,A21N,D,CJB,BOM
+6E5113,Mumbai,Coimbatore,IndiGo,A21N,D,BOM,CJB
+6E5114,Coimbatore,Mumbai,IndiGo,A21N,D,CJB,BOM
+6E5115,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E5116,Mumbai,Ayodhya,IndiGo,A20N,D,BOM,AYJ
+6E5117,Ayodhya,Mumbai,IndiGo,A20N,D,AYJ,BOM
+6E5118,Delhi,Imphal,IndiGo,A20N,D,DEL,IMF
+6E5119,Delhi,Ahmedabad,IndiGo,A20N,D,DEL,AMD
+6E512,Kolkata,Visakhapatnam,IndiGo,A21N,D,CCU,VTZ
+6E5122,Mumbai,Kolkata,IndiGo,A20N,D,BOM,CCU
+6E5123,Mumbai,Nagpur,IndiGo,A20N,D,BOM,NAG
+6E5124,Mumbai,Nagpur,IndiGo,A20N,D,BOM,NAG
+6E5125,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E5126,Bengaluru,Patna,IndiGo,A20N,D,BLR,PAT
+6E5127,Patna,Bengaluru,IndiGo,A20N,D,PAT,BLR
+6E5128,Kolkata,Mumbai,IndiGo,A21N,D,CCU,BOM
+6E5129,Srinagar,Mumbai,IndiGo,A20N,D,SXR,BOM
+6E513,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E5132,Mumbai,Nagpur,IndiGo,A21N,D,BOM,NAG
+6E5133,Nagpur,Mumbai,IndiGo,A20N,D,NAG,BOM
+6E5134,Kannur,Mumbai,IndiGo,A20N,D,CNN,BOM
+6E5135,Mumbai,Jaipur,IndiGo,A20N,D,BOM,JAI
+6E5137,Mumbai,Goa,IndiGo,A20N,D,BOM,GOX
+6E514,Hyderabad,Chennai,IndiGo,A21N,D,HYD,MAA
+6E5141,Mumbai,Goa,IndiGo,A20N,D,BOM,GOI
+6E5142,Rajkot,Mumbai,IndiGo,A20N,D,HSR,BOM
+6E5143,Mumbai,Kannur,IndiGo,A20N,D,BOM,CNN
+6E5148,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E5149,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E515,Chennai,Lucknow,IndiGo,A20N,D,MAA,LKO
+6E5152,Mumbai,Goa,IndiGo,A20N,D,BOM,GOX
+6E5156,Mumbai,Dehradun,IndiGo,A20N,D,BOM,DED
+6E5157,Dehradun,Mumbai,IndiGo,A20N,D,DED,BOM
+6E5158,Aurangabad,Mumbai,IndiGo,A20N,D,IXU,BOM
+6E516,Bengaluru,Aurangabad,IndiGo,A20N,D,BLR,IXU
+6E5168,Mumbai,Gorakhpur,IndiGo,A20N,D,BOM,GOP
+6E517,Aurangabad,Bengaluru,IndiGo,A20N,D,IXU,BLR
+6E5172,Mumbai,Bhopal,IndiGo,A20N,D,BOM,BHO
+6E5173,Mumbai,Udaipur,IndiGo,A20N,D,BOM,UDR
+6E5174,Nagpur,Mumbai,IndiGo,A20N,D,NAG,BOM
+6E518,Lucknow,Chennai,IndiGo,A20N,D,LKO,MAA
+6E5181,Mumbai,Indore,IndiGo,A21N,D,BOM,IDR
+6E5182,Ahmedabad,Mumbai,IndiGo,A21N,D,AMD,BOM
+6E5183,Mumbai,Jodhpur,IndiGo,A21N,D,BOM,JDH
+6E5184,Jodhpur,Mumbai,IndiGo,A21N,D,JDH,BOM
+6E5185,Udaipur,Mumbai,IndiGo,A21N,D,UDR,BOM
+6E5187,Bhopal,Mumbai,IndiGo,A20N,D,BHO,BOM
+6E519,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E5191,Raipur,Mumbai,IndiGo,A20N,D,RPR,BOM
+6E5192,Port Blair,Mumbai,IndiGo,A20N,D,IXZ,BOM
+6E5193,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5195,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E5196,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5197,Mumbai,Bhubaneswar,IndiGo,A20N,D,BOM,BBI
+6E5201,Mumbai,Ahmedabad,IndiGo,A320,D,BOM,AMD
+6E5202,Mumbai,Goa,IndiGo,A20N,D,BOM,GOI
+6E5212,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5213,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E5214,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5216,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5217,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5218,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5219,Vadodara,Mumbai,IndiGo,A20N,D,BDQ,BOM
+6E522,Ahmedabad,Pune,IndiGo,A20N,D,AMD,PNQ
+6E5221,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5222,Chandigarh,Mumbai,IndiGo,A20N,D,IXC,BOM
+6E5225,Mumbai,Lucknow,IndiGo,A320,D,BOM,LKO
+6E5226,Jaipur,Mumbai,IndiGo,A21N,D,JAI,BOM
+6E5227,Kolkata,Mumbai,IndiGo,A320,D,CCU,BOM
+6E5228,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E523,Lucknow,Hyderabad,IndiGo,A20N,D,LKO,HYD
+6E5231,Goa,Mumbai,IndiGo,A20N,D,GOI,BOM
+6E5232,Indore,Mumbai,IndiGo,A20N,D,IDR,BOM
+6E5233,Mumbai,Chandigarh,IndiGo,A21N,D,BOM,IXC
+6E5234,Chandigarh,Mumbai,IndiGo,A21N,D,IXC,BOM
+6E5235,Jaipur,Mumbai,IndiGo,A20N,D,JAI,BOM
+6E5238,Mumbai,Jaipur,IndiGo,A21N,D,BOM,JAI
+6E524,Bengaluru,Agartala,IndiGo,A21N,D,BLR,IXA
+6E5243,Mumbai,Ahmedabad,IndiGo,A21N,D,BOM,AMD
+6E5245,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E5246,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5247,Visakhapatnam,Mumbai,IndiGo,A20N,D,VTZ,BOM
+6E5248,Mumbai,Visakhapatnam,IndiGo,A20N,D,BOM,VTZ
+6E5249,Siliguri,Delhi,IndiGo,A20N,D,IXB,DEL
+6E525,Agartala,Bengaluru,IndiGo,A21N,D,IXA,BLR
+6E5252,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5253,Kolkata,Gaya,IndiGo,A20N,D,CCU,GAY
+6E5254,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6E5255,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5258,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5259,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E526,Chennai,Port Blair,IndiGo,A320,D,MAA,IXZ
+6E5264,Mumbai,Nagpur,IndiGo,A20N,D,BOM,NAG
+6E5265,Gwalior,Mumbai,IndiGo,A20N,D,GWL,BOM
+6E5268,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6E5271,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6E5272,Ahmedabad,Mumbai,IndiGo,A320,D,AMD,BOM
+6E5273,Mumbai,Vadodara,IndiGo,A20N,D,BOM,BDQ
+6E5275,Siliguri,Mumbai,IndiGo,A320,D,IXB,BOM
+6E5276,Mumbai,Gwalior,IndiGo,A20N,D,BOM,GWL
+6E5278,Hyderabad,Thiruvananthapuram,IndiGo,A20N,D,HYD,TRV
+6E528,Bengaluru,Pune,IndiGo,A21N,D,BLR,PNQ
+6E5281,Mumbai,Jaipur,IndiGo,A320,D,BOM,JAI
+6E5282,Jaipur,Mumbai,IndiGo,A320,D,JAI,BOM
+6E5283,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6E5284,Mumbai,Goa,IndiGo,A21N,D,BOM,GOX
+6E5285,Rajkot,Mumbai,IndiGo,A20N,D,HSR,BOM
+6E5288,Kolkata,Mumbai,IndiGo,A21N,D,CCU,BOM
+6E5291,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5292,Varanasi,Mumbai,IndiGo,A20N,D,VNS,BOM
+6E5293,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5294,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5295,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5296,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5297,Kolkata,Mumbai,IndiGo,A21N,D,CCU,BOM
+6E5301,Mumbai,Thiruvananthapuram,IndiGo,A20N,D,BOM,TRV
+6E5302,Lucknow,Mumbai,IndiGo,A20N,D,LKO,BOM
+6E5303,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5304,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5305,Mumbai,Siliguri,IndiGo,A320,D,BOM,IXB
+6E5306,Bengaluru,Mangalore,IndiGo,A20N,D,BLR,IXE
+6E5307,Mumbai,Goa,IndiGo,A21N,D,BOM,GOI
+6E5309,Visakhapatnam,Bengaluru,IndiGo,A320,D,VTZ,BLR
+6E531,Hyderabad,Chennai,IndiGo,A20N,D,HYD,MAA
+6E5312,Itanagar,Kolkata,IndiGo,A20N,D,HGI,CCU
+6E5313,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5314,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5316,Mumbai,Bareilly,IndiGo,A20N,D,BOM,BEK
+6E5317,Delhi,Siliguri,IndiGo,A20N,D,DEL,IXB
+6E5318,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5319,Mumbai,Indore,IndiGo,A20N,D,BOM,IDR
+6E532,Coimbatore,Bengaluru,IndiGo,A20N,D,CJB,BLR
+6E5321,Mumbai,Rajkot,IndiGo,A20N,D,BOM,HSR
+6E5322,Mumbai,Bengaluru,IndiGo,A20N,D,BOM,BLR
+6E5323,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E5324,Jaipur,Mumbai,IndiGo,A21N,D,JAI,BOM
+6E5326,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5327,Delhi,Lucknow,IndiGo,A20N,D,DEL,LKO
+6E5328,Mumbai,Raipur,IndiGo,A20N,D,BOM,RPR
+6E5329,Mumbai,Kolkata,IndiGo,A21N,D,BOM,CCU
+6E533,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E5334,Thiruvananthapuram,Delhi,IndiGo,A20N,D,TRV,DEL
+6E5337,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E5338,Bareilly,Mumbai,IndiGo,A20N,D,BEK,BOM
+6E5343,Delhi,Jaipur,IndiGo,A20N,D,DEL,JAI
+6E535,Delhi,Srinagar,IndiGo,A21N,D,DEL,SXR
+6E5351,Bengaluru,Mumbai,IndiGo,A20N,D,BLR,BOM
+6E5352,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5354,Mumbai,Kolkata,IndiGo,A21N,D,BOM,CCU
+6E5355,Coimbatore,Bengaluru,IndiGo,A20N,D,CJB,BLR
+6E5356,Patna,Delhi,IndiGo,A20N,D,PAT,DEL
+6E536,Delhi,Raipur,IndiGo,A21N,D,DEL,RPR
+6E5363,Delhi,Aizawl,IndiGo,A20N,D,DEL,AJL
+6E5364,Aizawl,Delhi,IndiGo,A20N,D,AJL,DEL
+6E5367,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5368,Thiruvananthapuram,Hyderabad,IndiGo,A20N,D,TRV,HYD
+6E5369,Pune,Delhi,IndiGo,A20N,D,PNQ,DEL
+6E537,Bengaluru,Hyderabad,IndiGo,A20N,D,BLR,HYD
+6E537,Hyderabad,Darbhanga,IndiGo,A20N,D,HYD,DBR
+6E5371,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E5376,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E538,Delhi,Lucknow,IndiGo,A21N,D,DEL,LKO
+6E5381,Hyderabad,Thiruvananthapuram,IndiGo,A21N,D,HYD,TRV
+6E5382,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E5383,Aurangabad,Mumbai,IndiGo,A21N,D,IXU,BOM
+6E5384,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E5386,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5388,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E539,Chennai,Patna,IndiGo,A20N,D,MAA,PAT
+6E5393,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5394,Chennai,Cochin,IndiGo,A20N,D,MAA,COK
+6E5395,Mumbai,Kolkata,IndiGo,A21N,D,BOM,CCU
+6E5396,Delhi,Kanpur,IndiGo,A20N,D,DEL,KNU
+6E5397,Deoghar,Delhi,IndiGo,A20N,D,DGH,DEL
+6E543,Jammu,Delhi,IndiGo,A21N,D,IXJ,DEL
+6E544,Mumbai,Lucknow,IndiGo,A20N,D,BOM,LKO
+6E545,Gorakhpur,Mumbai,IndiGo,A20N,D,GOP,BOM
+6E546,Lucknow,Delhi,IndiGo,A21N,D,LKO,DEL
+6E5463,Patna,Delhi,IndiGo,A20N,D,PAT,DEL
+6E547,Pune,Ahmedabad,IndiGo,A20N,D,PNQ,AMD
+6E548,Cochin,Mumbai,IndiGo,A21N,D,COK,BOM
+6E549,Mumbai,Cochin,IndiGo,A21N,D,BOM,COK
+6E551,Mumbai,Indore,IndiGo,A20N,D,BOM,IDR
+6E552,Indore,Mumbai,IndiGo,A20N,D,IDR,BOM
+6E553,Cochin,Hyderabad,IndiGo,A20N,D,COK,HYD
+6E556,Jaipur,Bengaluru,IndiGo,A21N,D,JAI,BLR
+6E557,Chennai,Visakhapatnam,IndiGo,A20N,D,MAA,VTZ
+6E5599,Port Blair,Kolkata,IndiGo,A20N,D,IXZ,CCU
+6E5602,Vadodara,Delhi,IndiGo,A20N,D,BDQ,DEL
+6E5603,Delhi,Aurangabad,IndiGo,A20N,D,DEL,IXU
+6E5605,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E5606,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E5608,Delhi,Pune,IndiGo,A20N,D,DEL,PNQ
+6E561,Chennai,Pune,IndiGo,A21N,D,MAA,PNQ
+6E563,Kolkata,Chennai,IndiGo,A21N,D,CCU,MAA
+6E564,Mumbai,Hyderabad,IndiGo,A21N,D,BOM,HYD
+6E5641,Delhi,Patna,IndiGo,A20N,D,DEL,PAT
+6E566,Srinagar,Delhi,IndiGo,A21N,D,SXR,DEL
+6E568,Ahmedabad,Dehradun,IndiGo,A20N,D,AMD,DED
+6E569,Dehradun,Ahmedabad,IndiGo,A20N,D,DED,AMD
+6E571,Cochin,Chennai,IndiGo,A20N,D,COK,MAA
+6E572,Kolkata,Guwahati,IndiGo,A20N,D,CCU,GAU
+6E573,Kolkata,Bengaluru,SmartLynx,A320,D,CCU,BLR
+6E574,Bengaluru,Shirdi,IndiGo,A320,D,BLR,SAG
+6E575,Bengaluru,Chennai,IndiGo,A20N,D,BLR,MAA
+6E578,Bengaluru,Mangalore,IndiGo,A20N,D,BLR,IXE
+6E579,Shirdi,Bengaluru,IndiGo,A320,D,SAG,BLR
+6E581,Port Blair,Chennai,IndiGo,A320,D,IXZ,MAA
+6E581,Chennai,Visakhapatnam,IndiGo,A320,D,MAA,VTZ
+6E586,Bengaluru,Ahmedabad,IndiGo,A320,D,BLR,AMD
+6E588,Chennai,Goa,IndiGo,A20N,D,MAA,GOI
+6E589,Goa,Chennai,IndiGo,A20N,D,GOI,MAA
+6E5912,Kozhikode,Delhi,IndiGo,A20N,D,CCJ,DEL
+6E5913,Delhi,Kozhikode,IndiGo,A20N,D,DEL,CCJ
+6E5916,Bengaluru,Agra,IndiGo,A20N,D,BLR,AGR
+6E5917,Agra,Bengaluru,IndiGo,A20N,D,AGR,BLR
+6E593,Chandigarh,Bengaluru,IndiGo,A20N,D,IXC,BLR
+6E597,Patna,Chennai,IndiGo,A20N,D,PAT,MAA
+6E598,Hyderabad,Chennai,IndiGo,A21N,D,HYD,MAA
+6E6002,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E6003,Bengaluru,Nagpur,IndiGo,A21N,D,BLR,NAG
+6E6004,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E6005,Chennai,Chandigarh,IndiGo,A20N,D,MAA,IXC
+6E6007,Hyderabad,Chennai,IndiGo,A20N,D,HYD,MAA
+6E6011,Coimbatore,Chennai,IndiGo,A20N,D,CJB,MAA
+6E6011,Chennai,Guwahati,IndiGo,A20N,D,MAA,GAU
+6E6012,Bengaluru,Chennai,IndiGo,A320,D,BLR,MAA
+6E6016,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6017,Bengaluru,Chennai,IndiGo,A20N,D,BLR,MAA
+6E602,Bengaluru,Cochin,IndiGo,A20N,D,BLR,COK
+6E6022,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6024,Cochin,Chennai,IndiGo,A20N,D,COK,MAA
+6E6025,Chennai,Cochin,IndiGo,A20N,D,MAA,COK
+6E6028,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6031,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E6032,Bengaluru,Jodhpur,IndiGo,A20N,D,BLR,JDH
+6E6033,Jodhpur,Bengaluru,IndiGo,A20N,D,JDH,BLR
+6E6034,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E6035,Bengaluru,Allahabad,IndiGo,A20N,D,BLR,IXD
+6E6036,Allahabad,Bengaluru,IndiGo,A20N,D,IXD,BLR
+6E6038,Visakhapatnam,Kolkata,IndiGo,A21N,D,VTZ,CCU
+6E6039,Bengaluru,Delhi,IndiGo,A320,D,BLR,DEL
+6E6041,Chandigarh,Kolkata,IndiGo,A20N,D,IXC,CCU
+6E6042,Ahmedabad,Delhi,SmartLynx,A320,D,AMD,DEL
+6E6043,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E6044,Varanasi,Chennai,IndiGo,A20N,D,VNS,MAA
+6E6045,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6047,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6049,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6051,Delhi,Chandigarh,IndiGo,A320,D,DEL,IXC
+6E6052,Chandigarh,Delhi,IndiGo,A320,D,IXC,DEL
+6E6054,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E6055,Pune,Bengaluru,IndiGo,A21N,D,PNQ,BLR
+6E6057,Mumbai,Goa,IndiGo,A20N,D,BOM,GOX
+6E606,Chennai,Kolkata,IndiGo,A21N,D,MAA,CCU
+6E6061,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E6062,Hyderabad,Shirdi,IndiGo,A20N,D,HYD,SAG
+6E6063,Shirdi,Hyderabad,IndiGo,A20N,D,SAG,HYD
+6E6066,Hyderabad,Bengaluru,IndiGo,A20N,D,HYD,BLR
+6E6067,Bengaluru,Hyderabad,IndiGo,A20N,D,BLR,HYD
+6E6069,Agartala,Kolkata,IndiGo,A21N,D,IXA,CCU
+6E607,Chennai,Pune,IndiGo,A320,D,MAA,PNQ
+6E6075,Goa,Bengaluru,IndiGo,A320,D,GOX,BLR
+6E6082,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6089,Visakhapatnam,Chennai,IndiGo,A20N,D,VTZ,MAA
+6E6101,Bhubaneswar,Kolkata,IndiGo,A21N,D,BBI,CCU
+6E6102,Dibrugarh,Kolkata,IndiGo,A20N,D,DIB,CCU
+6E6103,Kolkata,Dibrugarh,IndiGo,A20N,D,CCU,DIB
+6E6104,Bengaluru,Pune,IndiGo,A20N,D,BLR,PNQ
+6E6107,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6109,Jammu,Ahmedabad,IndiGo,A20N,D,IXJ,AMD
+6E611,Bhubaneswar,Bengaluru,IndiGo,A20N,D,BBI,BLR
+6E6113,Chennai,Ranchi,IndiGo,A20N,D,MAA,IXR
+6E6114,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6115,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E6116,Jaipur,Pune,IndiGo,A320,D,JAI,PNQ
+6E6117,Pune,Jaipur,IndiGo,A320,D,PNQ,JAI
+6E6127,Patna,Hyderabad,IndiGo,A20N,D,PAT,HYD
+6E6129,Amritsar,Pune,IndiGo,A20N,D,ATQ,PNQ
+6E613,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E6131,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E6132,Rajkot,Mumbai,IndiGo,A20N,D,HSR,BOM
+6E6133,Mumbai,Rajkot,IndiGo,A20N,D,BOM,HSR
+6E6134,Kolkata,Siliguri,IndiGo,A20N,D,CCU,IXB
+6E6135,Siliguri,Kolkata,IndiGo,A20N,D,IXB,CCU
+6E6136,Dehradun,Bengaluru,IndiGo,A20N,D,DED,BLR
+6E6139,Kolkata,Lucknow,IndiGo,A20N,D,CCU,LKO
+6E614,Chandigarh,Goa,IndiGo,A20N,D,IXC,GOI
+6E6144,Bengaluru,Thiruvananthapuram,IndiGo,A20N,D,BLR,TRV
+6E6147,Thiruvananthapuram,Bengaluru,IndiGo,A20N,D,TRV,BLR
+6E6148,Goa,Mumbai,IndiGo,A20N,D,GOX,BOM
+6E6149,Chennai,Thiruvananthapuram,IndiGo,A20N,D,MAA,TRV
+6E615,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6151,Hyderabad,Chennai,IndiGo,A21N,D,HYD,MAA
+6E6152,Kolkata,Ranchi,IndiGo,A20N,D,CCU,IXR
+6E6153,Jorhat,Kolkata,IndiGo,A20N,D,JRH,CCU
+6E6154,Kolkata,Hyderabad,IndiGo,A21N,D,CCU,HYD
+6E6155,Dimapur,Kolkata,IndiGo,A20N,D,DMU,CCU
+6E6157,Gaya,Kolkata,IndiGo,A320,D,GAY,CCU
+6E6158,Chennai,Hyderabad,IndiGo,A21N,D,MAA,HYD
+6E6159,Guwahati,Kolkata,IndiGo,A20N,D,GAU,CCU
+6E6161,Mangalore,Bengaluru,IndiGo,A21N,D,IXE,BLR
+6E6162,Bengaluru,Mangalore,IndiGo,A21N,D,BLR,IXE
+6E6163,Goa,Bengaluru,IndiGo,A20N,D,GOX,BLR
+6E6166,Lucknow,Hyderabad,IndiGo,A320,D,LKO,HYD
+6E6167,Hyderabad,Lucknow,IndiGo,A20N,D,HYD,LKO
+6E6168,Bengaluru,Goa,IndiGo,A20N,D,BLR,GOX
+6E6169,Thiruvananthapuram,Chennai,IndiGo,A320,D,TRV,MAA
+6E6171,Delhi,Thiruvananthapuram,IndiGo,A20N,D,DEL,TRV
+6E6173,Kolkata,Agartala,IndiGo,A20N,D,CCU,IXA
+6E6176,Bengaluru,Goa,IndiGo,A320,D,BLR,GOX
+6E6178,Bengaluru,Hyderabad,IndiGo,A20N,D,BLR,HYD
+6E618,Mumbai,Vadodara,IndiGo,A20N,D,BOM,BDQ
+6E6182,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E6183,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E6188,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E619,Siliguri,Hyderabad,IndiGo,A20N,D,IXB,HYD
+6E6193,Ahmedabad,Raipur,IndiGo,A20N,D,AMD,RPR
+6E6194,Raipur,Ahmedabad,IndiGo,A20N,D,RPR,AMD
+6.00E+62,Jeddah,Mumbai,IndiGo,A21N,I,JED,BOM
+6E6202,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E6203,Guwahati,Delhi,IndiGo,A20N,D,GAU,DEL
+6E6204,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E6205,Delhi,Goa,IndiGo,A20N,D,DEL,GOI
+6E6206,Kolkata,Mumbai,IndiGo,A21N,D,CCU,BOM
+6E621,Hyderabad,Indore,IndiGo,A20N,D,HYD,IDR
+6E6212,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E6214,Kolkata,Bhubaneswar,IndiGo,A21N,D,CCU,BBI
+6E6215,Chennai,Hyderabad,IndiGo,A20N,D,MAA,HYD
+6E6216,Chennai,Thiruvananthapuram,IndiGo,A320,D,MAA,TRV
+6E6217,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E6218,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6219,Indore,Goa,IndiGo,A320,D,IDR,GOI
+6E622,Nagpur,Mumbai,IndiGo,A21N,D,NAG,BOM
+6E6223,Hyderabad,Patna,IndiGo,A20N,D,HYD,PAT
+6E6224,Guwahati,Mumbai,IndiGo,A20N,D,GAU,BOM
+6E6225,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E6229,Hyderabad,Mumbai,IndiGo,A21N,D,HYD,BOM
+6E623,Pune,Guwahati,IndiGo,A20N,D,PNQ,GAU
+6E6239,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E624,Mumbai,Thiruvananthapuram,IndiGo,A320,D,BOM,TRV
+6E6242,Hyderabad,Bhubaneswar,IndiGo,A320,D,HYD,BBI
+6E6244,Ahmedabad,Lucknow,IndiGo,A320,D,AMD,LKO
+6E6245,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E6248,Delhi,Shirdi,SmartLynx,A320,D,DEL,SAG
+6E6249,Ahmedabad,Delhi,IndiGo,A20N,D,AMD,DEL
+6E625,Pune,Chennai,IndiGo,A20N,D,PNQ,MAA
+6E6251,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E6252,Hyderabad,Chandigarh,IndiGo,A21N,D,HYD,IXC
+6E6253,Hyderabad,Srinagar,IndiGo,A20N,D,HYD,SXR
+6E6254,Chandigarh,Hyderabad,IndiGo,A21N,D,IXC,HYD
+6E6255,Srinagar,Hyderabad,IndiGo,A20N,D,SXR,HYD
+6E626,Hyderabad,Visakhapatnam,IndiGo,A20N,D,HYD,VTZ
+6E6261,Delhi,Ahmedabad,IndiGo,A20N,D,DEL,AMD
+6E6262,Jaipur,Delhi,IndiGo,A20N,D,JAI,DEL
+6E6269,Bengaluru,Chennai,IndiGo,A320,D,BLR,MAA
+6E627,Mumbai,Dehradun,IndiGo,A20N,D,BOM,DED
+6E6272,Ranchi,Pune,IndiGo,A20N,D,IXR,PNQ
+6E6273,Bengaluru,Jaipur,IndiGo,A21N,D,BLR,JAI
+6E6274,Mumbai,Aurangabad,IndiGo,A21N,D,BOM,IXU
+6E6276,Patna,Bengaluru,IndiGo,A20N,D,PAT,BLR
+6E6277,Bengaluru,Patna,IndiGo,A20N,D,BLR,PAT
+6E628,Dehradun,Mumbai,IndiGo,A20N,D,DED,BOM
+6E6281,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E6282,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E6283,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E6284,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E6287,Mumbai,Kolkata,IndiGo,A21N,D,BOM,CCU
+6E6288,Chennai,Bengaluru,IndiGo,A21N,D,MAA,BLR
+6E6288,Bengaluru,Amritsar,IndiGo,A21N,D,BLR,ATQ
+6E6289,Vadodara,Mumbai,IndiGo,A20N,D,BDQ,BOM
+6E629,Thiruvananthapuram,Mumbai,IndiGo,A320,D,TRV,BOM
+6E6298,Goa,Bengaluru,IndiGo,A21N,D,GOX,BLR
+6.00E+63,Delhi,Jeddah,IndiGo,A21N,I,DEL,JED
+6E6305,Hyderabad,Port Blair,IndiGo,A20N,D,HYD,IXZ
+6E6306,Port Blair,Hyderabad,IndiGo,A20N,D,IXZ,HYD
+6E6309,Chennai,Guwahati,IndiGo,A320,D,MAA,GAU
+6E631,Bhubaneswar,Hyderabad,IndiGo,A20N,D,BBI,HYD
+6E6314,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E6315,Coimbatore,Chennai,IndiGo,A21N,D,CJB,MAA
+6E6318,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6319,Gorakhpur,Hyderabad,IndiGo,A21N,D,GOP,HYD
+6E6319,Hyderabad,Bengaluru,IndiGo,A21N,D,HYD,BLR
+6E632,Mumbai,Ahmedabad,IndiGo,A320,D,BOM,AMD
+6E6328,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E633,Goa,Bengaluru,IndiGo,A20N,D,GOI,BLR
+6E6336,Bengaluru,Visakhapatnam,IndiGo,A320,D,BLR,VTZ
+6E6339,Kolkata,Dimapur,IndiGo,A20N,D,CCU,DMU
+6E634,Kolkata,Goa,IndiGo,A20N,D,CCU,GOI
+6E6341,Delhi,Chennai,IndiGo,A21N,D,DEL,MAA
+6E6342,Guwahati,Mumbai,IndiGo,A320,D,GAU,BOM
+6E6344,Dehradun,Kolkata,IndiGo,A20N,D,DED,CCU
+6E6344,Kolkata,Guwahati,IndiGo,A20N,D,CCU,GAU
+6E6345,Ahmedabad,Goa,IndiGo,A20N,D,AMD,GOI
+6E635,Mumbai,Cochin,IndiGo,A20N,D,BOM,COK
+6E6353,Bengaluru,Lucknow,IndiGo,A320,D,BLR,LKO
+6E6354,Lucknow,Bengaluru,IndiGo,A320,D,LKO,BLR
+6E6356,Bengaluru,Port Blair,IndiGo,A20N,D,BLR,IXZ
+6E6357,Port Blair,Bengaluru,IndiGo,A20N,D,IXZ,BLR
+6E6358,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E6359,Pune,Kolkata,IndiGo,A20N,D,PNQ,CCU
+6E636,Cochin,Hyderabad,IndiGo,A20N,D,COK,HYD
+6E6362,Gorakhpur,Delhi,IndiGo,A20N,D,GOP,DEL
+6E637,Hyderabad,Cochin,IndiGo,A20N,D,HYD,COK
+6E6372,Hyderabad,Delhi,IndiGo,A21N,D,HYD,DEL
+6E6374,Chennai,Ahmedabad,IndiGo,A21N,D,MAA,AMD
+6E6375,Ahmedabad,Chandigarh,IndiGo,A20N,D,AMD,IXC
+6E638,Bengaluru,Hyderabad,IndiGo,A21N,D,BLR,HYD
+6E6381,Chennai,Jaipur,IndiGo,A21N,D,MAA,JAI
+6E6385,Bengaluru,Chandigarh,IndiGo,A20N,D,BLR,IXC
+6E6391,Ahmedabad,Cochin,IndiGo,A20N,D,AMD,COK
+6E6392,Cochin,Ahmedabad,IndiGo,A20N,D,COK,AMD
+6E6395,Chandigarh,Ahmedabad,IndiGo,A320,D,IXC,AMD
+6E6396,Port Blair,Kolkata,IndiGo,A20N,D,IXZ,CCU
+6.00E+64,Jeddah,Delhi,IndiGo,A21N,I,JED,DEL
+6E6401,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E6404,Bengaluru,Hyderabad,IndiGo,A320,D,BLR,HYD
+6E6405,Hyderabad,Bengaluru,IndiGo,A320,D,HYD,BLR
+6E6406,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E641,Mumbai,Chandigarh,IndiGo,A20N,D,BOM,IXC
+6E6414,Varanasi,Ahmedabad,IndiGo,A20N,D,VNS,AMD
+6E6415,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E6417,Darbhanga,Hyderabad,IndiGo,A20N,D,DBR,HYD
+6E6417,Hyderabad,Bengaluru,IndiGo,A20N,D,HYD,BLR
+6E6418,Ahmedabad,Goa,IndiGo,A20N,D,AMD,GOX
+6E6419,Goa,Ahmedabad,IndiGo,A20N,D,GOX,AMD
+6E642,Chandigarh,Mumbai,IndiGo,A20N,D,IXC,BOM
+6E6421,Coimbatore,Hyderabad,IndiGo,A20N,D,CJB,HYD
+6E6422,Ahmedabad,Bengaluru,IndiGo,A21N,D,AMD,BLR
+6E6423,Bengaluru,Ahmedabad,IndiGo,A320,D,BLR,AMD
+6E6424,Hyderabad,Coimbatore,IndiGo,A20N,D,HYD,CJB
+6E6433,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E6438,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E6439,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E6445,Bengaluru,Cochin,IndiGo,A20N,D,BLR,COK
+6E645,Bhubaneswar,Ahmedabad,IndiGo,A20N,D,BBI,AMD
+6E6451,Bengaluru,Patna,IndiGo,A20N,D,BLR,PAT
+6E6452,Patna,Bengaluru,IndiGo,A20N,D,PAT,BLR
+6E6465,Bengaluru,Bhopal,IndiGo,A21N,D,BLR,BHO
+6E6466,Bhopal,Bengaluru,IndiGo,A21N,D,BHO,BLR
+6E6467,Hyderabad,Raipur,IndiGo,A20N,D,HYD,RPR
+6E6469,Lucknow,Kolkata,IndiGo,A20N,D,LKO,CCU
+6E6471,Hyderabad,Pune,IndiGo,A20N,D,HYD,PNQ
+6E6472,Kolkata,Pune,IndiGo,A20N,D,CCU,PNQ
+6E6472,Pune,Coimbatore,IndiGo,A20N,D,PNQ,CJB
+6E6473,Pune,Hyderabad,IndiGo,A20N,D,PNQ,HYD
+6E648,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E6481,Hyderabad,Vadodara,IndiGo,A20N,D,HYD,BDQ
+6E6482,Cochin,Bengaluru,IndiGo,A20N,D,COK,BLR
+6E6484,Pune,Ranchi,IndiGo,A20N,D,PNQ,IXR
+6E649,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E6494,Hyderabad,Kolkata,IndiGo,A21N,D,HYD,CCU
+6E6501,Kolkata,Varanasi,IndiGo,A20N,D,CCU,VNS
+6E6502,Varanasi,Kolkata,IndiGo,A20N,D,VNS,CCU
+6E6505,Hyderabad,Bengaluru,IndiGo,A20N,D,HYD,BLR
+6E6506,Ahmedabad,Chandigarh,IndiGo,A320,D,AMD,IXC
+6E6507,Bengaluru,Rajkot,IndiGo,A320,D,BLR,HSR
+6E6508,Rajkot,Bengaluru,IndiGo,A320,D,HSR,BLR
+6E651,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6513,Kolkata,Hyderabad,IndiGo,A21N,D,CCU,HYD
+6E6514,Kolkata,Imphal,IndiGo,A20N,D,CCU,IMF
+6E6515,Delhi,Bengaluru,IndiGo,A320,D,DEL,BLR
+6E6516,Kolkata,Delhi,IndiGo,A21N,D,CCU,DEL
+6E6517,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E6518,Chennai,Siliguri,IndiGo,A20N,D,MAA,IXB
+6E6519,Agartala,Kolkata,IndiGo,A20N,D,IXA,CCU
+6E652,Mumbai,Goa,IndiGo,A20N,D,BOM,GOI
+6E6523,Mangalore,Mumbai,IndiGo,A20N,D,IXE,BOM
+6E6528,Kolkata,Hyderabad,IndiGo,A21N,D,CCU,HYD
+6E653,Pune,Patna,IndiGo,A20N,D,PNQ,PAT
+6E6532,Hyderabad,Goa,IndiGo,A20N,D,HYD,GOI
+6E6535,Bengaluru,Bhubaneswar,IndiGo,A21N,D,BLR,BBI
+6E6536,Bhubaneswar,Bengaluru,IndiGo,A21N,D,BBI,BLR
+6E6539,Ahmedabad,Chennai,IndiGo,A21N,D,AMD,MAA
+6E6541,Bengaluru,Guwahati,IndiGo,A20N,D,BLR,GAU
+6E6542,Guwahati,Bengaluru,IndiGo,A20N,D,GAU,BLR
+6E6543,Mumbai,Varanasi,IndiGo,A21N,D,BOM,VNS
+6E6544,Varanasi,Mumbai,IndiGo,A21N,D,VNS,BOM
+6E6549,Mumbai,Mangalore,IndiGo,A21N,D,BOM,IXE
+6E6553,Pune,Ahmedabad,IndiGo,A20N,D,PNQ,AMD
+6E6556,Ahmedabad,Kolkata,IndiGo,A20N,D,AMD,CCU
+6E656,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6561,Vadodara,Pune,IndiGo,A320,D,BDQ,PNQ
+6E6561,Pune,Kolkata,IndiGo,A320,D,PNQ,CCU
+6E6563,Bengaluru,Pune,IndiGo,A21N,D,BLR,PNQ
+6E6564,Pune,Bengaluru,IndiGo,A21N,D,PNQ,BLR
+6E6566,Indore,Kolkata,IndiGo,A20N,D,IDR,CCU
+6E6568,Jaipur,Kolkata,IndiGo,A320,D,JAI,CCU
+6E6572,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E6573,Nagpur,Delhi,IndiGo,A320,D,NAG,DEL
+6E6574,Delhi,Srinagar,IndiGo,A21N,D,DEL,SXR
+6E6576,Delhi,Goa,IndiGo,A320,D,DEL,GOI
+6E6582,Delhi,Dehradun,IndiGo,A20N,D,DEL,DED
+6E6583,Bengaluru,Goa,IndiGo,A21N,D,BLR,GOX
+6E6584,Goa,Bengaluru,IndiGo,A21N,D,GOX,BLR
+6E6587,Pune,Delhi,IndiGo,A320,D,PNQ,DEL
+6E6589,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E659,Coimbatore,Chennai,IndiGo,A20N,D,CJB,MAA
+6E6591,Tirupati,Hyderabad,IndiGo,A20N,D,TIR,HYD
+6E6595,Bengaluru,Ahmedabad,IndiGo,A21N,D,BLR,AMD
+6E6598,Indore,Mumbai,IndiGo,A20N,D,IDR,BOM
+6E6601,Delhi,Hyderabad,IndiGo,A21N,D,DEL,HYD
+6E6603,Delhi,Goa,IndiGo,A320,D,DEL,GOI
+6E6604,Dibrugarh,Delhi,IndiGo,A20N,D,DIB,DEL
+6E6606,Tirupati,Hyderabad,IndiGo,A20N,D,TIR,HYD
+6E661,Thiruvananthapuram,Bengaluru,IndiGo,A20N,D,TRV,BLR
+6E6612,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E6613,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E6615,Delhi,Kolkata,IndiGo,A21N,D,DEL,CCU
+6E6616,Kolkata,Aizawl,IndiGo,A20N,D,CCU,AJL
+6E6617,Hyderabad,Chennai,IndiGo,A20N,D,HYD,MAA
+6E6619,Patna,Mumbai,IndiGo,A20N,D,PAT,BOM
+6E662,Cochin,Mumbai,IndiGo,A20N,D,COK,BOM
+6E6621,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E6622,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E6623,Kolkata,Hyderabad,IndiGo,A21N,D,CCU,HYD
+6E6624,Delhi,Srinagar,IndiGo,A21N,D,DEL,SXR
+6E6626,Bengaluru,Thiruvananthapuram,IndiGo,A21N,D,BLR,TRV
+6E6627,Thiruvananthapuram,Bengaluru,IndiGo,A21N,D,TRV,BLR
+6E6628,Bengaluru,Thiruvananthapuram,IndiGo,A21N,D,BLR,TRV
+6E6629,Thiruvananthapuram,Bengaluru,IndiGo,A20N,D,TRV,BLR
+6E663,Patna,Kolkata,IndiGo,A20N,D,PAT,CCU
+6E6633,Bengaluru,Chandigarh,IndiGo,A21N,D,BLR,IXC
+6E6634,Chandigarh,Bengaluru,IndiGo,A21N,D,IXC,BLR
+6E6638,Hyderabad,Jaipur,IndiGo,A20N,D,HYD,JAI
+6E6639,Delhi,Madurai,IndiGo,A20N,D,DEL,IXM
+6E664,Hyderabad,Kolkata,IndiGo,A21N,D,HYD,CCU
+6E6645,Visakhapatnam,Hyderabad,IndiGo,A20N,D,VTZ,HYD
+6E6646,Hyderabad,Coimbatore,IndiGo,A20N,D,HYD,CJB
+6E665,Goa,Mumbai,IndiGo,A20N,D,GOI,BOM
+6E6653,Bengaluru,Goa,IndiGo,A20N,D,BLR,GOI
+6E6659,Nagpur,Pune,IndiGo,A20N,D,NAG,PNQ
+6E6663,Kolkata,Guwahati,IndiGo,A20N,D,CCU,GAU
+6E6664,Guwahati,Kolkata,IndiGo,A20N,D,GAU,CCU
+6E6674,Mumbai,Mangalore,IndiGo,A20N,D,BOM,IXE
+6E668,Hyderabad,Chennai,IndiGo,A20N,D,HYD,MAA
+6E6683,Varanasi,Hyderabad,IndiGo,A21N,D,VNS,HYD
+6E6684,Hyderabad,Cochin,IndiGo,A20N,D,HYD,COK
+6E6687,Ahmedabad,Jammu,IndiGo,A20N,D,AMD,IXJ
+6E669,Raipur,Kolkata,IndiGo,A320,D,RPR,CCU
+6.00E+67,Hyderabad,Jeddah,IndiGo,A21N,I,HYD,JED
+6E6701,Mumbai,Cochin,IndiGo,A20N,D,BOM,COK
+6E6702,Cochin,Mumbai,IndiGo,A320,D,COK,BOM
+6E6705,Agartala,Kolkata,IndiGo,A20N,D,IXA,CCU
+6E6707,Hyderabad,Cochin,IndiGo,A21N,D,HYD,COK
+6E671,Coimbatore,Pune,IndiGo,A20N,D,CJB,PNQ
+6E671,Pune,Kolkata,IndiGo,A20N,D,PNQ,CCU
+6E6714,Pune,Chennai,IndiGo,A320,D,PNQ,MAA
+6E6716,Imphal,Kolkata,IndiGo,A20N,D,IMF,CCU
+6E6717,Kolkata,Bhubaneswar,IndiGo,A20N,D,CCU,BBI
+6E6719,Hyderabad,Patna,IndiGo,A20N,D,HYD,PAT
+6E672,Pune,Varanasi,IndiGo,A20N,D,PNQ,VNS
+6E6727,Hyderabad,Ahmedabad,IndiGo,A20N,D,HYD,AMD
+6E6728,Ahmedabad,Hyderabad,IndiGo,A20N,D,AMD,HYD
+6E673,Mumbai,Cochin,IndiGo,A20N,D,BOM,COK
+6E6738,Indore,Bengaluru,IndiGo,A20N,D,IDR,BLR
+6E674,Cochin,Mumbai,IndiGo,A20N,D,COK,BOM
+6E6743,Bengaluru,Indore,IndiGo,A20N,D,BLR,IDR
+6E6744,Indore,Bengaluru,IndiGo,A20N,D,IDR,BLR
+6E6745,Pune,Chennai,IndiGo,A21N,D,PNQ,MAA
+6E6749,Kolkata,Itanagar,IndiGo,A20N,D,CCU,HGI
+6E675,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6753,Bengaluru,Goa,IndiGo,A20N,D,BLR,GOI
+6E6754,Goa,Bengaluru,IndiGo,A20N,D,GOI,BLR
+6E676,Bengaluru,Kolkata,SmartLynx,A320,D,BLR,CCU
+6E6779,Bengaluru,Ahmedabad,IndiGo,A21N,D,BLR,AMD
+6E678,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E6781,Hyderabad,Madurai,IndiGo,A20N,D,HYD,IXM
+6E6782,Madurai,Hyderabad,IndiGo,A20N,D,IXM,HYD
+6E6785,Kolkata,Siliguri,IndiGo,A20N,D,CCU,IXB
+6E6786,Siliguri,Kolkata,IndiGo,A20N,D,IXB,CCU
+6E6793,Bhubaneswar,Kolkata,IndiGo,A320,D,BBI,CCU
+6E6797,Chennai,Raipur,IndiGo,A20N,D,MAA,RPR
+6E6798,Pune,Nagpur,IndiGo,A320,D,PNQ,NAG
+6E6799,Ranchi,Bengaluru,IndiGo,A20N,D,IXR,BLR
+6.00E+68,Jeddah,Hyderabad,IndiGo,A21N,I,JED,HYD
+6E6801,Bengaluru,Patna,IndiGo,A20N,D,BLR,PAT
+6E6803,Nagpur,Bengaluru,IndiGo,A21N,D,NAG,BLR
+6E6805,Ahmedabad,Varanasi,IndiGo,A20N,D,AMD,VNS
+6E6807,Imphal,Kolkata,IndiGo,A320,D,IMF,CCU
+6E6808,Goa,Mumbai,IndiGo,A20N,D,GOI,BOM
+6E6809,Coimbatore,Chennai,IndiGo,A20N,D,CJB,MAA
+6E681,Chandigarh,Pune,IndiGo,A320,D,IXC,PNQ
+6E681,Pune,Cochin,IndiGo,A320,D,PNQ,COK
+6E6811,Goa,Lucknow,IndiGo,A20N,D,GOI,LKO
+6E6812,Chennai,Coimbatore,IndiGo,A21N,D,MAA,CJB
+6E6813,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E6814,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E6815,Chennai,Bengaluru,IndiGo,A320,D,MAA,BLR
+6E682,Bengaluru,Mumbai,IndiGo,A21N,D,BLR,BOM
+6E683,Mumbai,Chennai,IndiGo,A21N,D,BOM,MAA
+6E684,Bengaluru,Hyderabad,IndiGo,A21N,D,BLR,HYD
+6E685,Chennai,Mumbai,IndiGo,A21N,D,MAA,BOM
+6E6858,Bengaluru,Mangalore,IndiGo,A20N,D,BLR,IXE
+6E6859,Mangalore,Bengaluru,IndiGo,A20N,D,IXE,BLR
+6E687,Bengaluru,Udaipur,IndiGo,A320,D,BLR,UDR
+6E6872,Hyderabad,Siliguri,IndiGo,A20N,D,HYD,IXB
+6E6873,Siliguri,Hyderabad,IndiGo,A20N,D,IXB,HYD
+6E6875,Bengaluru,Coimbatore,IndiGo,A20N,D,BLR,CJB
+6E6876,Bengaluru,Pune,IndiGo,A21N,D,BLR,PNQ
+6E6877,Pune,Bengaluru,IndiGo,A21N,D,PNQ,BLR
+6E688,Bengaluru,Thiruvananthapuram,IndiGo,A20N,D,BLR,TRV
+6E6884,Varanasi,Pune,IndiGo,A20N,D,VNS,PNQ
+6E6892,Chennai,Bengaluru,IndiGo,A21N,D,MAA,BLR
+6E6893,Ranchi,Kolkata,IndiGo,A20N,D,IXR,CCU
+6E6894,Dibrugarh,Kolkata,IndiGo,A20N,D,DIB,CCU
+6E6895,Raipur,Pune,IndiGo,A20N,D,RPR,PNQ
+6E6897,Chennai,Hyderabad,IndiGo,A21N,D,MAA,HYD
+6E6905,Pune,Raipur,IndiGo,A20N,D,PNQ,RPR
+6E6907,Hyderabad,Kolkata,IndiGo,A21N,D,HYD,CCU
+6E6908,Kolkata,Hyderabad,IndiGo,A21N,D,CCU,HYD
+6E691,Thiruvananthapuram,Bengaluru,IndiGo,A21N,D,TRV,BLR
+6E6911,Hyderabad,Bhubaneswar,IndiGo,A20N,D,HYD,BBI
+6E6912,Bhubaneswar,Hyderabad,IndiGo,A20N,D,BBI,HYD
+6E6915,Hyderabad,Indore,IndiGo,A21N,D,HYD,IDR
+6E6916,Indore,Hyderabad,IndiGo,A20N,D,IDR,HYD
+6E6918,Coimbatore,Chennai,IndiGo,A20N,D,CJB,MAA
+6E6919,Bengaluru,Cochin,IndiGo,A20N,D,BLR,COK
+6E6922,Cochin,Bengaluru,IndiGo,A20N,D,COK,BLR
+6E6923,Bengaluru,Hyderabad,IndiGo,A20N,D,BLR,HYD
+6E6925,Chennai,Hyderabad,IndiGo,A21N,D,MAA,HYD
+6E6931,Mumbai,Kozhikode,IndiGo,A21N,D,BOM,CCJ
+6E6932,Kozhikode,Mumbai,IndiGo,A21N,D,CCJ,BOM
+6E6937,Mumbai,Allahabad,IndiGo,A20N,D,BOM,IXD
+6E6938,Allahabad,Mumbai,IndiGo,A20N,D,IXD,BOM
+6E694,Jaipur,Chennai,IndiGo,A21N,D,JAI,MAA
+6E6941,Kolkata,Aizawl,IndiGo,A20N,D,CCU,AJL
+6E6943,Goa,Pune,IndiGo,A20N,D,GOX,PNQ
+6E6944,Pune,Goa,IndiGo,A20N,D,PNQ,GOX
+6E6945,Ahmedabad,Srinagar,IndiGo,A20N,D,AMD,SXR
+6E6946,Srinagar,Bengaluru,IndiGo,A20N,D,SXR,BLR
+6E6947,Bengaluru,Srinagar,IndiGo,A20N,D,BLR,SXR
+6E6948,Srinagar,Ahmedabad,IndiGo,A20N,D,SXR,AMD
+6E695,Hyderabad,Cochin,IndiGo,A20N,D,HYD,COK
+6E6956,Aizawl,Kolkata,IndiGo,A20N,D,AJL,CCU
+6E6959,Thiruvananthapuram,Chennai,IndiGo,A20N,D,TRV,MAA
+6E696,Mumbai,Bengaluru,IndiGo,A21N,D,BOM,BLR
+6E6961,Kolkata,Srinagar,IndiGo,A20N,D,CCU,SXR
+6E6962,Srinagar,Kolkata,IndiGo,A20N,D,SXR,CCU
+6E6966,Guwahati,Kolkata,IndiGo,A20N,D,GAU,CCU
+6E6968,Lucknow,Ahmedabad,IndiGo,A20N,D,LKO,AMD
+6E6973,Goa,Hyderabad,IndiGo,A20N,D,GOX,HYD
+6E6974,Hyderabad,Goa,IndiGo,A20N,D,HYD,GOX
+6E6975,Goa,Chennai,IndiGo,A20N,D,GOX,MAA
+6E698,Chennai,Delhi,IndiGo,A21N,D,MAA,DEL
+6E699,Ahmedabad,Pune,IndiGo,A20N,D,AMD,PNQ
+6E6992,Bengaluru,Coimbatore,IndiGo,A20N,D,BLR,CJB
+6E7002,Kozhikode,Chennai,IndiGo,AT76,D,CCJ,MAA
+6E701,Indore,Bengaluru,IndiGo,A20N,D,IDR,BLR
+6E7014,Agartala,Kolkata,IndiGo,AT76,D,IXA,CCU
+6E702,Cochin,Bengaluru,IndiGo,A20N,D,COK,BLR
+6E702,Bengaluru,Bhubaneswar,IndiGo,A20N,D,BLR,BBI
+6E7028,Chennai,Tiruchirapalli,IndiGo,AT76,D,MAA,TRZ
+6E703,Bhubaneswar,Bengaluru,IndiGo,A20N,D,BBI,BLR
+6E703,Bengaluru,Cochin,IndiGo,A20N,D,BLR,COK
+6E7031,Jaipur,Ahmedabad,IndiGo,AT76,D,JAI,AMD
+6E7046,Vijayawada,Chennai,IndiGo,AT76,D,VGA,MAA
+6E7047,Hyderabad,Tirupati,IndiGo,AT76,D,HYD,TIR
+6E7048,Tirupati,Hyderabad,IndiGo,AT76,D,TIR,HYD
+6E7067,Hyderabad,Kozhikode,IndiGo,AT76,D,HYD,CCJ
+6E7068,Hubli,Pune,IndiGo,AT76,D,HBX,PNQ
+6E7069,Pune,Hubli,IndiGo,AT76,D,PNQ,HBX
+6E7071,Bengaluru,Vijayawada,IndiGo,AT76,D,BLR,VGA
+6E7072,Vijayawada,Bengaluru,IndiGo,AT76,D,VGA,BLR
+6E7074,Ahmedabad,Jodhpur,IndiGo,AT76,D,AMD,JDH
+6E7075,Jodhpur,Ahmedabad,IndiGo,AT76,D,JDH,AMD
+6E708,Lucknow,Mumbai,IndiGo,A20N,D,LKO,BOM
+6E7084,Chennai,Vijayawada,IndiGo,AT76,D,MAA,VGA
+6E7087,Kolkata,Jharsuguda,IndiGo,AT76,D,CCU,JRG
+6E7088,Jharsuguda,Kolkata,IndiGo,AT76,D,JRG,CCU
+6E7089,Kolkata,Agartala,IndiGo,AT76,D,CCU,IXA
+6E7091,Chennai,Kozhikode,IndiGo,AT76,D,MAA,CCJ
+6.00E+71,Delhi,Riyadh,IndiGo,A20N,I,DEL,RUH
+6E7101,Tiruchirapalli,Chennai,IndiGo,AT76,D,TRZ,MAA
+6E7103,Hyderabad,Mangalore,IndiGo,AT76,D,HYD,IXE
+6E7104,Hyderabad,Jagdalpur,IndiGo,AT76,D,HYD,JGB
+6E7105,Jagdalpur,Hyderabad,IndiGo,AT76,D,JGB,HYD
+6E7107,Bengaluru,Rajahmundry,IndiGo,AT76,D,BLR,RJA
+6E7113,Rajahmundry,Bengaluru,IndiGo,AT76,D,RJA,BLR
+6E7114,Ahmedabad,Jaipur,IndiGo,AT76,D,AMD,JAI
+6E7115,Ahmedabad,Nashik,IndiGo,AT76,D,AMD,ISK
+6E7116,Darbhanga,Kolkata,IndiGo,AT76,D,DBR,CCU
+6E7117,Bhubaneswar,Kolkata,IndiGo,AT76,D,BBI,CCU
+6E7118,Hyderabad,Rajahmundry,IndiGo,AT76,D,HYD,RJA
+6E7119,Rajahmundry,Hyderabad,IndiGo,AT76,D,RJA,HYD
+6E712,Goa,Hyderabad,IndiGo,A20N,D,GOI,HYD
+6E7121,Hyderabad,Bhopal,IndiGo,AT76,D,HYD,BHO
+6E7122,Bhopal,Hyderabad,IndiGo,AT76,D,BHO,HYD
+6E7123,Hyderabad,Rajahmundry,IndiGo,AT76,D,HYD,RJA
+6E7126,Hyderabad,Mysore,IndiGo,AT76,D,HYD,MYQ
+6E713,Kolkata,Patna,IndiGo,A20N,D,CCU,PAT
+6E7131,Ahmedabad,Jaipur,IndiGo,AT76,D,AMD,JAI
+6E7132,Kozhikode,Hyderabad,IndiGo,AT76,D,CCJ,HYD
+6E7133,Vijayawada,Bengaluru,IndiGo,AT76,D,VGA,BLR
+6E7134,Bengaluru,Vijayawada,IndiGo,AT76,D,BLR,VGA
+6E7135,Madurai,Chennai,IndiGo,AT76,D,IXM,MAA
+6E7136,Hyderabad,Nashik,IndiGo,AT76,D,HYD,ISK
+6E7137,Nashik,Hyderabad,IndiGo,AT76,D,ISK,HYD
+6E7138,Jaipur,Ahmedabad,IndiGo,AT76,D,JAI,AMD
+6E7139,Vijayawada,Chennai,IndiGo,AT76,D,VGA,MAA
+6E7141,Mysore,Hyderabad,IndiGo,AT76,D,MYQ,HYD
+6E7145,Ahmedabad,Jaipur,IndiGo,AT76,D,AMD,JAI
+6E7147,Aurangabad,Hyderabad,IndiGo,AT76,D,IXU,HYD
+6E715,Kolkata,Jaipur,IndiGo,A20N,D,CCU,JAI
+6E7151,Tiruchirapalli,Chennai,IndiGo,AT76,D,TRZ,MAA
+6E7152,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7153,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E7155,Imphal,Kolkata,IndiGo,AT76,D,IMF,CCU
+6E7156,Delhi,Pantnagar,IndiGo,AT76,D,DEL,PGH
+6E7157,Pantnagar,Delhi,IndiGo,AT76,D,PGH,DEL
+6E7159,Hyderabad,Aurangabad,IndiGo,AT76,D,HYD,IXU
+6E7162,Bengaluru,Hubli,IndiGo,AT76,D,BLR,HBX
+6E7164,Mangalore,Hyderabad,IndiGo,AT76,D,IXE,HYD
+6E7165,Bengaluru,Tiruchirapalli,IndiGo,AT76,D,BLR,TRZ
+6E7166,Tiruchirapalli,Bengaluru,IndiGo,AT76,D,TRZ,BLR
+6E7167,Chennai,Madurai,IndiGo,AT76,D,MAA,IXM
+6E7168,Indore,Ahmedabad,IndiGo,AT76,D,IDR,AMD
+6E7169,Nagpur,Ahmedabad,IndiGo,AT76,D,NAG,AMD
+6E7171,Bengaluru,Madurai,IndiGo,AT76,D,BLR,IXM
+6E7173,Ahmedabad,Indore,IndiGo,AT76,D,AMD,IDR
+6E7174,Kolkata,Gorakhpur,IndiGo,AT76,D,CCU,GOP
+6E7175,Indore,Ahmedabad,IndiGo,AT76,D,IDR,AMD
+6E7178,Kannur,Hyderabad,IndiGo,AT76,D,CNN,HYD
+6E7179,Chennai,Tuticorin,IndiGo,AT76,D,MAA,TCR
+6E718,Bhubaneswar,Hyderabad,IndiGo,A20N,D,BBI,HYD
+6E7181,Chennai,Kannur,IndiGo,AT76,D,MAA,CNN
+6E7182,Kannur,Chennai,IndiGo,AT76,D,CNN,MAA
+6E7183,Chennai,Madurai,IndiGo,AT76,D,MAA,IXM
+6E7185,Chennai,Madurai,IndiGo,AT76,D,MAA,IXM
+6E7186,Tuticorin,Chennai,IndiGo,AT76,D,TCR,MAA
+6E7187,Ahmedabad,Indore,IndiGo,AT76,D,AMD,IDR
+6E7188,Tuticorin,Chennai,IndiGo,AT76,D,TCR,MAA
+6E7191,Chennai,Tiruchirapalli,IndiGo,AT76,D,MAA,TRZ
+6E7193,Chennai,Tuticorin,IndiGo,AT76,D,MAA,TCR
+6E7194,Madurai,Chennai,IndiGo,AT76,D,IXM,MAA
+6E7196,Madurai,Chennai,IndiGo,AT76,D,IXM,MAA
+6E7197,Chennai,Kozhikode,IndiGo,AT76,D,MAA,CCJ
+6E7199,Chennai,Tiruchirapalli,IndiGo,AT76,D,MAA,TRZ
+6.00E+72,Riyadh,Delhi,IndiGo,A20N,I,RUH,DEL
+6E7201,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7203,Vijayawada,Bengaluru,IndiGo,AT76,D,VGA,BLR
+6E7204,Bengaluru,Vijayawada,IndiGo,AT76,D,BLR,VGA
+6E7206,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E7207,Bengaluru,Madurai,IndiGo,AT76,D,BLR,IXM
+6E7208,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7209,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E721,Pune,Amritsar,IndiGo,A20N,D,PNQ,ATQ
+6E7211,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7212,Mangalore,Chennai,IndiGo,AT76,D,IXE,MAA
+6E7213,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7214,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E7215,Kolkata,Raipur,IndiGo,AT76,D,CCU,RPR
+6E7216,Raipur,Kolkata,IndiGo,AT76,D,RPR,CCU
+6E7217,Jaipur,Ahmedabad,IndiGo,AT76,D,JAI,AMD
+6E7219,Nashik,Ahmedabad,IndiGo,AT76,D,ISK,AMD
+6E7223,Madurai,Bengaluru,IndiGo,AT76,D,IXM,BLR
+6E7224,Bengaluru,Vijayawada,IndiGo,AT76,D,BLR,VGA
+6E7225,Hyderabad,Kannur,IndiGo,AT76,D,HYD,CNN
+6E7226,Bengaluru,Belgaum,IndiGo,AT76,D,BLR,IXG
+6E7227,Bengaluru,Hubli,IndiGo,AT76,D,BLR,HBX
+6E7228,Hyderabad,Rajahmundry,IndiGo,AT76,D,HYD,RJA
+6E7229,Rajahmundry,Hyderabad,IndiGo,AT76,D,RJA,HYD
+6E723,Kolkata,Chennai,IndiGo,A21N,D,CCU,MAA
+6E7231,Bengaluru,Rajahmundry,IndiGo,AT76,D,BLR,RJA
+6E7232,Rajahmundry,Bengaluru,IndiGo,AT76,D,RJA,BLR
+6E7233,Hubli,Bengaluru,IndiGo,AT76,D,HBX,BLR
+6E7234,Kolkata,Darbhanga,IndiGo,AT76,D,CCU,DBR
+6E7235,Ranchi,Kolkata,IndiGo,AT76,D,IXR,CCU
+6E7236,Bengaluru,Tiruchirapalli,IndiGo,AT76,D,BLR,TRZ
+6E7237,Mysore,Chennai,IndiGo,AT76,D,MYQ,MAA
+6E7238,Chennai,Tiruchirapalli,IndiGo,AT76,D,MAA,TRZ
+6E7239,Belgaum,Bengaluru,IndiGo,AT76,D,IXG,BLR
+6E724,Goa,Chandigarh,IndiGo,A20N,D,GOI,IXC
+6E7241,Mangalore,Hyderabad,IndiGo,AT76,D,IXE,HYD
+6E7242,Tiruchirapalli,Chennai,IndiGo,AT76,D,TRZ,MAA
+6E7245,Tiruchirapalli,Bengaluru,IndiGo,AT76,D,TRZ,BLR
+6E7246,Nagpur,Ahmedabad,IndiGo,AT76,D,NAG,AMD
+6E7247,Ahmedabad,Nagpur,IndiGo,AT76,D,AMD,NAG
+6E7248,Hyderabad,Raipur,IndiGo,AT76,D,HYD,RPR
+6E7249,Raipur,Hyderabad,IndiGo,AT76,D,RPR,HYD
+6E7252,Hyderabad,Aurangabad,IndiGo,AT76,D,HYD,IXU
+6E7253,Madurai,Chennai,IndiGo,AT76,D,IXM,MAA
+6E7255,Kannur,Cochin,IndiGo,AT76,D,CNN,COK
+6E7255,Cochin,Thiruvananthapuram,IndiGo,AT76,D,COK,TRV
+6E7256,Thiruvananthapuram,Cochin,IndiGo,AT76,D,TRV,COK
+6E7256,Cochin,Kannur,IndiGo,AT76,D,COK,CNN
+6E7257,Madurai,Bengaluru,IndiGo,AT76,D,IXM,BLR
+6E7258,Bengaluru,Madurai,IndiGo,AT76,D,BLR,IXM
+6E7259,Aurangabad,Hyderabad,IndiGo,AT76,D,IXU,HYD
+6E7261,Ahmedabad,Jaipur,IndiGo,AT76,D,AMD,JAI
+6E7262,Chennai,Rajahmundry,IndiGo,AT76,D,MAA,RJA
+6E7264,Tuticorin,Chennai,IndiGo,AT76,D,TCR,MAA
+6E7268,Tiruchirapalli,Chennai,IndiGo,AT76,D,TRZ,MAA
+6E7269,Kadapa,Chennai,IndiGo,AT76,D,CDP,MAA
+6E7271,Bengaluru,Agatti,IndiGo,AT76,D,BLR,AGX
+6E7272,Agatti,Bengaluru,IndiGo,AT76,D,AGX,BLR
+6E7276,Jaipur,Ahmedabad,IndiGo,AT76,D,JAI,AMD
+6E728,Cochin,Bengaluru,IndiGo,A320,D,COK,BLR
+6E7282,Chennai,Kadapa,IndiGo,AT76,D,MAA,CDP
+6E7283,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7284,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E7285,Bengaluru,Belgaum,IndiGo,AT76,D,BLR,IXG
+6E7286,Belgaum,Bengaluru,IndiGo,AT76,D,IXG,BLR
+6E7287,Kozhikode,Chennai,IndiGo,AT76,D,CCJ,MAA
+6E7289,Rajahmundry,Hyderabad,IndiGo,AT76,D,RJA,HYD
+6E7292,Bhopal,Ahmedabad,IndiGo,AT76,D,BHO,AMD
+6E7295,Ahmedabad,Rajkot,IndiGo,AT76,D,AMD,HSR
+6E7296,Rajkot,Ahmedabad,IndiGo,AT76,D,HSR,AMD
+6E7297,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E7298,Chennai,Tiruchirapalli,IndiGo,AT76,D,MAA,TRZ
+6E7301,Chennai,Madurai,IndiGo,AT76,D,MAA,IXM
+6E7304,Kolkata,Shillong,IndiGo,AT76,D,CCU,SHL
+6E7306,Gorakhpur,Kolkata,IndiGo,AT76,D,GOP,CCU
+6E7307,Hyderabad,Jabalpur,IndiGo,AT76,D,HYD,JLR
+6E7308,Jabalpur,Hyderabad,IndiGo,AT76,D,JLR,HYD
+6E7309,Shillong,Kolkata,IndiGo,AT76,D,SHL,CCU
+6E731,Chennai,Coimbatore,IndiGo,A20N,D,MAA,CJB
+6E7311,Hyderabad,Rajahmundry,IndiGo,AT76,D,HYD,RJA
+6E7312,Rajahmundry,Hyderabad,IndiGo,AT76,D,RJA,HYD
+6E7324,Delhi,Pantnagar,IndiGo,AT76,D,DEL,PGH
+6E7325,Pantnagar,Delhi,IndiGo,AT76,D,PGH,DEL
+6E7334,Rajahmundry,Chennai,IndiGo,AT76,D,RJA,MAA
+6E7339,Chennai,Tuticorin,IndiGo,AT76,D,MAA,TCR
+6E7345,Mangalore,Chennai,IndiGo,AT76,D,IXE,MAA
+6E7346,Chennai,Mangalore,IndiGo,AT76,D,MAA,IXE
+6E7347,Tiruchirapalli,Chennai,IndiGo,AT76,D,TRZ,MAA
+6E7348,Chennai,Tiruchirapalli,IndiGo,AT76,D,MAA,TRZ
+6E735,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E7357,Madurai,Bengaluru,IndiGo,AT76,D,IXM,BLR
+6E7365,Tiruchirapalli,Chennai,IndiGo,AT76,D,TRZ,MAA
+6E7378,Hubli,Bengaluru,IndiGo,AT76,D,HBX,BLR
+6E7385,Bengaluru,Madurai,IndiGo,AT76,D,BLR,IXM
+6E7387,Tirupati,Hyderabad,IndiGo,AT76,D,TIR,HYD
+6E7389,Madurai,Bengaluru,IndiGo,AT76,D,IXM,BLR
+6E7391,Hyderabad,Vijayawada,IndiGo,AT76,D,HYD,VGA
+6E7392,Vijayawada,Hyderabad,IndiGo,AT76,D,VGA,HYD
+6E7411,Chennai,Vijayawada,IndiGo,AT76,D,MAA,VGA
+6E7416,Hubli,Hyderabad,IndiGo,AT76,D,HBX,HYD
+6E7417,Hyderabad,Hubli,IndiGo,AT76,D,HYD,HBX
+6E742,Cochin,Hyderabad,IndiGo,A20N,D,COK,HYD
+6E7423,Vijayawada,Bengaluru,IndiGo,AT76,D,VGA,BLR
+6E743,Hyderabad,Goa,IndiGo,A21N,D,HYD,GOI
+6E744,Goa,Hyderabad,IndiGo,A21N,D,GOI,HYD
+6E7445,Bengaluru,Kolhapur,IndiGo,AT76,D,BLR,KLH
+6E7446,Kannur,Bengaluru,IndiGo,AT76,D,CNN,BLR
+6E7447,Bengaluru,Kannur,IndiGo,AT76,D,BLR,CNN
+6E7448,Kolhapur,Bengaluru,IndiGo,AT76,D,KLH,BLR
+6E7452,Hyderabad,Nagpur,IndiGo,AT76,D,HYD,NAG
+6E7455,Aurangabad,Ahmedabad,IndiGo,AT76,D,IXU,AMD
+6E7456,Ahmedabad,Aurangabad,IndiGo,AT76,D,AMD,IXU
+6E746,Guwahati,Pune,IndiGo,A20N,D,GAU,PNQ
+6E747,Bengaluru,Indore,IndiGo,A20N,D,BLR,IDR
+6E7477,Hyderabad,Rajahmundry,IndiGo,AT76,D,HYD,RJA
+6E7483,Delhi,Dharamsala,IndiGo,AT76,D,DEL,DHM
+6E7484,Dharamsala,Delhi,IndiGo,AT76,D,DHM,DEL
+6E7485,Delhi,Dharamsala,IndiGo,AT76,D,DEL,DHM
+6E7486,Dharamsala,Delhi,IndiGo,AT76,D,DHM,DEL
+6E7488,Tuticorin,Bengaluru,IndiGo,AT76,D,TCR,BLR
+6E7496,Bengaluru,Tuticorin,IndiGo,AT76,D,BLR,TCR
+6.00E+75,Ahmedabad,Jeddah,IndiGo,A21N,I,AMD,JED
+6E7502,Ahmedabad,Nagpur,IndiGo,AT76,D,AMD,NAG
+6E751,Ahmedabad,Kolkata,IndiGo,A20N,D,AMD,CCU
+6E751,Kolkata,Siliguri,IndiGo,A20N,D,CCU,IXB
+6E7511,Belgaum,Hyderabad,IndiGo,AT76,D,IXG,HYD
+6E7512,Hyderabad,Belgaum,IndiGo,AT76,D,HYD,IXG
+6E7515,Chennai,Madurai,IndiGo,AT76,D,MAA,IXM
+6E752,Jaipur,Hyderabad,IndiGo,A21N,D,JAI,HYD
+6E752,Hyderabad,Coimbatore,IndiGo,A21N,D,HYD,CJB
+6E7532,Hyderabad,Tirupati,IndiGo,AT76,D,HYD,TIR
+6E7545,Hyderabad,Rajahmundry,IndiGo,AT76,D,HYD,RJA
+6E7547,Rajahmundry,Hyderabad,IndiGo,AT76,D,RJA,HYD
+6E7548,Nagpur,Hyderabad,IndiGo,AT76,D,NAG,HYD
+6E7548,Hyderabad,Tirupati,IndiGo,AT76,D,HYD,TIR
+6E7549,Hyderabad,Mangalore,IndiGo,AT76,D,HYD,IXE
+6E756,Indore,Chennai,IndiGo,A21N,D,IDR,MAA
+6E7561,Kolkata,Ranchi,IndiGo,AT76,D,CCU,IXR
+6E7562,Ranchi,Kolkata,IndiGo,AT76,D,IXR,CCU
+6E7563,Tirupati,Hyderabad,IndiGo,AT76,D,TIR,HYD
+6E7563,Hyderabad,Kolhapur,IndiGo,AT76,D,HYD,KLH
+6E7564,Kolhapur,Hyderabad,IndiGo,AT76,D,KLH,HYD
+6E7564,Hyderabad,Tirupati,IndiGo,AT76,D,HYD,TIR
+6E7567,Rajahmundry,Hyderabad,IndiGo,AT76,D,RJA,HYD
+6E7568,Ahmedabad,Bhopal,IndiGo,AT76,D,AMD,BHO
+6E757,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E7581,Bhopal,Ahmedabad,IndiGo,AT76,D,BHO,AMD
+6E7582,Ahmedabad,Bhopal,IndiGo,AT76,D,AMD,BHO
+6E7583,Kolkata,Bhubaneswar,IndiGo,AT76,D,CCU,BBI
+6E7584,Bhubaneswar,Kolkata,IndiGo,AT76,D,BBI,CCU
+6E7586,Bengaluru,Madurai,IndiGo,AT76,D,BLR,IXM
+6E7587,Madurai,Bengaluru,IndiGo,AT76,D,IXM,BLR
+6E7592,Chennai,Madurai,IndiGo,AT76,D,MAA,IXM
+6E7593,Madurai,Chennai,IndiGo,AT76,D,IXM,MAA
+6.00E+76,Jeddah,Ahmedabad,IndiGo,A21N,I,JED,AMD
+6E7603,Chennai,Mysore,IndiGo,AT76,D,MAA,MYQ
+6E7605,Chennai,Tuticorin,IndiGo,AT76,D,MAA,TCR
+6E7606,Tuticorin,Chennai,IndiGo,AT76,D,TCR,MAA
+6E7617,Bengaluru,Tiruchirapalli,IndiGo,AT76,D,BLR,TRZ
+6E7618,Tiruchirapalli,Bengaluru,IndiGo,AT76,D,TRZ,BLR
+6E762,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E7623,Kolkata,Bhubaneswar,IndiGo,AT76,D,CCU,BBI
+6E764,Coimbatore,Hyderabad,IndiGo,A20N,D,CJB,HYD
+6E7674,Kolkata,Ranchi,IndiGo,AT76,D,CCU,IXR
+6E7678,Chennai,Salem,IndiGo,AT76,D,MAA,SXV
+6E7679,Salem,Chennai,IndiGo,AT76,D,SXV,MAA
+6E7684,Madurai,Chennai,IndiGo,AT76,D,IXM,MAA
+6E7694,Tirupati,Hyderabad,IndiGo,AT76,D,TIR,HYD
+6E7694,Hyderabad,Nagpur,IndiGo,AT76,D,HYD,NAG
+6E7695,Nagpur,Hyderabad,IndiGo,AT76,D,NAG,HYD
+6E7696,Hyderabad,Gondia,IndiGo,AT76,D,HYD,GDB
+6E7697,Gondia,Hyderabad,IndiGo,AT76,D,GDB,HYD
+6E7701,Bengaluru,Vijayawada,IndiGo,AT76,D,BLR,VGA
+6E7704,Vijayawada,Bengaluru,IndiGo,AT76,D,VGA,BLR
+6E771,Kolkata,Bengaluru,IndiGo,A21N,D,CCU,BLR
+6E7711,Bengaluru,Tiruchirapalli,IndiGo,AT76,D,BLR,TRZ
+6E7712,Tiruchirapalli,Bengaluru,IndiGo,AT76,D,TRZ,BLR
+6E7713,Kolkata,Imphal,IndiGo,AT76,D,CCU,IMF
+6E7725,Ahmedabad,Indore,IndiGo,AT76,D,AMD,IDR
+6E7726,Indore,Ahmedabad,IndiGo,AT76,D,IDR,AMD
+6E7727,Chennai,Mangalore,IndiGo,AT76,D,MAA,IXE
+6E7728,Bengaluru,Kannur,IndiGo,AT76,D,BLR,CNN
+6E7729,Kannur,Bengaluru,IndiGo,AT76,D,CNN,BLR
+6E7731,Bengaluru,Shivamogga,IndiGo,AT76,D,BLR,RQY
+6E7732,Shivamogga,Bengaluru,IndiGo,AT76,D,RQY,BLR
+6E7735,Bengaluru,Tuticorin,IndiGo,AT76,D,BLR,TCR
+6E7736,Tuticorin,Bengaluru,IndiGo,AT76,D,TCR,BLR
+6E7737,Bengaluru,Tirupati,IndiGo,AT76,D,BLR,TIR
+6E7738,Tirupati,Bengaluru,IndiGo,AT76,D,TIR,BLR
+6E781,Delhi,Bengaluru,IndiGo,A21N,D,DEL,BLR
+6E782,Chennai,Coimbatore,IndiGo,A20N,D,MAA,CJB
+6E783,Visakhapatnam,Hyderabad,IndiGo,A20N,D,VTZ,HYD
+6E784,Jaipur,Kolkata,IndiGo,A20N,D,JAI,CCU
+6E7917,Bengaluru,Salem,IndiGo,AT76,D,BLR,SXV
+6E7918,Salem,Bengaluru,IndiGo,AT76,D,SXV,BLR
+6E7919,Hyderabad,Salem,IndiGo,AT76,D,HYD,SXV
+6E7923,Salem,Hyderabad,IndiGo,AT76,D,SXV,HYD
+6E7939,Kolkata,Deoghar,IndiGo,AT76,D,CCU,DGH
+6E794,Ahmedabad,Pune,IndiGo,A20N,D,AMD,PNQ
+6E7946,Deoghar,Kolkata,IndiGo,AT76,D,DGH,CCU
+6E796,Chennai,Bengaluru,IndiGo,A20N,D,MAA,BLR
+6E7966,Ahmedabad,Diu,IndiGo,AT76,D,AMD,DIU
+6E7969,Diu,Ahmedabad,IndiGo,AT76,D,DIU,AMD
+6E798,Kolkata,Indore,IndiGo,A20N,D,CCU,IDR
+6E801,Raipur,Kolkata,IndiGo,A20N,D,RPR,CCU
+6E802,Mumbai,Port Blair,IndiGo,A20N,D,BOM,IXZ
+6E803,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E8045,Kolkata,Hong Kong,IndiGo CarGo,A321,I,CCU,HKG
+6E8046,Hong Kong,Kolkata,IndiGo CarGo,A321,I,HKG,CCU
+6E8046,Kolkata,Mumbai,IndiGo CarGo,A321,D,CCU,BOM
+6E805,Patna,Bengaluru,IndiGo,A20N,D,PAT,BLR
+6E807,Bengaluru,Vadodara,IndiGo,A320,D,BLR,BDQ
+6E808,Vadodara,Bengaluru,IndiGo,A320,D,BDQ,BLR
+6E809,Goa,Mumbai,IndiGo,A20N,D,GOX,BOM
+6.00E+81,Mumbai,Dammam,IndiGo,A21N,I,BOM,DMM
+6E812,Nagpur,Kolkata,IndiGo,A20N,D,NAG,CCU
+6E813,Goa,Indore,IndiGo,A320,D,GOI,IDR
+6E814,Jodhpur,Hyderabad,IndiGo,A21N,D,JDH,HYD
+6E815,Hyderabad,Jaipur,IndiGo,A20N,D,HYD,JAI
+6E816,Jaipur,Hyderabad,IndiGo,A20N,D,JAI,HYD
+6E819,Pune,Ahmedabad,IndiGo,A20N,D,PNQ,AMD
+6.00E+82,Dammam,Mumbai,IndiGo,A21N,I,DMM,BOM
+6E821,Amritsar,Mumbai,IndiGo,A20N,D,ATQ,BOM
+6E822,Kolkata,Varanasi,IndiGo,A20N,D,CCU,VNS
+6E823,Ahmedabad,Bengaluru,IndiGo,A320,D,AMD,BLR
+6E824,Mumbai,Kanpur,IndiGo,A20N,D,BOM,KNU
+6E825,Mumbai,Patna,IndiGo,A20N,D,BOM,PAT
+6E827,Kanpur,Mumbai,IndiGo,A20N,D,KNU,BOM
+6.00E+83,Delhi,Dammam,IndiGo,A20N,I,DEL,DMM
+6E831,Mumbai,Ranchi,IndiGo,A20N,D,BOM,IXR
+6E832,Mangalore,Mumbai,IndiGo,A20N,D,IXE,BOM
+6E833,Kolkata,Chennai,IndiGo,A21N,D,CCU,MAA
+6E834,Chennai,Hyderabad,IndiGo,A21N,D,MAA,HYD
+6E835,Nagpur,Pune,IndiGo,A20N,D,NAG,PNQ
+6E838,Bengaluru,Jaipur,IndiGo,A320,D,BLR,JAI
+6E839,Jaipur,Bengaluru,IndiGo,A21N,D,JAI,BLR
+6.00E+84,Dammam,Delhi,IndiGo,A20N,I,DMM,DEL
+6E841,Mumbai,Mangalore,IndiGo,A20N,D,BOM,IXE
+6E8411,Chennai,Male,IndiGo CarGo,A321,I,MAA,MLE
+6E8412,Male,Mumbai,IndiGo CarGo,A321,I,MLE,BOM
+6E842,Goa,Mumbai,IndiGo,A21N,D,GOI,BOM
+6E843,Mumbai,Guwahati,IndiGo,A20N,D,BOM,GAU
+6E845,Visakhapatnam,Chennai,IndiGo,A20N,D,VTZ,MAA
+6E845,Chennai,Port Blair,IndiGo,A20N,D,MAA,IXZ
+6E846,Ahmedabad,Mumbai,IndiGo,A320,D,AMD,BOM
+6E847,Chennai,Bengaluru,IndiGo,A20N,D,MAA,BLR
+6E848,Coimbatore,Chennai,IndiGo,A320,D,CJB,MAA
+6E848,Chennai,Ahmedabad,IndiGo,A320,D,MAA,AMD
+6E849,Mumbai,Varanasi,IndiGo,A320,D,BOM,VNS
+6.00E+85,Hyderabad,Dammam,IndiGo,A20N,I,HYD,DMM
+6E851,Bengaluru,Chandigarh,IndiGo,A20N,D,BLR,IXC
+6E852,Bengaluru,Dehradun,IndiGo,A20N,D,BLR,DED
+6E854,Udaipur,Mumbai,IndiGo,A20N,D,UDR,BOM
+6E855,Bengaluru,Hyderabad,IndiGo,A20N,D,BLR,HYD
+6E856,Kolkata,Lucknow,IndiGo,A20N,D,CCU,LKO
+6E857,Bengaluru,Coimbatore,IndiGo,A20N,D,BLR,CJB
+6.00E+86,Dammam,Hyderabad,IndiGo,A20N,I,DMM,HYD
+6E862,Kolkata,Nagpur,IndiGo,A20N,D,CCU,NAG
+6E863,Ahmedabad,Bengaluru,IndiGo,A21N,D,AMD,BLR
+6E864,Delhi,Mumbai,IndiGo,A21N,D,DEL,BOM
+6E867,Chandigarh,Hyderabad,IndiGo,A21N,D,IXC,HYD
+6E869,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E871,Bengaluru,Delhi,IndiGo,A21N,D,BLR,DEL
+6E873,Bengaluru,Thiruvananthapuram,IndiGo,A20N,D,BLR,TRV
+6E874,Kolkata,Chandigarh,IndiGo,A20N,D,CCU,IXC
+6E8761,Mumbai,Sharjah,IndiGo CarGo,A321,I,BOM,SHJ
+6E879,Ahmedabad,Hyderabad,IndiGo,A20N,D,AMD,HYD
+6E879,Hyderabad,Visakhapatnam,IndiGo,A20N,D,HYD,VTZ
+6E881,Visakhapatnam,Chennai,IndiGo,A320,D,VTZ,MAA
+6E881,Chennai,Coimbatore,IndiGo,A320,D,MAA,CJB
+6E882,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E883,Visakhapatnam,Hyderabad,IndiGo,A20N,D,VTZ,HYD
+6E885,Raipur,Goa,IndiGo,A320,D,RPR,GOI
+6E885,Goa,Cochin,IndiGo,A320,D,GOI,COK
+6E886,Bengaluru,Hyderabad,IndiGo,A21N,D,BLR,HYD
+6E886,Hyderabad,Gorakhpur,IndiGo,A21N,D,HYD,GOP
+6E887,Hyderabad,Bengaluru,IndiGo,A20N,D,HYD,BLR
+6E893,Kolkata,Dibrugarh,IndiGo,A20N,D,CCU,DIB
+6E895,Kolkata,Patna,IndiGo,A20N,D,CCU,PAT
+6E8961,Kolkata,Hanoi,IndiGo CarGo,A321,I,CCU,HAN
+6E897,Bengaluru,Varanasi,IndiGo,A20N,D,BLR,VNS
+6E901,Goa,Bengaluru,IndiGo,A21N,D,GOI,BLR
+6E903,Bengaluru,Lucknow,IndiGo,A20N,D,BLR,LKO
+6E904,Bengaluru,Chennai,IndiGo,A21N,D,BLR,MAA
+6E905,Hyderabad,Goa,IndiGo,A20N,D,HYD,GOI
+6E9051,Delhi,Jaipur,IndiGo,A20N,D,DEL,JAI
+6E9052,Jaipur,Delhi,IndiGo,A20N,D,JAI,DEL
+6E9052,Delhi,Chandigarh,IndiGo,A20N,D,DEL,IXC
+6E906,Lucknow,Bengaluru,IndiGo,A21N,D,LKO,BLR
+6E909,Nagpur,Bengaluru,IndiGo,A21N,D,NAG,BLR
+6.00E+91,Mumbai,Jeddah,IndiGo,A21N,I,BOM,JED
+6E911,Mumbai,Ahmedabad,IndiGo,A20N,D,BOM,AMD
+6E912,Ahmedabad,Mumbai,IndiGo,A20N,D,AMD,BOM
+6E913,Coimbatore,Hyderabad,IndiGo,A21N,D,CJB,HYD
+6E913,Hyderabad,Jaipur,IndiGo,A21N,D,HYD,JAI
+6E915,Hyderabad,Varanasi,IndiGo,A20N,D,HYD,VNS
+6E917,Chennai,Visakhapatnam,IndiGo,A20N,D,MAA,VTZ
+6E918,Hyderabad,Durgapur,IndiGo,A320,D,HYD,RDP
+6E919,Durgapur,Hyderabad,IndiGo,A320,D,RDP,HYD
+6E9201,Kolkata,Agartala,IndiGo,A20N,D,CCU,IXA
+6E9202,Kolkata,Imphal,IndiGo,A320,D,CCU,IMF
+6E9203,Agartala,Kolkata,IndiGo,A20N,D,IXA,CCU
+6E9204,Imphal,Kolkata,IndiGo,A320,D,IMF,CCU
+6E921,Ahmedabad,Patna,IndiGo,A20N,D,AMD,PAT
+6E922,Hyderabad,Bhubaneswar,IndiGo,A20N,D,HYD,BBI
+6E923,Chennai,Kolkata,IndiGo,A21N,D,MAA,CCU
+6E927,Guwahati,Chennai,IndiGo,A20N,D,GAU,MAA
+6E927,Chennai,Coimbatore,IndiGo,A20N,D,MAA,CJB
+6E928,Hyderabad,Surat,IndiGo,A20N,D,HYD,STV
+6E929,Surat,Hyderabad,IndiGo,A20N,D,STV,HYD
+6E935,Ahmedabad,Lucknow,IndiGo,A20N,D,AMD,LKO
+6E944,Hyderabad,Kolkata,IndiGo,A21N,D,HYD,CCU
+6E945,Goa,Hyderabad,IndiGo,A320,D,GOX,HYD
+6E946,Hyderabad,Goa,IndiGo,A20N,D,HYD,GOX
+6E947,Goa,Kolkata,IndiGo,A20N,D,GOX,CCU
+6E948,Kolkata,Goa,IndiGo,A320,D,CCU,GOX
+6E949,Hyderabad,Bengaluru,IndiGo,A21N,D,HYD,BLR
+6E952,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E958,Kolkata,Bengaluru,SmartLynx,A320,D,CCU,BLR
+6E959,Bengaluru,Indore,IndiGo,A20N,D,BLR,IDR
+6E961,Kolkata,Ahmedabad,IndiGo,A21N,D,CCU,AMD
+6E962,Indore,Delhi,SmartLynx,A320,D,IDR,DEL
+6E966,Ahmedabad,Kolkata,IndiGo,A21N,D,AMD,CCU
+6E968,Cochin,Bengaluru,IndiGo,A20N,D,COK,BLR
+6E968,Bengaluru,Varanasi,IndiGo,A20N,D,BLR,VNS
+6E969,Bengaluru,Visakhapatnam,IndiGo,A21N,D,BLR,VTZ
+6E971,Chandigarh,Chennai,IndiGo,A20N,D,IXC,MAA
+6E972,Hyderabad,Guwahati,IndiGo,A21N,D,HYD,GAU
+6E973,Chennai,Goa,IndiGo,A20N,D,MAA,GOX
+6E975,Bengaluru,Kolkata,IndiGo,A21N,D,BLR,CCU
+6E977,Bengaluru,Goa,IndiGo,A21N,D,BLR,GOI
+6E978,Bengaluru,Raipur,IndiGo,A320,D,BLR,RPR
+6E979,Raipur,Bengaluru,IndiGo,A320,D,RPR,BLR
+6E984,Hyderabad,Goa,IndiGo,A320,D,HYD,GOI
+6E985,Goa,Hyderabad,IndiGo,A320,D,GOI,HYD
+6E986,Chennai,Kolkata,IndiGo,A21N,D,MAA,CCU
+6E987,Chennai,Kolkata,IndiGo,A21N,D,MAA,CCU
+6E992,Ahmedabad,Goa,IndiGo,A20N,D,AMD,GOI
+6E993,Mumbai,Delhi,IndiGo,A21N,D,BOM,DEL
+6E994,Kolkata,Agartala,IndiGo,A20N,D,CCU,IXA
+6E996,Ahmedabad,Bengaluru,IndiGo,A320,D,AMD,BLR
+6E997,Hyderabad,Ahmedabad,IndiGo,A21N,D,HYD,AMD
+6E998,Ahmedabad,Hyderabad,IndiGo,A21N,D,AMD,HYD
+8D831,Colombo,Chennai,FitsAir,320,I,CMB,MAA
+8D832,Chennai,Colombo,FitsAir,320,I,MAA,CMB
+8D833,Colombo,Chennai,FitsAir,A320,I,CMB,MAA
+8D834,Chennai,Colombo,FitsAir,A320,I,MAA,CMB
+8M620,Yangon,Delhi,Myanmar Airways International,A319,I,RGN,DEL
+8M621,Delhi,Yangon,Myanmar Airways International,A319,I,DEL,RGN
+9I101,Chennai,Jaffna,Alliance Air,AT76,I,MAA,JAF
+9I102,Jaffna,Chennai,Alliance Air,AT76,I,JAF,MAA
+9I501,Bengaluru,Vijayawada,Alliance Air,AT76,D,BLR,VGA
+9I502,Vijayawada,Bengaluru,Alliance Air,AT76,D,VGA,BLR
+9I505,Bengaluru,Cochin,Alliance Air,AT76,D,BLR,COK
+9I505,Cochin,Agatti,Alliance Air,AT76,D,COK,AGX
+9I506,Agatti,Cochin,Alliance Air,AT76,D,AGX,COK
+9I506,Cochin,Bengaluru,Alliance Air,AT76,D,COK,BLR
+9I509,Bengaluru,Gulbarga,Alliance Air,AT7,D,BLR,GBI
+9I513,Bengaluru,Salem,Alliance Air,AT7,D,BLR,SXV
+9I514,Salem,Cochin,Alliance Air,AT7,D,SXV,COK
+9I515,Cochin,Salem,Alliance Air,AT7,D,COK,SXV
+9I516,Salem,Bengaluru,Alliance Air,AT7,D,SXV,BLR
+9I517,Bengaluru,Hyderabad,Alliance Air,AT76,D,BLR,HYD
+9I518,Hyderabad,Bengaluru,Alliance Air,AT76,D,HYD,BLR
+9I521,Bengaluru,Cochin,Alliance Air,AT76,D,BLR,COK
+9I522,Cochin,Bengaluru,Alliance Air,AT76,D,COK,BLR
+9I527,Bengaluru,Vidyanagar,Alliance Air,AT76,D,BLR,VDY
+9I528,Vidyanagar,Bengaluru,Alliance Air,AT76,D,VDY,BLR
+9I547,Bengaluru,Goa,Alliance Air,AT76,D,BLR,GOI
+9I548,Goa,Bengaluru,Alliance Air,AT76,D,GOI,BLR
+9I601,Ahmedabad,Porbandar,Alliance Air,AT7,D,AMD,PBD
+9I602,Porbandar,Ahmedabad,Alliance Air,AT7,D,PBD,AMD
+9I603,Ahmedabad,Keshod,Alliance Air,AT7,D,AMD,IXK
+9I604,Allahabad,Ahmedabad,Alliance Air,AT7,D,IXD,AMD
+9I623,Mumbai,Diu,Alliance Air,AT76,D,BOM,DIU
+9I624,Diu,Mumbai,Alliance Air,AT76,D,DIU,BOM
+9I625,Mumbai,Bhuj,Alliance Air,AT76,D,BOM,BHJ
+9I626,Bhuj,Mumbai,Alliance Air,AT76,D,BHJ,BOM
+9I627,Delhi,Indore,Alliance Air,AT76,D,DEL,IDR
+9I628,Indore,Delhi,Alliance Air,AT76,D,IDR,DEL
+9I637,Delhi,Bathinda,Alliance Air,AT46,D,DEL,BUP
+9I638,Bathinda,Delhi,Alliance Air,AT46,D,BUP,DEL
+9I643,Delhi,Jaipur,Alliance Air,AT7,D,DEL,JAI
+9I644,Jaipur,Delhi,Alliance Air,AT7,D,JAI,DEL
+9I653,Delhi,Dehradun,Alliance Air,AT7,D,DEL,DED
+9I654,Dehradun,Delhi,Alliance Air,AT7,D,DED,DEL
+9I657,Mumbai,Goa,Alliance Air,AT76,D,BOM,GOI
+9I658,Goa,Mumbai,Alliance Air,AT76,D,GOI,BOM
+9I671,Delhi,Dehradun,Alliance Air,AT76,D,DEL,DED
+9I672,Dehradun,Delhi,Alliance Air,AT76,D,DED,DEL
+9I675,Mumbai,Keshod,Alliance Air,AT76,D,BOM,IXK
+9I676,Keshod,Mumbai,Alliance Air,AT76,D,IXK,BOM
+9I677,Allahabad,Mumbai,Alliance Air,AT7,D,IXD,BOM
+9I678,Mumbai,Keshod,Alliance Air,AT7,D,BOM,IXK
+9I691,Delhi,Jabalpur,Alliance Air,AT7,D,DEL,JLR
+9I692,Jabalpur,Delhi,Alliance Air,AT7,D,JLR,DEL
+9I695,Udaipur,Ahmedabad,Alliance Air,AT76,D,UDR,AMD
+9I696,Ahmedabad,Udaipur,Alliance Air,AT76,D,AMD,UDR
+9I711,Delhi,Dharamsala,Alliance Air,AT46,D,DEL,DHM
+9I712,Dharamsala,Delhi,Alliance Air,AT46,D,DHM,DEL
+9I731,Kolkata,Silchar,Alliance Air,AT76,D,CCU,IXS
+9I732,Silchar,Kolkata,Alliance Air,AT76,D,IXS,CCU
+9I745,Kolkata,Bhubaneswar,Alliance Air,AT76,D,CCU,BBI
+9I748,Bhubaneswar,Kolkata,Alliance Air,AT76,D,BBI,CCU
+9I751,Kolkata,Lilabari,Alliance Air,AT76,D,CCU,IXI
+9I752,Lilabari,Kolkata,Alliance Air,AT76,D,IXI,CCU
+9I757,Kolkata,Guwahati,Alliance Air,AT76,D,CCU,GAU
+9I758,Guwahati,Kolkata,Alliance Air,AT76,D,GAU,CCU
+9I762,Bhubaneswar,Kolkata,Alliance Air,AT7,D,BBI,CCU
+9I770,Kolkata,Guwahati,Alliance Air,AT76,D,CCU,GAU
+9I771,Guwahati,Kolkata,Alliance Air,AT76,D,GAU,CCU
+9I795,Udaipur,Ahmedabad,Alliance Air,AT7,D,UDR,AMD
+9I796,Ahmedabad,Udaipur,Alliance Air,AT7,D,AMD,UDR
+9I803,Delhi,Kullu,Alliance Air,AT76,D,DEL,KUU
+9I804,Kullu,Delhi,Alliance Air,AT76,D,KUU,DEL
+9I809,Delhi,Gorakhpur,Alliance Air,AT76,D,DEL,GOP
+9I810,Gorakhpur,Delhi,Alliance Air,AT76,D,GOP,DEL
+9I821,Delhi,Shimla,Alliance Air,AT46,D,DEL,SLV
+9I822,Shimla,Delhi,Alliance Air,AT46,D,SLV,DEL
+9I831,Delhi,Chandigarh,Alliance Air,AT7,D,DEL,IXC
+9I832,Chandigarh,Delhi,Alliance Air,AT7,D,IXC,DEL
+9I833,Delhi,Bikaner,Alliance Air,ATR,D,DEL,BKB
+9I834,Bikaner,Delhi,Alliance Air,ATR,D,BKB,DEL
+9I869,Hyderabad,Vidyanagar,Alliance Air,AT76,D,HYD,VDY
+9I870,Vidyanagar,Hyderabad,Alliance Air,AT76,D,VDY,HYD
+9I871,Hyderabad,Chennai,Alliance Air,AT76,D,HYD,MAA
+9I872,Chennai,Hyderabad,Alliance Air,AT76,D,MAA,HYD
+9I877,Hyderabad,Tirupati,Alliance Air,AT76,D,HYD,TIR
+9I878,Tirupati,Hyderabad,Alliance Air,AT76,D,TIR,HYD
+9I879,Hyderabad,Goa,Alliance Air,AT76,D,HYD,GOI
+9I880,Goa,Hyderabad,Alliance Air,AT76,D,GOI,HYD
+9I883,Hyderabad,Jagdalpur,Alliance Air,AT7,D,HYD,JGB
+9I885,Hyderabad,Jagdalpur,Alliance Air,AT7,D,HYD,JGB
+9I886,Jagdalpur,Hyderabad,Alliance Air,AT7,D,JGB,HYD
+9I893,Hyderabad,Chennai,Alliance Air,AT76,D,HYD,MAA
+9I894,Chennai,Hyderabad,Alliance Air,AT76,D,MAA,HYD
+AA292,New York,Delhi,American Airlines,B77W,I,JFK,DEL
+AA293,Delhi,New York,American Airlines,B77W,I,DEL,JFK
+AC42,Toronto,Delhi,Air Canada,B77L,I,YYZ,DEL
+AC43,Delhi,Toronto,Air Canada,B77L,I,DEL,YYZ
+AC50,Montreal,Delhi,Air Canada,B789,I,YUL,DEL
+AC51,Delhi,Montreal,Air Canada,B789,I,DEL,YUL
+AF191,Bengaluru,Paris,Air France,A332,I,BLR,CDG
+AF194,Paris,Bengaluru,Air France,A332,I,CDG,BLR
+AF217,Mumbai,Paris,Air France,B772,I,BOM,CDG
+AF218,Paris,Mumbai,Air France,A332,I,CDG,BOM
+AF225,Delhi,Paris,Air France,A359,I,DEL,CDG
+AF226,Paris,Delhi,Air France,A359,I,CDG,DEL
+AI101,Delhi,New York,Air India,B77W,I,DEL,JFK
+AI102,New York,Delhi,Air India,B77W,I,JFK,DEL
+AI103,Delhi,Washington,Air India,B788,I,DEL,IAD
+AI106,New York,Delhi,Air India,B77W,I,EWR,DEL
+AI111,Delhi,London,Air India,B77W,I,DEL,LHR
+AI112,London,Delhi,Air India,B77W,I,LHR,DEL
+AI113,Delhi,Birmingham,Air India,B788,I,DEL,BHX
+AI114,Birmingham,Delhi,Air India ,B788,I,BHX,DEL
+AI116,New York,Mumbai,Air India,B77L,I,JFK,BOM
+AI1180,San Francisco,Mumbai,Air India,77L,I,SFO,BOM
+AI119,Mumbai,New York,Air India,B77W,I,BOM,JFK
+AI120,Frankfurt,Delhi,Air India,B788,I,FRA,DEL
+AI121,Delhi,Frankfurt,Air India,B788,I,DEL,FRA
+AI126,Chicago,Delhi,Air India,B77W,I,ORD,DEL
+AI127,Delhi,Chicago,Air India,B77W,I,DEL,ORD
+AI128,London,Mumbai,Air India,B788,I,LHR,BOM
+AI129,Mumbai,London,Air India,B788,I,BOM,LHR
+AI130,London,Mumbai,Air India,B77W,I,LHR,BOM
+AI131,Mumbai,London,Air India,B77W,I,BOM,LHR
+AI137,Delhi,Milan,Air India ,B788,I,DEL,MXP
+AI140,Tel Aviv,Delhi,Air India,788,I,TLV,DEL
+AI142,Paris,Delhi,Air India ,B788,I,CDG,DEL
+AI143,Delhi,Paris,Air India ,B788,I,DEL,CDG
+AI154,Vienna,Delhi,Air India,B788,I,VIE,DEL
+AI156,Amsterdam,Delhi,Air India,B788,I,AMS,DEL
+AI157,Delhi,Copenhagen,Air India,B788,I,DEL,CPH
+AI161,Delhi,London,Air India,B788,I,DEL,LHR
+AI162,London,Delhi,Air India,B788,I,LHR,DEL
+AI1649,Mumbai,Amritsar,Air India,A319,D,BOM,ATQ
+AI1650,Amritsar,Mumbai,Air India,A319,D,ATQ,BOM
+AI166,London,Delhi,Air India,B788,I,LHR,DEL
+AI1661,Mumbai,Goa,Air India,A320,D,BOM,GOX
+AI1662,Goa,Mumbai,Air India,A320,D,GOX,BOM
+AI1679,Mumbai,Mangalore,Air India,A20N,D,BOM,IXE
+AI1680,Mangalore,Mumbai,Air India,A20N,D,IXE,BOM
+AI172,London,Ahmedabad,Air India,B788,I,LGW,AMD
+AI173,Delhi,San Francisco,Air India,B77L,I,DEL,SFO
+AI174,San Francisco,Delhi,Air India,B77L,I,SFO,DEL
+AI179,Mumbai,San Francisco,Air India,B77L,I,BOM,SFO
+AI180,San Francisco,Mumbai,Air India,B77L,I,SFO,BOM
+AI183,Delhi,San Francisco,Air India ,B77L,I,DEL,SFO
+AI185,Delhi,Vancouver,Air India,B77W,I,DEL,YVR
+AI1851,Delhi,Pune,Air India,A21N,D,DEL,PNQ
+AI1852,Pune,Delhi,Air India,A21N,D,PNQ,DEL
+AI186,Vancouver,Delhi,Air India,B77W,I,YVR,DEL
+AI187,Delhi,Toronto,Air India,B77W,I,DEL,YYZ
+AI188,Toronto,Delhi,Air India,B77W,I,YYZ,DEL
+AI191,Mumbai,New York,Air India,B77W,I,BOM,EWR
+AI211,Delhi,Kathmandu,Air India,A320,I,DEL,KTM
+AI212,Kathmandu,Delhi,Air India,A320,I,KTM,DEL
+AI213,Delhi,Kathmandu,Air India,A320,I,DEL,KTM
+AI214,Kathmandu,Delhi,Air India,A320,I,KTM,DEL
+AI215,Delhi,Kathmandu,Air India,A320,I,DEL,KTM
+AI216,Kathmandu,Delhi,Air India,A320,I,KTM,DEL
+AI227,Delhi,Dhaka,Air India,A320,I,DEL,DAC
+AI228,Dhaka,Delhi,Air India,A320,I,DAC,DEL
+AI229,Dhaka,Kolkata,Air India,32N,I,DAC,CCU
+AI230,Kolkata,Dhaka,Air India,32N,I,CCU,DAC
+AI237,Delhi,Dhaka,Air India,A320,I,DEL,DAC
+AI238,Dhaka,Delhi,Air India,A320,I,DAC,DEL
+AI271,Chennai,Colombo,Air India,A20N,I,MAA,CMB
+AI272,Colombo,Chennai,Air India,A20N,I,CMB,MAA
+AI273,Chennai,Colombo,Air India,A321,I,MAA,CMB
+AI274,Colombo,Chennai,Air India,A321,I,CMB,MAA
+AI281,Delhi,Colombo,Air India,A321,I,DEL,CMB
+AI282,Colombo,Delhi,Air India,A321,I,CMB,DEL
+AI301,Sydney,Delhi,Air India,B788,I,SYD,DEL
+AI302,Delhi,Sydney,Air India,B788,I,DEL,SYD
+AI307,Tokyo,Delhi,Air India,B788,I,NRT,DEL
+AI308,Delhi,Melbourne,Air India,B788,I,DEL,MEL
+AI309,Melbourne,Delhi,Air India,B788,I,MEL,DEL
+AI310,Mumbai,Melbourne,Air India ,B788,I,BOM,MEL
+AI314,Delhi,Hong Kong,Air India,B788,I,DEL,HKG
+AI330,Mumbai,Bangkok,Air India,A20N,I,BOM,BKK
+AI331,Bangkok,Mumbai,Air India,A20N,I,BKK,BOM
+AI332,Delhi,Bangkok,Air India,A20N,I,DEL,BKK
+AI333,Bangkok,Delhi,Air India,A20N,I,BKK,DEL
+AI335,Bangkok,Delhi,Air India,A20N,I,BKK,DEL
+AI336,Delhi,Bangkok,Air India,A20N,I,DEL,BKK
+AI342,Mumbai,Singapore,Air India,A20N,I,BOM,SIN
+AI343,Singapore,Mumbai,Air India,A20N,I,SIN,BOM
+AI346,Chennai,Singapore,Air India,A20N,I,MAA,SIN
+AI347,Singapore,Chennai,Air India,A20N,I,SIN,MAA
+AI378,Delhi,Phuket,Air India,A20N,I,DEL,HKT
+AI379,Phuket,Delhi,Air India,A20N,I,HKT,DEL
+AI380,Delhi,Singapore,Air India,B788,I,DEL,SIN
+AI381,Singapore,Delhi,Air India,B788,I,SIN,DEL
+AI382,Delhi,Singapore,Air India,A20N,I,DEL,SIN
+AI383,Singapore,Delhi,Air india ,A20N,I,SIN,DEL
+AI392,Bengaluru,Singapore,Air India,A20N,I,BLR,SIN
+AI393,Singapore,Bengaluru,Air India,A20N,I,SIN,BLR
+AI394,Mumbai,Singapore,Air India,A20N,I,BOM,SIN
+AI401,Delhi,Kolkata,Air India,A321,D,DEL,CCU
+AI403,Delhi,Rajkot,Air India,A20N,D,DEL,HSR
+AI404,Rajkot,Delhi,Air India,A20N,D,HSR,DEL
+AI405,Varanasi,Delhi,Air India,A320,D,VNS,DEL
+AI406,Delhi,Varanasi,Air India,A320,D,DEL,VNS
+AI407,Delhi,Patna,Air India,A20N,D,DEL,PAT
+AI408,Patna,Delhi,Air India,A20N,D,PAT,DEL
+AI411,Delhi,Lucknow,Air India,A20N,D,DEL,LKO
+AI412,Lucknow,Delhi,Air India,A20N,D,LKO,DEL
+AI413,Delhi,Srinagar,Air India,A20N,D,DEL,SXR
+AI414,Srinagar,Delhi,Air India,A20N,D,SXR,DEL
+AI415,Delhi,Patna,Air India,A20N,D,DEL,PAT
+AI416,Patna,Delhi,Air India,A20N,D,PAT,DEL
+AI417,Delhi,Hyderabad,Air India,A20N,D,DEL,HYD
+AI418,Hyderabad,Delhi,Air India,A20N,D,HYD,DEL
+AI429,Delhi,Chennai,Air India,A20N,D,DEL,MAA
+AI429,Chennai,Coimbatore,Air India,A20N,D,MAA,CJB
+AI430,Chennai,Delhi,Air India,A321,D,MAA,DEL
+AI431,Delhi,Lucknow,Air India,A21N,D,DEL,LKO
+AI432,Lucknow,Delhi,Air India,A21N,D,LKO,DEL
+AI433,Delhi,Bhopal,Air India,A321,D,DEL,BHO
+AI434,Bhopal,Delhi,Air India,A321,D,BHO,DEL
+AI435,Delhi,Bhopal,Air India,A21N,D,DEL,BHO
+AI436,Bhopal,Delhi,Air India,A21N,D,BHO,DEL
+AI439,Delhi,Chennai,Air India,A321,D,DEL,MAA
+AI440,Chennai,Delhi,Air India,A20N,D,MAA,DEL
+AI441,Delhi,Mumbai,Air India,B77W,D,DEL,BOM
+AI442,Mumbai,Delhi,Air India,A20N,D,BOM,DEL
+AI443,Delhi,Aurangabad,Air India,A320,D,DEL,IXU
+AI444,Aurangabad,Delhi,Air India,A320,D,IXU,DEL
+AI445,Delhi,Leh,Air India,A20N,D,DEL,IXL
+AI446,Leh,Delhi,Air India,A20N,D,IXL,DEL
+AI451,Delhi,Visakhapatnam,Air India,A21N,D,DEL,VTZ
+AI452,Visakhapatnam,Delhi,Air India,A21N,D,VTZ,DEL
+AI453,Delhi,Amritsar,Air India,A321,D,DEL,ATQ
+AI454,Amritsar,Delhi,Air India,A321,D,ATQ,DEL
+AI455,Delhi,Aurangabad,Air India,A320,D,DEL,IXU
+AI456,Aurangabad,Delhi,Air India,A320,D,IXU,DEL
+AI459,Delhi,Vijayawada,Air India,A21N,D,DEL,VGA
+AI460,Vijayawada,Delhi,Air India,A21N,D,VGA,DEL
+AI461,Delhi,Amritsar,Air India,A320,D,DEL,ATQ
+AI462,Amritsar,Delhi,Air India,A320,D,ATQ,DEL
+AI463,Delhi,Chandigarh,Air India,A20N,D,DEL,IXC
+AI464,Chandigarh,Delhi,Air India,A20N,D,IXC,DEL
+AI465,Delhi,Cochin,Air India,A20N,D,DEL,COK
+AI466,Cochin,Delhi,Air India,A321,D,COK,DEL
+AI467,Delhi,Vijayawada,Air India,A321,D,DEL,VGA
+AI468,Vijayawada,Delhi,Air India,A321,D,VGA,DEL
+AI469,Delhi,Udaipur,Air India,A321,D,DEL,UDR
+AI470,Udaipur,Delhi,Air India,A321,D,UDR,DEL
+AI471,Delhi,Visakhapatnam,Air India,A320,D,DEL,VTZ
+AI472,Visakhapatnam,Delhi,Air India,A320,D,VTZ,DEL
+AI475,Delhi,Jodhpur,Air India,A20N,D,DEL,JDH
+AI476,Jodhpur,Delhi,Air India,A20N,D,JDH,DEL
+AI477,Delhi,Leh,Air India,A20N,D,DEL,IXL
+AI478,Leh,Delhi,Air India,A20N,D,IXL,DEL
+AI479,Delhi,Amritsar,Air India,A321,D,DEL,ATQ
+AI480,Amritsar,Delhi,Air India,A321,D,ATQ,DEL
+AI481,Delhi,Ahmedabad,Air India,A20N,D,DEL,AMD
+AI482,Ahmedabad,Delhi,Air India,A20N,D,AMD,DEL
+AI485,Delhi,Port Blair,Air India,A20N,D,DEL,IXZ
+AI486,Visakhapatnam,Delhi,Air India,A20N,D,VTZ,DEL
+AI491,Delhi,Amritsar,Air India,B788,D,DEL,ATQ
+AI492,Amritsar,Delhi,Air India,B788,D,ATQ,DEL
+AI501,Bengaluru,Delhi,Air India,A20N,D,BLR,DEL
+AI502,Delhi,Bengaluru,Air India,A321,D,DEL,BLR
+AI503,Bengaluru,Delhi,Air India,A321,D,BLR,DEL
+AI504,Delhi,Bengaluru,Air India,A20N,D,DEL,BLR
+AI505,Bengaluru,Delhi,Air India,A321,D,BLR,DEL
+AI506,Delhi,Bengaluru,Air India,A20N,D,DEL,BLR
+AI507,Bengaluru,Delhi,Air India,A321,D,BLR,DEL
+AI509,Bengaluru,Delhi,Air India,A321,D,BLR,DEL
+AI511,Bengaluru,Delhi,Air India,A20N,D,BLR,DEL
+AI512,Delhi,Bengaluru,Air India,A20N,D,DEL,BLR
+AI513,Bengaluru,Delhi,Air India,A320,D,BLR,DEL
+AI514,Delhi,Bengaluru,Air India,A320,D,DEL,BLR
+AI517,Cochin,Mumbai,Air India,A20N,D,COK,BOM
+AI518,Mumbai,Cochin,Air India,A20N,D,BOM,COK
+AI519,Bengaluru,Delhi,Air India,A319,D,BLR,DEL
+AI520,Delhi,Bengaluru,Air India,A319,D,DEL,BLR
+AI522,Delhi,Hyderabad,Air India,A321,D,DEL,HYD
+AI523,Hyderabad,Delhi,Air India,A20N,D,HYD,DEL
+AI531,Delhi,Ahmedabad,Air India,A21N,D,DEL,AMD
+AI532,Ahmedabad,Delhi,Air India,A21N,D,AMD,DEL
+AI537,Delhi,Chennai,Air India,B77W,D,DEL,MAA
+AI538,Chennai,Delhi,Air India,B77W,D,MAA,DEL
+AI539,Chennai,Delhi,Air India,A20N,D,MAA,DEL
+AI540,Delhi,Chennai,Air India,A20N,D,DEL,MAA
+AI541,Tirupati,Hyderabad,Air India,A20N,D,TIR,HYD
+AI541,Hyderabad,Delhi,Air India,A20N,D,HYD,DEL
+AI542,Delhi,Hyderabad,Air India,A20N,D,DEL,HYD
+AI542,Hyderabad,Tirupati,Air India,A20N,D,HYD,TIR
+AI543,Hyderabad,Delhi,Air India,A20N,D,HYD,DEL
+AI544,Delhi,Hyderabad,Air India,B77W,D,DEL,HYD
+AI545,Chennai,Hyderabad,Air India,A20N,D,MAA,HYD
+AI546,Hyderabad,Chennai,Air India,A20N,D,HYD,MAA
+AI549,Chennai,Port Blair,Air India,A20N,D,MAA,IXZ
+AI550,Port Blair,Chennai,Air India,A20N,D,IXZ,MAA
+AI559,Hyderabad,Delhi,Air India,A20N,D,HYD,DEL
+AI560,Delhi,Hyderabad,Air India,A20N,D,DEL,HYD
+AI570,Mumbai,Chennai,Air India,A20N,D,BOM,MAA
+AI571,Chennai,Mumbai,Air India,A20N,D,MAA,BOM
+AI572,Mumbai,Chennai,Air India,A20N,D,BOM,MAA
+AI573,Mumbai,Chennai,Air India,A321,D,BOM,MAA
+AI574,Chennai,Mumbai,Air India,A321,D,MAA,BOM
+AI575,Chennai,Mumbai,Air India,A20N,D,MAA,BOM
+AI581,Mumbai,Kozhikode,Air India,A320,D,BOM,CCJ
+AI582,Kozhikode,Mumbai,Air India,A320,D,CCJ,BOM
+AI585,Mumbai,Bengaluru,Air India,A359,D,BOM,BLR
+AI585,Bengaluru,Chennai,Air India,A359,D,BLR,MAA
+AI585,Chennai,Mumbai,Air India,A359,D,MAA,BOM
+AI587,Hyderabad,Bengaluru,Air India,A359,D,HYD,BLR
+AI587,Bengaluru,Chennai,Air India,A359,D,BLR,MAA
+AI587,Chennai,Hyderabad,Air India,A359,D,MAA,HYD
+AI589,Mumbai,Chennai,Air India,A359,D,BOM,MAA
+AI589,Chennai,Bengaluru,Air India,A359,D,MAA,BLR
+AI589,Bengaluru,Mumbai,Air India,A359,D,BLR,BOM
+AI601,Mumbai,Bhuj,Air India,A20N,D,BOM,BHJ
+AI602,Bhuj,Mumbai,Air India,A20N,D,BHJ,BOM
+AI603,Mumbai,Bengaluru,Air India,A20N,D,BOM,BLR
+AI604,Bengaluru,Mumbai,Air India,A20N,D,BLR,BOM
+AI605,Delhi,Mumbai,Air India,A320,D,DEL,BOM
+AI607,Mumbai,Bengaluru,Air India,A20N,D,BOM,BLR
+AI608,Coimbatore,Mumbai,Air India,A20N,D,CJB,BOM
+AI609,Mumbai,Coimbatore,Air India,A20N,D,BOM,CJB
+AI610,Bengaluru,Mumbai,Air India,A20N,D,BLR,BOM
+AI611,Mumbai,Jaipur,Air India,A20N,D,BOM,JAI
+AI612,Jaipur,Mumbai,Air India,A20N,D,JAI,BOM
+AI613,Mumbai,Ahmedabad,Air India,A20N,D,BOM,AMD
+AI614,Ahmedabad,Mumbai,Air India,A20N,D,AMD,BOM
+AI615,Mumbai,Hyderabad,Air India,A321,D,BOM,HYD
+AI616,Hyderabad,Mumbai,Air India,A321,D,HYD,BOM
+AI617,Mumbai,Hyderabad,Air India,A20N,D,BOM,HYD
+AI618,Hyderabad,Mumbai,Air India,A20N,D,HYD,BOM
+AI619,Mumbai,Hyderabad,Air India,A321,D,BOM,HYD
+AI621,Mumbai,Bengaluru,Air India,A20N,D,BOM,BLR
+AI622,Bengaluru,Mumbai,Air India,A20N,D,BLR,BOM
+AI624,Delhi,Mumbai,Air India,A20N,D,DEL,BOM
+AI625,Mumbai,Lucknow,Air India,A321,D,BOM,LKO
+AI626,Lucknow,Mumbai,Air India,A321,D,LKO,BOM
+AI629,Mumbai,Nagpur,Air India,A20N,D,BOM,NAG
+AI630,Nagpur,Mumbai,Air India,A20N,D,NAG,BOM
+AI631,Mumbai,Ahmedabad,Air India,A321,D,BOM,AMD
+AI632,Ahmedabad,Mumbai,Air India,A321,D,AMD,BOM
+AI633,Mumbai,Bhopal,Air India,A20N,D,BOM,BHO
+AI634,Bhopal,Mumbai,Air India,A20N,D,BHO,BOM
+AI635,Mumbai,Indore,Air India,A20N,D,BOM,IDR
+AI635,Indore,Delhi,Air India,A20N,D,IDR,DEL
+AI636,Delhi,Indore,Air India,A20N,D,DEL,IDR
+AI636,Indore,Mumbai,Air India,A20N,D,IDR,BOM
+AI637,Mumbai,Ahmedabad,Air India,A20N,D,BOM,AMD
+AI638,Ahmedabad,Mumbai,Air India,A20N,D,AMD,BOM
+AI639,Mumbai,Bengaluru,Air India,A20N,D,BOM,BLR
+AI640,Bengaluru,Mumbai,Air India,A20N,D,BLR,BOM
+AI641,Mumbai,Bengaluru,Air India,A319,D,BOM,BLR
+AI642,Bengaluru,Mumbai,Air India,A319,D,BLR,BOM
+AI643,Mumbai,Udaipur,Air India,A20N,D,BOM,UDR
+AI644,Udaipur,Mumbai,Air India,A20N,D,UDR,BOM
+AI645,Mumbai,Jodhpur,Air India,A20N,D,BOM,JDH
+AI646,Jodhpur,Mumbai,Air India,A20N,D,JDH,BOM
+AI647,Mumbai,Jamnagar,Air India,A321,D,BOM,JGA
+AI648,Jamnagar,Mumbai,Air India,A321,D,JGA,BOM
+AI651,Mumbai,Hyderabad,Air India,A20N,D,BOM,HYD
+AI652,Hyderabad,Mumbai,Air India,A20N,D,HYD,BOM
+AI653,Mumbai,Visakhapatnam,Air India,A20N,D,BOM,VTZ
+AI654,Visakhapatnam,Mumbai,Air India,A20N,D,VTZ,BOM
+AI655,Mumbai,Rajkot,Air India,A20N,D,BOM,HSR
+AI656,Rajkot,Mumbai,Air India,A20N,D,HSR,BOM
+AI657,Mumbai,Thiruvananthapuram,Air India,A20N,D,BOM,TRV
+AI658,Thiruvananthapuram,Mumbai,Air India,A20N,D,TRV,BOM
+AI659,Mumbai,Rajkot,Air India,A20N,D,BOM,HSR
+AI660,Mumbai,Delhi,Air India,A320,D,BOM,DEL
+AI661,Mumbai,Coimbatore,Air India,A20N,D,BOM,CJB
+AI662,Coimbatore,Mumbai,Air India,A20N,D,CJB,BOM
+AI663,Mumbai,Goa,Air India,A320,D,BOM,GOI
+AI664,Goa,Mumbai,Air India,A320,D,GOI,BOM
+AI665,Delhi,Mumbai,Air India,A321,D,DEL,BOM
+AI667,Mumbai,Thiruvananthapuram,Air India,A20N,D,BOM,TRV
+AI668,Thiruvananthapuram,Mumbai,Air India,A20N,D,TRV,BOM
+AI669,Mumbai,Vadodara,Air India,A321,D,BOM,BDQ
+AI670,Vadodara,Mumbai,Air India,A321,D,BDQ,BOM
+AI671,Mumbai,Chennai,Air India,A20N,D,BOM,MAA
+AI671,Chennai,Madurai,Air India,A20N,D,MAA,IXM
+AI672,Madurai,Chennai,Air India,A20N,D,IXM,MAA
+AI672,Chennai,Mumbai,Air India,A20N,D,MAA,BOM
+AI673,Mumbai,Patna,Air India,A20N,D,BOM,PAT
+AI675,Mumbai,Kolkata,Air India,A320,D,BOM,CCU
+AI676,Kolkata,Mumbai,Air India,A320,D,CCU,BOM
+AI677,Mumbai,Delhi,Air India,A321,D,BOM,DEL
+AI678,Delhi,Mumbai,Air India,A321,D,DEL,BOM
+AI679,Mumbai,Mangalore,Air India,A320,D,BOM,IXE
+AI680,Mangalore,Mumbai,Air India,A320,D,IXE,BOM
+AI681,Mumbai,Cochin,Air India,A20N,D,BOM,COK
+AI682,Cochin,Mumbai,Air India,A20N,D,COK,BOM
+AI683,Mumbai,Goa,Air India,A20N,D,BOM,GOI
+AI684,Goa,Mumbai,Air India,A20N,D,GOI,BOM
+AI685,Mumbai,Goa,Air India,A20N,D,BOM,GOI
+AI687,Mumbai,Delhi,Air India,A359,D,BOM,DEL
+AI688,Rajkot,Mumbai,Air India,A20N,D,HSR,BOM
+AI691,Mumbai,Cochin,Air India,A20N,D,BOM,COK
+AI692,Cochin,Mumbai,Air India,A320,D,COK,BOM
+AI693,Mumbai,Cochin,Air India,A320,D,BOM,COK
+AI695,Mumbai,Varanasi,Air India,A320,D,BOM,VNS
+AI696,Varanasi,Mumbai,Air India,A320,D,VNS,BOM
+AI697,Goa,Mumbai,Air India,A20N,D,GOI,BOM
+AI698,Hyderabad,Mumbai,Air India,A321,D,HYD,BOM
+AI699,Cochin,Mumbai,Air India,A20N,D,COK,BOM
+AI709,Kolkata,Guwahati,Air India,A319,D,CCU,GAU
+AI710,Guwahati,Kolkata,Air India,A319,D,GAU,CCU
+AI727,Kolkata,Guwahati,Air India,A20N,D,CCU,GAU
+AI728,Guwahati,Kolkata,Air India,A20N,D,GAU,CCU
+AI732,Patna,Mumbai,Air India,A20N,D,PAT,BOM
+AI733,Kolkata,Imphal,Air India,A20N,D,CCU,IMF
+AI734,Imphal,Kolkata,Air India,A20N,D,IMF,CCU
+AI743,Kolkata,Agartala,Air India,A20N,D,CCU,IXA
+AI744,Agartala,Kolkata,Air India,A20N,D,IXA,CCU
+AI745,Kolkata,Agartala,Air India,A20N,D,CCU,IXA
+AI746,Agartala,Kolkata,Air India,A20N,D,IXA,CCU
+AI753,Kolkata,Silchar,Air India,A319,D,CCU,IXS
+AI754,Silchar,Kolkata,Air India,A319,D,IXS,CCU
+AI762,Delhi,Kolkata,Air India,A321,D,DEL,CCU
+AI763,Kolkata,Delhi,Air India,A321,D,CCU,DEL
+AI764,Delhi,Kolkata,Air India,A21N,D,DEL,CCU
+AI767,Delhi,Kolkata,Air India,A20N,D,DEL,CCU
+AI768,Kolkata,Delhi,Air India,A20N,D,CCU,DEL
+AI769,Kolkata,Delhi,Air India,A321,D,CCU,DEL
+AI770,Kolkata,Delhi,Air India,A21N,D,CCU,DEL
+AI773,Kolkata,Mumbai,Air India,A319,D,CCU,BOM
+AI774,Mumbai,Kolkata,Air India,A319,D,BOM,CCU
+AI775,Kolkata,Mumbai,Air India,A20N,D,CCU,BOM
+AI776,Mumbai,Kolkata,Air India,A20N,D,BOM,CCU
+AI785,Kolkata,Chennai,Air India,A20N,D,CCU,MAA
+AI786,Chennai,Kolkata,Air India,A20N,D,MAA,CCU
+AI787,Kolkata,Port Blair,Air India,A20N,D,CCU,IXZ
+AI788,Port Blair,Kolkata,Air India,A20N,D,IXZ,CCU
+AI801,Delhi,Thiruvananthapuram,Air India,A20N,D,DEL,TRV
+AI802,Thiruvananthapuram,Delhi,Air India,A20N,D,TRV,DEL
+AI803,Delhi,Bengaluru,Air India,A321,D,DEL,BLR
+AI804,Bengaluru,Delhi,Air India,A20N,D,BLR,DEL
+AI805,Delhi,Mumbai,Air India,A359,D,DEL,BOM
+AI806,Mumbai,Delhi,Air India,A20N,D,BOM,DEL
+AI807,Delhi,Bengaluru,Air India,A321,D,DEL,BLR
+AI808,Bengaluru,Delhi,Air India,A321,D,BLR,DEL
+AI809,Mumbai,Delhi,Air India,A321,D,BOM,DEL
+AI811,Delhi,Lucknow,Air India,A20N,D,DEL,LKO
+AI812,Lucknow,Delhi,Air India,A20N,D,LKO,DEL
+AI813,Delhi,Bengaluru,Air India,A321,D,DEL,BLR
+AI814,Delhi,Mumbai,Air India,A20N,D,DEL,BOM
+AI815,Delhi,Bengaluru,Air India,A321,D,DEL,BLR
+AI816,Mumbai,Delhi,Air India,B77W,D,BOM,DEL
+AI817,Delhi,Ahmedabad,Air India,A21N,D,DEL,AMD
+AI818,Ahmedabad,Delhi,Air India,A21N,D,AMD,DEL
+AI819,Delhi,Vadodara,Air India,A321,D,DEL,BDQ
+AI820,Vadodara,Delhi,Air India,A321,D,BDQ,DEL
+AI821,Delhi,Jammu,Air India,A321,D,DEL,IXJ
+AI822,Jammu,Delhi,Air India,A321,D,IXJ,DEL
+AI823,Delhi,Vadodara,Air India,A20N,D,DEL,BDQ
+AI824,Vadodara,Delhi,Air India,A20N,D,BDQ,DEL
+AI825,Delhi,Srinagar,Air India,A21N,D,DEL,SXR
+AI826,Srinagar,Delhi,Air India,A21N,D,SXR,DEL
+AI829,Delhi,Thiruvananthapuram,Air India,A320,D,DEL,TRV
+AI830,Thiruvananthapuram,Delhi,Air India,A320,D,TRV,DEL
+AI831,Delhi,Cochin,Air India,A21N,D,DEL,COK
+AI832,Cochin,Delhi,Air India,A21N,D,COK,DEL
+AI833,Delhi,Cochin,Air India,A20N,D,DEL,COK
+AI834,Cochin,Delhi,Air India,A20N,D,COK,DEL
+AI835,Delhi,Ahmedabad,Air India,A321,D,DEL,AMD
+AI836,Ahmedabad,Delhi,Air India,A321,D,AMD,DEL
+AI839,Delhi,Hyderabad,Air India,A20N,D,DEL,HYD
+AI840,Hyderabad,Delhi,Air India,B77W,D,HYD,DEL
+AI841,Mumbai,Pune,Air India,A20N,D,BOM,PNQ
+AI842,Pune,Mumbai,Air India,A20N,D,PNQ,BOM
+AI849,Delhi,Pune,Air India,A320,D,DEL,PNQ
+AI850,Pune,Delhi,Air India,A320,D,PNQ,DEL
+AI851,Delhi,Pune,Air India,A21N,D,DEL,PNQ
+AI852,Pune,Delhi,Air India,A21N,D,PNQ,DEL
+AI853,Delhi,Pune,Air India,A20N,D,DEL,PNQ
+AI854,Pune,Delhi,Air India,A321,D,PNQ,DEL
+AI855,Mumbai,Delhi,Air India,A20N,D,BOM,DEL
+AI856,Delhi,Mumbai,Air India,A20N,D,DEL,BOM
+AI857,Delhi,Pune,Air India,A321,D,DEL,PNQ
+AI858,Pune,Delhi,Air India,A321,D,PNQ,DEL
+AI859,Mumbai,Delhi,Air India,A20N,D,BOM,DEL
+AI860,Delhi,Mumbai,Air India,A20N,D,DEL,BOM
+AI863,Delhi,Mumbai,Air India,A20N,D,DEL,BOM
+AI864,Mumbai,Delhi,Air India,A359,D,BOM,DEL
+AI865,Delhi,Mumbai,Air India,A359,D,DEL,BOM
+AI866,Mumbai,Delhi,Air India,A321,D,BOM,DEL
+AI881,Delhi,Goa,Air India,A21N,D,DEL,GOI
+AI882,Goa,Delhi,Air India,A21N,D,GOI,DEL
+AI883,Delhi,Vadodara,Air India,A20N,D,DEL,BDQ
+AI884,Vadodara,Delhi,Air India,A20N,D,BDQ,DEL
+AI885,Delhi,Goa,Air India,A21N,D,DEL,GOI
+AI886,Goa,Delhi,Air India,A21N,D,GOI,DEL
+AI887,Delhi,Mumbai,Air India,A321,D,DEL,BOM
+AI888,Mumbai,Delhi,Air India,A20N,D,BOM,DEL
+AI889,Delhi,Guwahati,Air India,A320,D,DEL,GAU
+AI890,Guwahati,Delhi,Air India,A320,D,GAU,DEL
+AI902,Kuwait City,Delhi,Air India,A20N,I,KWI,DEL
+AI905,Chennai,Dubai,Air India,32N,I,MAA,DXB
+AI906,Dubai,Chennai,Air India,A20N,I,DXB,MAA
+AI913,Delhi,Dammam,Air India,A320,I,DEL,DMM
+AI914,Dammam,Delhi,Air India,A320,I,DMM,DEL
+AI915,Delhi,Dubai,Air India,788,I,DEL,DXB
+AI916,Dubai,Delhi,Air India,B788,I,DXB,DEL
+AI917,Delhi,Dubai,Air India,321,I,DEL,DXB
+AI918,Dubai,Delhi,Air India,321,I,DXB,DEL
+AI919,Mumbai,Dubai,Air India,32N,I,BOM,DXB
+AI920,Dubai,Mumbai,Air India,32N,I,DXB,BOM
+AI921,Mumbai,Riyadh,Air India,A20N,I,BOM,RUH
+AI926,Riyadh,Delhi,Air India,A20N,I,RUH,DEL
+AI929,Delhi,Dubai,Air India,788,I,DEL,DXB
+AI930,Dubai,Delhi,Air India,788,I,DXB,DEL
+AI931,Mumbai,Jeddah,Air India,A20N,I,BOM,JED
+AI932,Jeddah,Mumbai,Air India,A20N,I,JED,BOM
+AI933,Cochin,Dubai,Air India,32N,I,COK,DXB
+AI934,Dubai,Cochin,Air India,32N,I,DXB,COK
+AI939,Delhi,Bahrain,Air India,321,I,DEL,BAH
+AI940,Bahrain,Delhi,Air India,321,I,BAH,DEL
+AI942,Riyadh,Hyderabad,Air India,32N,I,RUH,HYD
+AI945,Mumbai,Abu Dhabi,Air India,32N,I,BOM,AUH
+AI946,Abu Dhabi,Mumbai,Air India,32N,I,AUH,BOM
+AI948,Dubai,Delhi,Air India,321,I,DXB,DEL
+AI951,Hyderabad,Dubai,Air India,32N,I,HYD,DXB
+AI952,Dubai,Hyderabad,Air India,32N,I,DXB,HYD
+AI953,Cochin,Doha,Air India,A320,I,COK,DOH
+AI954,Doha,Cochin,Air India,A320,I,DOH,COK
+AI961,Delhi,Nairobi,Air India,B788,I,DEL,NBO
+AI965,Hyderabad,Jeddah,Air India,32N,I,HYD,JED
+AI970,Doha,Mumbai,Air India ,A20N,I,DOH,BOM
+AI971,Delhi,Doha,Air India,A321,I,DEL,DOH
+AI972,Doha,Delhi,Air India,A321,I,DOH,DEL
+AI973,Delhi,Muscat,Air India,A20N,I,DEL,MCT
+AI974,Muscat,Delhi,Air India,A321,I,MCT,DEL
+AI975,Chennai,Kuwait City,Air India,32N,I,MAA,KWI
+AI976,Kuwait City,Chennai,Air India,32N,I,KWI,MAA
+AI981,Mumbai,Doha,Air India,A20N,I,BOM,DOH
+AI982,Doha,Mumbai,Air India,A20N,I,DOH,BOM
+AI983,Mumbai,Dubai,Air India,788,I,BOM,DXB
+AI984,Dubai,Mumbai,Air India,B788,I,DXB,BOM
+AI985,Mumbai,Muscat,Air India,319,I,BOM,MCT
+AI986,Muscat,Mumbai,Air India,319,I,MCT,BOM
+AI989,Mumbai,Kuwait City,Air India,A20N,I,BOM,KWI
+AI990,Kuwait City,Mumbai,Air India,A20N,I,KWI,BOM
+AI992,Jeddah,Delhi,Air India,A20N,I,JED,DEL
+AI995,Delhi,Dubai,Air India,788,I,DEL,DXB
+AI996,Dubai,Delhi,Air India,788,I,DXB,DEL
+AK10,Chennai,Kuala Lumpur,AirAsia,A20N,I,MAA,KUL
+AK11,Kuala Lumpur,Chennai,AirAsia,A20N,I,KUL,MAA
+AK12,Chennai,Kuala Lumpur,AirAsia,A320,I,MAA,KUL
+AK13,Kuala Lumpur,Chennai,AirAsia,A320,I,KUL,MAA
+AK36,Cochin,Kuala Lumpur,AirAsia,A20N,I,COK,KUL
+AK38,Cochin,Kuala Lumpur,AirAsia ,A320,I,COK,KUL
+AK39,Kuala Lumpur,Cochin,AirAsia ,A320,I,KUL,COK
+AK52,Bengaluru,Kuala Lumpur,AirAsia,A20N,I,BLR,KUL
+AK53,Kuala Lumpur,Bengaluru,AirAsia,A20N,I,KUL,BLR
+AK62,Kolkata,Kuala Lumpur,AirAsia,A20N,I,CCU,KUL
+AK63,Kuala Lumpur,Kolkata,AirAsia,A20N,I,KUL,CCU
+AK68,Hyderabad,Kuala Lumpur,AirAsia ,A20N,I,HYD,KUL
+AK69,Kuala Lumpur,Hyderabad,AirAsia ,A20N,I,KUL,HYD
+AY121,Helsinki,Delhi,Finnair,A359,I,HEL,DEL
+AY122,Delhi,Helsinki,Finnair,A359,I,DEL,HEL
+AZ769,Delhi,Rome,ITA Airways,A339,I,DEL,FCO
+AZ770,Rome,Delhi,ITA Airways,A339,I,FCO,DEL
+B3700,Paro,Kolkata,Bhutan Airlines,A319,I,PBH,CCU
+B3700,Kolkata,Bangkok,Bhutan Airlines,A319,I,CCU,BKK
+B3701,Bangkok,Kolkata,Bhutan Airlines,A319,I,BKK,CCU
+B3701,Kolkata,Paro,Bhutan Airlines,A319,I,CCU,PBH
+B3773,Kathmandu,Delhi,Bhutan Airlines,A319,I,KTM,DEL
+BA118,Bengaluru,London,British Airways,A35K,I,BLR,LHR
+BA119,London,Bengaluru,British Airways,A35K,I,LHR,BLR
+BA138,Mumbai,London,British Airways,B788,I,BOM,LHR
+BA139,London,Mumbai,British Airways,B788,I,LHR,BOM
+BA142,Delhi,London,British Airways,B788,I,DEL,LHR
+BA143,London,Delhi,British Airways,B788,I,LHR,DEL
+BA198,Mumbai,London,British Airways,B772,I,BOM,LHR
+BA199,London,Mumbai,British Airways,B772,I,LHR,BOM
+BA256,Delhi,London,British Airways,B788,I,DEL,LHR
+BA257,London,Delhi,British Airways,B788,I,LHR,DEL
+BA276,Hyderabad,London,British Airways,B772,I,HYD,LHR
+BA277,London,Hyderabad,British Airways,B772,I,LHR,HYD
+BA35,London,Chennai,British Airways,B788,I,LHR,MAA
+BA36,Chennai,London,British Airways,B788,I,MAA,LHR
+BG363,Dhaka,Chennai,Biman Bangladesh Airlines,B738,I,DAC,MAA
+BG364,Chennai,Dhaka,Biman Bangladesh Airlines,B738,I,MAA,DAC
+BG391,Dhaka,Kolkata,Biman Bangladesh Airlines,DH8D,I,DAC,CCU
+BG392,Kolkata,Dhaka,Biman Bangladesh Airlines,DH8D,I,CCU,DAC
+BG395,Dhaka,Kolkata,Biman Bangladesh Airlines,DH8D,I,DAC,CCU
+BG396,Kolkata,Dhaka,Biman Bangladesh Airlines,DH8D,I,CCU,DAC
+BG397,Dhaka,Delhi,Biman Bangladesh Airlines,B738,I,DAC,DEL
+BG398,Delhi,Dhaka,Biman Bangladesh Airlines,B738,I,DEL,DAC
+BS201,Dhaka,Kolkata,US-Bangla Airlines,B738,I,DAC,CCU
+BS202,Kolkata,Dhaka,US-Bangla Airlines,B738,I,CCU,DAC
+BS203,Dhaka,Kolkata,US-Bangla Airlines,AT76,I,DAC,CCU
+BS204,Kolkata,Dhaka,US-Bangla Airlines,AT76,I,CCU,DAC
+BS205,Dhaka,Chennai,US-Bangla Airlines,B738,I,DAC,MAA
+BS206,Chennai,Dhaka,US-Bangla Airlines,B738,I,MAA,DAC
+BS207,Chittagong,Kolkata,US-Bangla Airlines,AT76,I,CGP,CCU
+BS208,Kolkata,Chittagong,US-Bangla Airlines,AT76,I,CCU,CGP
+BZ102,Bengaluru,Mumbai,Blue Dart Aviation,B752,D,BLR,BOM
+BZ102,Mumbai,Delhi,Blue Dart Aviation,B752,D,BOM,DEL
+BZ102,Delhi,Kolkata,Blue Dart Aviation,B752,D,DEL,CCU
+BZ102,Chennai,Bengaluru,Blue Dart Aviation,B752,D,MAA,BLR
+BZ154,Hyderabad,Mumbai,Blue Dart Aviation,B752,D,HYD,BOM
+BZ154,Mumbai,Ahmedabad,Blue Dart Aviation,B752,D,BOM,AMD
+BZ154,Ahmedabad,Delhi,Blue Dart Aviation,B752,D,AMD,DEL
+BZ154,Chennai,Hyderabad,Blue Dart Aviation,B752,D,MAA,HYD
+BZ201,Kolkata,Delhi,Blue Dart Aviation,B752,D,CCU,DEL
+BZ201,Delhi,Mumbai,Blue Dart Aviation,B752,D,DEL,BOM
+BZ201,Mumbai,Bengaluru,Blue Dart Aviation,B752,D,BOM,BLR
+BZ201,Bengaluru,Chennai,Blue Dart Aviation,B752,D,BLR,MAA
+BZ304,Bengaluru,Delhi,Blue Dart Aviation,B752,D,BLR,DEL
+BZ403,Delhi,Bengaluru,Blue Dart Aviation,B752,D,DEL,BLR
+BZ481,Delhi,Ahmedabad,Blue Dart Aviation,B752,D,DEL,AMD
+BZ481,Ahmedabad,Mumbai,Blue Dart Aviation,B752,D,AMD,BOM
+BZ481,Mumbai,Hyderabad,Blue Dart Aviation,B752,D,BOM,HYD
+BZ481,Hyderabad,Chennai,Blue Dart Aviation,B752,D,HYD,MAA
+BZ486,Delhi,Hyderabad,Blue Dart Aviation,757,D,DEL,HYD
+BZ684,Hyderabad,Delhi,Blue Dart Aviation,757,D,HYD,DEL
+CI5640,Luxembourg,Delhi,China Airlines Cargo,B744,I,LUX,DEL
+CI5640,Delhi,Taipei,China Airlines Cargo,B744,I,DEL,TPE
+CX3132,Mumbai,Hong Kong,Cathay Pacific Cargo,B744,I,BOM,HKG
+CX38,Delhi,Hong Kong,Cathay Pacific,74N,I,DEL,HKG
+CX39,Hong Kong,Mumbai,Cathay Pacific Cargo,B744,I,HKG,BOM
+CX623,Hong Kong,Bengaluru,Cathay Pacific,A359,I,HKG,BLR
+CX624,Bengaluru,Hong Kong,Cathay Pacific,A359,I,BLR,HKG
+CX631,Hong Kong,Chennai,Cathay Pacific,A333,I,HKG,MAA
+CX632,Chennai,Hong Kong,Cathay Pacific,A333,I,MAA,HKG
+CX660,Mumbai,Hong Kong,Cathay Pacific,B77W,I,BOM,HKG
+CX663,Hong Kong,Mumbai,Cathay Pacific,B77W,I,HKG,BOM
+CX685,Hong Kong,Mumbai,Cathay Pacific ,B77W,I,HKG,BOM
+CX695,Hong Kong,Delhi,Cathay Pacific,B77W,I,HKG,DEL
+CX696,Mumbai,Hong Kong,Cathay Pacific ,B77W,I,BOM,HKG
+CX698,Delhi,Hong Kong,Cathay Pacific,B77W,I,DEL,HKG
+D7182,Kuala Lumpur,Delhi,AirAsia X,A333,I,KUL,DEL
+D7183,Delhi,Kuala Lumpur,AirAsia X,A333,I,DEL,KUL
+DD958,Bangkok,Hyderabad,Nok Air ,B738,I,DMK,HYD
+EK500,Dubai,Mumbai,Emirates,A388,I,DXB,BOM
+EK501,Mumbai,Dubai,Emirates,A388,I,BOM,DXB
+EK502,Dubai,Mumbai,Emirates,B77W,I,DXB,BOM
+EK503,Mumbai,Dubai,Emirates,B77W,I,BOM,DXB
+EK504,Dubai,Mumbai,Emirates,B77W,I,DXB,BOM
+EK505,Mumbai,Dubai,Emirates,B77W,I,BOM,DXB
+EK506,Dubai,Mumbai,Emirates,77W,I,DXB,BOM
+EK507,Mumbai,Dubai,Emirates,B77W,I,BOM,DXB
+EK508,Dubai,Mumbai,Emirates,B77W,I,DXB,BOM
+EK509,Mumbai,Dubai,Emirates,77W,I,BOM,DXB
+EK510,Dubai,Delhi,Emirates,B77W,I,DXB,DEL
+EK511,Delhi,Dubai,Emirates,B77W,I,DEL,DXB
+EK512,Dubai,Delhi,Emirates,B77W,I,DXB,DEL
+EK513,Delhi,Dubai,Emirates,B77W,I,DEL,DXB
+EK514,Dubai,Delhi,Emirates,B77W,I,DXB,DEL
+EK515,Delhi,Dubai,Emirates,77W,I,DEL,DXB
+EK516,Dubai,Delhi,Emirates,B77W,I,DXB,DEL
+EK517,Delhi,Dubai,Emirates,B77W,I,DEL,DXB
+EK524,Dubai,Hyderabad,Emirates,B77W,I,DXB,HYD
+EK525,Hyderabad,Dubai,Emirates,B77W,I,HYD,DXB
+EK526,Dubai,Hyderabad,Emirates,B77W,I,DXB,HYD
+EK527,Hyderabad,Dubai,Emirates,B77W,I,HYD,DXB
+EK528,Dubai,Hyderabad,Emirates,B77W,I,DXB,HYD
+EK529,Hyderabad,Dubai,Emirates,77W,I,HYD,DXB
+EK530,Dubai,Cochin,Emirates,B77W,I,DXB,COK
+EK531,Cochin,Dubai,Emirates,B77W,I,COK,DXB
+EK532,Dubai,Cochin,Emirates,B77L,I,DXB,COK
+EK533,Cochin,Dubai,Emirates,B77L,I,COK,DXB
+EK538,Dubai,Ahmedabad,Emirates,B77W,I,DXB,AMD
+EK539,Ahmedabad,Dubai,Emirates,B77W,I,AMD,DXB
+EK542,Dubai,Chennai,Emirates,B77W,I,DXB,MAA
+EK543,Chennai,Dubai,Emirates,B77W,I,MAA,DXB
+EK544,Dubai,Chennai,Emirates,B77W,I,DXB,MAA
+EK545,Chennai,Dubai,Emirates,B77W,I,MAA,DXB
+EK546,Dubai,Chennai,Emirates,B77W,I,DXB,MAA
+EK547,Chennai,Dubai,Emirates,B77W,I,MAA,DXB
+EK564,Dubai,Bengaluru,Emirates,77W,I,DXB,BLR
+EK565,Bengaluru,Dubai,Emirates,77W,I,BLR,DXB
+EK566,Dubai,Bengaluru,Emirates,B77W,I,DXB,BLR
+EK567,Bengaluru,Dubai,Emirates,B77W,I,BLR,DXB
+EK568,Dubai,Bengaluru,Emirates,A388,I,DXB,BLR
+EK569,Bengaluru,Dubai,Emirates,A388,I,BLR,DXB
+EK570,Dubai,Kolkata,Emirates,B77W,I,DXB,CCU
+EK571,Kolkata,Dubai,Emirates,B77W,I,CCU,DXB
+EK572,Dubai,Kolkata,Emirates,B77W,I,DXB,CCU
+EK573,Kolkata,Dubai,Emirates,B77W,I,CCU,DXB
+EK9219,Delhi,Dubai,Emirates,B77W,I,DEL,DXB
+EK9219,Hong Kong,Delhi,Emirates,77X,I,HKG,DEL
+ET3610,Addis Ababa,Mumbai,Ethiopian Airlines,73F,I,ADD,BOM
+ET3611,Mumbai,Addis Ababa,Ethiopian Airlines,73F,I,BOM,ADD
+ET610,Addis Ababa,Mumbai,Ethiopian Airlines,B789,I,ADD,BOM
+ET611,Mumbai,Addis Ababa,Ethiopian Airlines,B789,I,BOM,ADD
+ET640,Addis Ababa,Mumbai,Ethiopian Airlines,B789,I,ADD,BOM
+ET641,Mumbai,Addis Ababa,Ethiopian Airlines,B789,I,BOM,ADD
+ET686,Addis Ababa,Delhi,Ethiopian Airlines,B77L,I,ADD,DEL
+ET687,Delhi,Addis Ababa,Ethiopian Airlines,B788,I,DEL,ADD
+ET688,Addis Ababa,Delhi,Ethiopian Airlines,B788,I,ADD,DEL
+ET689,Delhi,Addis Ababa,Ethiopian Airlines,B77L,I,DEL,ADD
+ET690,Addis Ababa,Bengaluru,Ethiopian Airlines,B738,I,ADD,BLR
+ET693,Chennai,Addis Ababa,Ethiopian Airlines,B38M,I,MAA,ADD
+EY196,Abu Dhabi,Mumbai,Etihad Airways,A320,I,AUH,BOM
+EY197,Mumbai,Abu Dhabi,Etihad Airways,A320,I,BOM,AUH
+EY203,Mumbai,Abu Dhabi,Etihad Airways,A35K,I,BOM,AUH
+EY204,Abu Dhabi,Mumbai,Etihad Airways,A35K,I,AUH,BOM
+EY205,Mumbai,Abu Dhabi,Etihad Airways,B789,I,BOM,AUH
+EY206,Abu Dhabi,Mumbai,Etihad Airways,B789,I,AUH,BOM
+EY207,Mumbai,Abu Dhabi,Etihad Airways,A320,I,BOM,AUH
+EY208,Abu Dhabi,Mumbai,Etihad Airways,A320,I,AUH,BOM
+EY209,Delhi,Abu Dhabi,Etihad Airways,A321,I,DEL,AUH
+EY210,Abu Dhabi,Delhi,Etihad Airways,A321,I,AUH,DEL
+EY211,Delhi,Abu Dhabi,Etihad Airways,B789,I,DEL,AUH
+EY212,Abu Dhabi,Delhi,Etihad Airways,A320,I,AUH,DEL
+EY213,Delhi,Abu Dhabi,Etihad Airways,A320,I,DEL,AUH
+EY216,Abu Dhabi,Bengaluru,Etihad Airways,A321,I,AUH,BLR
+EY217,Bengaluru,Abu Dhabi,Etihad Airways,A321,I,BLR,AUH
+EY218,Abu Dhabi,Delhi,Etihad Airways,B789,I,AUH,DEL
+EY223,Delhi,Abu Dhabi,Etihad Airways,A35K,I,DEL,AUH
+EY224,Abu Dhabi,Delhi,Etihad Airways,A35K,I,AUH,DEL
+EY238,Abu Dhabi,Bengaluru,Etihad Airways,B789,I,AUH,BLR
+EY239,Bengaluru,Abu Dhabi,Etihad Airways,B789,I,BLR,AUH
+EY246,Abu Dhabi,Chennai,Etihad Airways,A320,I,AUH,MAA
+EY247,Chennai,Abu Dhabi,Etihad Airways,A320,I,MAA,AUH
+EY254,Abu Dhabi,Cochin,Etihad Airways,A321,I,AUH,COK
+EY255,Cochin,Abu Dhabi,Etihad Airways,A321,I,COK,AUH
+EY256,Abu Dhabi,Kolkata,Etihad Airways,A320,I,AUH,CCU
+EY257,Kolkata,Abu Dhabi,Etihad Airways,A320,I,CCU,AUH
+EY258,Abu Dhabi,Kolkata,Etihad Airways,A320,I,AUH,CCU
+EY259,Kolkata,Abu Dhabi,Etihad Airways,A320,I,CCU,AUH
+EY268,Abu Dhabi,Chennai,Etihad Airways,A320,I,AUH,MAA
+EY269,Chennai,Abu Dhabi,Etihad Airways,A320,I,MAA,AUH
+EY272,Abu Dhabi,Chennai,Etihad Airways,A320,I,AUH,MAA
+EY273,Chennai,Abu Dhabi,Etihad Airways,A320,I,MAA,AUH
+EY274,Abu Dhabi,Hyderabad,Etihad Airways,B789,I,AUH,HYD
+EY275,Hyderabad,Abu Dhabi,Etihad Airways,B789,I,HYD,AUH
+EY276,Abu Dhabi,Hyderabad,Etihad Airways,B789,I,AUH,HYD
+EY277,Hyderabad,Abu Dhabi,Etihad Airways,B789,I,HYD,AUH
+EY280,Abu Dhabi,Cochin,Etihad Airways,A321,I,AUH,COK
+EY281,Cochin,Abu Dhabi,Etihad Airways,A321,I,COK,AUH
+EY284,Abu Dhabi,Ahmedabad,Etihad Airways,A321,I,AUH,AMD
+EY285,Ahmedabad,Abu Dhabi,Etihad Airways,A321,I,AMD,AUH
+EY286,Abu Dhabi,Ahmedabad,Etihad Airways,A321,I,AUH,AMD
+EY287,Ahmedabad,Abu Dhabi,Etihad Airways,A321,I,AMD,AUH
+EY288,Abu Dhabi,Cochin,Etihad Airways,A320,I,AUH,COK
+EY289,Cochin,Abu Dhabi,Etihad Airways,A320,I,COK,AUH
+FD120,Bangkok,Kolkata,AirAsia ,A20N,I,DMK,CCU
+FD121,Kolkata,Bangkok,AirAsia ,A320,I,CCU,DMK
+FD137,Bangkok,Bengaluru,AirAsia,A320,I,DMK,BLR
+FD138,Bengaluru,Bangkok,AirAsia,A320,I,BLR,DMK
+FD153,Bangkok,Chennai,AirAsia,A320,I,DMK,MAA
+FD154,Chennai,Bangkok,AirAsia,A320,I,MAA,DMK
+FD170,Bangkok,Cochin,AirAsia,A320,I,DMK,COK
+FD171,Cochin,Bangkok,AirAsia,A320,I,COK,DMK
+FZ437,Dubai,Ahmedabad,flydubai,B738,I,DXB,AMD
+FZ438,Ahmedabad,Dubai,flydubai,B738,I,AMD,DXB
+FZ445,Dubai,Mumbai,flydubai,B38M,I,DXB,BOM
+FZ446,Mumbai,Dubai,flydubai,B38M,I,BOM,DXB
+G9401,Sharjah,Mumbai,Air Arabia,A320,I,SHJ,BOM
+G9402,Mumbai,Sharjah,Air Arabia,A320,I,BOM,SHJ
+G9405,Sharjah,Mumbai,Air Arabia,A320,I,SHJ,BOM
+G9406,Mumbai,Sharjah,Air Arabia,A320,I,BOM,SHJ
+G9418,Sharjah,Ahmedabad,Air Arabia,A320,I,SHJ,AMD
+G9419,Ahmedabad,Sharjah,Air Arabia,A320,I,AMD,SHJ
+G9422,Sharjah,Cochin,Air Arabia,A320,I,SHJ,COK
+G9423,Cochin,Sharjah,Air Arabia,A320,I,COK,SHJ
+G9426,Sharjah,Cochin,Air Arabia,A320,I,SHJ,COK
+G9427,Cochin,Sharjah,Air Arabia,A320,I,COK,SHJ
+G9463,Sharjah,Delhi,Air Arabia,A320,I,SHJ,DEL
+G9464,Delhi,Sharjah,Air Arabia,A320,I,DEL,SHJ
+G9465,Sharjah,Delhi,Air Arabia,A320,I,SHJ,DEL
+G9466,Delhi,Sharjah,Air Arabia,A320,I,DEL,SHJ
+G9467,Sharjah,Hyderabad,Air Arabia,A320,I,SHJ,HYD
+G9468,Hyderabad,Sharjah,Air Arabia,A320,I,HYD,SHJ
+G9471,Sharjah,Chennai,Air Arabia,A320,I,SHJ,MAA
+G9472,Chennai,Sharjah,Air Arabia,A320,I,MAA,SHJ
+G9492,Sharjah,Goa,Air Arabia,A320,I,SHJ,GOI
+G9493,Goa,Sharjah,Air Arabia,A320,I,GOI,SHJ
+G9496,Sharjah,Bengaluru,Air Arabia,A320,I,SHJ,BLR
+G9497,Bengaluru,Sharjah,Air Arabia,A320,I,BLR,SHJ
+GF130,Bahrain,Delhi,Gulf Air,A21N,I,BAH,DEL
+GF131,Delhi,Bahrain,Gulf Air,A21N,I,DEL,BAH
+GF134,Bahrain,Delhi,Gulf Air,A21N,I,BAH,DEL
+GF135,Delhi,Bahrain,Gulf Air,A21N,I,DEL,BAH
+GF270,Bahrain,Cochin,Gulf Air,A321,I,BAH,COK
+GF271,Cochin,Bahrain,Gulf Air,A321,I,COK,BAH
+GF274,Bahrain,Hyderabad,Gulf Air,A20N,I,BAH,HYD
+GF275,Hyderabad,Bahrain,Gulf Air,A20N,I,HYD,BAH
+GF280,Bahrain,Bengaluru,Gulf Air,A320,I,BAH,BLR
+GF281,Bengaluru,Bahrain,Gulf Air,A320,I,BLR,BAH
+GF286,Bahrain,Goa,Gulf Air,A320,I,BAH,GOI
+GF287,Goa,Bahrain,Gulf Air,A320,I,GOI,BAH
+GF52,Bahrain,Chennai,Gulf Air,A20N,I,BAH,MAA
+GF53,Chennai,Bahrain,Gulf Air,A20N,I,MAA,BAH
+GF56,Bahrain,Mumbai,Gulf Air,A21N,I,BAH,BOM
+GF57,Mumbai,Bahrain,Gulf Air,A21N,I,BOM,BAH
+GF64,Bahrain,Mumbai,Gulf Air,A321,I,BAH,BOM
+GF65,Mumbai,Bahrain,Gulf Air,A321,I,BOM,BAH
+GF68,Bahrain,Chennai,Gulf Air,A320,I,BAH,MAA
+GF69,Chennai,Bahrain,Gulf Air,A320,I,MAA,BAH
+HY421,Tashkent,Delhi,Uzbekistan Airways,A21N,I,TAS,DEL
+HY422,Delhi,Tashkent,Uzbekistan Airways,A21N,I,DEL,TAS
+I51231,Kolkata,Imphal,AIX Connect,A320,D,CCU,IMF
+I51232,Imphal,Kolkata,AIX Connect,A320,D,IMF,CCU
+I51452,Bengaluru,Kolkata,AIX Connect,A320,D,BLR,CCU
+I51453,Kolkata,Bengaluru,AIX Connect,A320,D,CCU,BLR
+I51453,Bengaluru,Goa,AIX Connect,A320,D,BLR,GOI
+I51455,Goa,Bengaluru,AIX Connect,A320,D,GOI,BLR
+I51455,Bengaluru,Lucknow,AIX Connect,A320,D,BLR,LKO
+I51518,Hyderabad,Goa,AIX Connect,A320,D,HYD,GOI
+I51518,Goa,Bengaluru,AIX Connect,A320,D,GOI,BLR
+I51528,Bengaluru,Visakhapatnam,AIX Connect,A320,D,BLR,VTZ
+I51528,Visakhapatnam,Hyderabad,AIX Connect,A320,D,VTZ,HYD
+I51529,Hyderabad,Visakhapatnam,AIX Connect,A320,D,HYD,VTZ
+I51529,Visakhapatnam,Bengaluru,AIX Connect,A320,D,VTZ,BLR
+I51531,Siliguri,Bengaluru,AIX Connect,A320,D,IXB,BLR
+I51532,Bengaluru,Delhi,AIX Connect,A320,D,BLR,DEL
+I51533,Bengaluru,Kolkata,AIX Connect,A320,D,BLR,CCU
+I51534,Delhi,Bengaluru,AIX Connect,A320,D,DEL,BLR
+I51536,Kolkata,Bengaluru,AIX Connect,A320,D,CCU,BLR
+I51537,Bengaluru,Siliguri,AIX Connect,A320,D,BLR,IXB
+I51543,Jaipur,Hyderabad,AIX Connect,A20N,D,JAI,HYD
+I51543,Hyderabad,Bengaluru,AIX Connect,A20N,D,HYD,BLR
+I51553,Delhi,Siliguri,AIX Connect,A320,D,DEL,IXB
+I51562,Bengaluru,Bhubaneswar,AIX Connect ,A320,D,BLR,BBI
+I51562,Bhubaneswar,Kolkata,AIX Connect ,A320,D,BBI,CCU
+I51563,Kolkata,Bhubaneswar,AIX Connect ,A320,D,CCU,BBI
+I51563,Bhubaneswar,Bengaluru,AIX Connect ,A320,D,BBI,BLR
+I51565,Bhubaneswar,Bengaluru,AIX Connect ,A320,D,BBI,BLR
+I51567,Bengaluru,Bhubaneswar,AIX Connect ,A320,D,BLR,BBI
+I51568,Ranchi,Bengaluru,AIX Connect,A320,D,IXR,BLR
+I51569,Delhi,Surat,AIX Connect,A320,D,DEL,STV
+I51569,Surat,Bengaluru,AIX Connect,A320,D,STV,BLR
+I51576,Bengaluru,Hyderabad,AIX Connect,A20N,D,BLR,HYD
+I51576,Hyderabad,Jaipur,AIX Connect,A20N,D,HYD,JAI
+I51613,Cochin,Bengaluru,AIX Connect,A320,D,COK,BLR
+I51731,Bengaluru,Hyderabad,AIX Connect ,A320,D,BLR,HYD
+I51732,Hyderabad,Bengaluru,AIX Connect ,A320,D,HYD,BLR
+I51780,Bengaluru,Siliguri,AIX Connect,A320,D,BLR,IXB
+I51781,Siliguri,Bengaluru,AIX Connect,A320,D,IXB,BLR
+I51781,Bengaluru,Visakhapatnam,AIX Connect,A320,D,BLR,VTZ
+I51782,Ranchi,Bengaluru,AIX Connect,A320,D,IXR,BLR
+I51982,Bengaluru,Guwahati,AIX Connect,A320,D,BLR,GAU
+I51983,Guwahati,Bengaluru,AIX Connect,A320,D,GAU,BLR
+I51983,Bengaluru,Goa,AIX Connect,A320,D,BLR,GOI
+I51983,Goa,Hyderabad,AIX Connect,A320,D,GOI,HYD
+I52461,Bengaluru,Chennai,AIX Connect,A20N,D,BLR,MAA
+I52461,Chennai,Guwahati,AIX Connect,A20N,D,MAA,GAU
+I52732,Lucknow,Bengaluru,AIX Connect,A320,D,LKO,BLR
+I52903,Bengaluru,Bhubaneswar,AIX Connect,A320,D,BLR,BBI
+I52991,Bhubaneswar,Bengaluru,AIX Connect,A320,D,BBI,BLR
+I5315,Goa,Delhi,AIX Connect,A320,D,GOI,DEL
+I5315,Delhi,Srinagar,AIX Connect,A320,D,DEL,SXR
+I5319,Siliguri,Kolkata,AIX Connect,A320,D,IXB,CCU
+I5319,Kolkata,Bhubaneswar,AIX Connect,A320,D,CCU,BBI
+I5319,Bhubaneswar,Pune,AIX Connect,A320,D,BBI,PNQ
+I5320,Pune,Bhubaneswar,AIX Connect,A320,D,PNQ,BBI
+I5320,Bhubaneswar,Kolkata,AIX Connect,A320,D,BBI,CCU
+I5320,Kolkata,Hyderabad,AIX Connect,A320,D,CCU,HYD
+I5330,Pune,Lucknow,AIX Connect,A320,D,PNQ,LKO
+I5330,Lucknow,Delhi,AIX Connect,A320,D,LKO,DEL
+I5331,Mumbai,Ranchi,AIX Connect,A320,D,BOM,IXR
+I5334,Goa,Mumbai,AIX Connect,A320,D,GOI,BOM
+I5334,Mumbai,Jaipur,AIX Connect,A320,D,BOM,JAI
+I5335,Ranchi,Mumbai,AIX Connect,A320,D,IXR,BOM
+I5335,Mumbai,Bhubaneswar,AIX Connect,A320,D,BOM,BBI
+I5337,Jaipur,Mumbai,AIX Connect,A320,D,JAI,BOM
+I5338,Bhubaneswar,Mumbai,AIX Connect,A320,D,BBI,BOM
+I5338,Mumbai,Goa,AIX Connect,A320,D,BOM,GOI
+I5472,Bengaluru,Mumbai,AIX Connect,A320,D,BLR,BOM
+I5548,Delhi,Lucknow,AIX Connect,A320,D,DEL,LKO
+I5549,Ranchi,Delhi,AIX Connect,A320,D,IXR,DEL
+I5549,Delhi,Cochin,AIX Connect,A320,D,DEL,COK
+I5550,Cochin,Delhi,AIX Connect,A320,D,COK,DEL
+I5552,Lucknow,Delhi,AIX Connect,A320,D,LKO,DEL
+I5554,Kolkata,Bengaluru,AIX Connect,A320,D,CCU,BLR
+I5558,Bengaluru,Kolkata,AIX Connect,A320,D,BLR,CCU
+I5559,Srinagar,Delhi,AIX Connect,A320,D,SXR,DEL
+I5559,Delhi,Bhubaneswar,AIX Connect,A320,D,DEL,BBI
+I5560,Bhubaneswar,Delhi,AIX Connect,A320,D,BBI,DEL
+I5560,Delhi,Goa,AIX Connect,A320,D,DEL,GOI
+I5581,Kolkata,Siliguri,AIX Connect,A320,D,CCU,IXB
+I5584,Hyderabad,Kolkata,AIX Connect,A320,D,HYD,CCU
+I5588,Kolkata,Surat,AIX Connect,A320,D,CCU,STV
+I5592,Surat,Kolkata,AIX Connect,A320,D,STV,CCU
+I5611,Bengaluru,Cochin,AIX Connect,A320,D,BLR,COK
+I5613,Bengaluru,Surat,AIX Connect ,A320,D,BLR,STV
+I5613,Surat,Delhi,AIX Connect ,A320,D,STV,DEL
+I5634,Kolkata,Siliguri,AIX Connect,A320,D,CCU,IXB
+I5670,Jaipur,Mumbai,AIX Connect,A320,D,JAI,BOM
+I5670,Mumbai,Bengaluru,AIX Connect,A320,D,BOM,BLR
+I5673,Guwahati,Bengaluru,AIX Connect,A20N,D,GAU,BLR
+I5679,Goa,Mumbai,AIX Connect,A320,D,GOI,BOM
+I5679,Mumbai,Jaipur,AIX Connect,A320,D,BOM,JAI
+I5709,Delhi,Srinagar,AIX Connect,A320,D,DEL,SXR
+I5710,Srinagar,Delhi,AIX Connect,A320,D,SXR,DEL
+I5710,Delhi,Ranchi,AIX Connect,A320,D,DEL,IXR
+I5711,Delhi,Bhubaneswar,AIX Connect,A320,D,DEL,BBI
+I5712,Bhubaneswar,Delhi,AIX Connect,A320,D,BBI,DEL
+I5712,Delhi,Srinagar,AIX Connect,A320,D,DEL,SXR
+I5713,Srinagar,Delhi,AIX Connect,A320,D,SXR,DEL
+I5713,Delhi,Siliguri,AIX Connect,A320,D,DEL,IXB
+I5721,Goa,Delhi,AIX Connect,A320,D,GOI,DEL
+I5721,Delhi,Pune,AIX Connect,A320,D,DEL,PNQ
+I5722,Pune,Delhi,AIX Connect,A320,D,PNQ,DEL
+I5736,Pune,Delhi,AIX Connect,A320,D,PNQ,DEL
+I5738,Ranchi,Delhi,AIX Connect,A320,D,IXR,DEL
+I5738,Delhi,Lucknow,AIX Connect,A320,D,DEL,LKO
+I5738,Lucknow,Pune,AIX Connect,A320,D,LKO,PNQ
+I5740,Delhi,Bengaluru,AIX Connect,A320,D,DEL,BLR
+I5741,Bengaluru,Delhi,AIX Connect,A320,D,BLR,DEL
+I5741,Delhi,Srinagar,AIX Connect,A320,D,DEL,SXR
+I5743,Delhi,Jaipur,AIX Connect,A320,D,DEL,JAI
+I5744,Jaipur,Delhi,AIX Connect,A320,D,JAI,DEL
+I5744,Delhi,Ranchi,AIX Connect,A320,D,DEL,IXR
+I5754,Bhubaneswar,Delhi,AIX Connect ,A320,D,BBI,DEL
+I5761,Mumbai,Jaipur,AIX Connect,A320,D,BOM,JAI
+I5762,Jaipur,Mumbai,AIX Connect,A320,D,JAI,BOM
+I5762,Mumbai,Goa,AIX Connect,A320,D,BOM,GOI
+I5764,Delhi,Pune,AIX Connect,A320,D,DEL,PNQ
+I5766,Siliguri,Delhi,AIX Connect,A320,D,IXB,DEL
+I5767,Pune,Delhi,AIX Connect,A320,D,PNQ,DEL
+I5767,Delhi,Siliguri,AIX Connect,A320,D,DEL,IXB
+I5768,Siliguri,Delhi,AIX Connect,A320,D,IXB,DEL
+I5768,Delhi,Goa,AIX Connect,A320,D,DEL,GOI
+I5776,Siliguri,Delhi,AIX Connect,A320,D,IXB,DEL
+I5776,Delhi,Ranchi,AIX Connect,A320,D,DEL,IXR
+I5778,Ranchi,Delhi,AIX Connect,A320,D,IXR,DEL
+I5779,Delhi,Goa,AIX Connect,A320,D,DEL,GOI
+I5788,Guwahati,Delhi,AIX Connect,A320,D,GAU,DEL
+I5788,Delhi,Pune,AIX Connect,A320,D,DEL,PNQ
+I5791,Delhi,Cochin,AIX Connect,A320,D,DEL,COK
+I5792,Cochin,Delhi,AIX Connect,A320,D,COK,DEL
+I5792,Delhi,Guwahati,AIX Connect,A320,D,DEL,GAU
+I5818,Bengaluru,Pune,AIX Connect,A320,D,BLR,PNQ
+I5819,Pune,Bengaluru,AIX Connect,A320,D,PNQ,BLR
+I5819,Bengaluru,Ranchi,AIX Connect,A320,D,BLR,IXR
+I5820,Ranchi,Bengaluru,AIX Connect,A320,D,IXR,BLR
+I5820,Bengaluru,Guwahati,AIX Connect,A320,D,BLR,GAU
+I5821,Guwahati,Chennai,AIX Connect,A320,D,GAU,MAA
+I5821,Chennai,Bengaluru,AIX Connect,A320,D,MAA,BLR
+I5821,Bengaluru,Pune,AIX Connect,A320,D,BLR,PNQ
+I5830,Goa,Delhi,AIX Connect,A320,D,GOI,DEL
+I5857,Delhi,Bhubaneswar,AIX Connect ,A320,D,DEL,BBI
+I5857,Srinagar,Delhi,AIX Connect,A320,D,SXR,DEL
+I5942,Bengaluru,Ranchi,AIX Connect,A320,D,BLR,IXR
+I5975,Pune,Bengaluru,AIX Connect,A320,D,PNQ,BLR
+I5978,Visakhapatnam,Bengaluru,AIX Connect,A320,D,VTZ,BLR
+I5978,Bengaluru,Ranchi,AIX Connect,A320,D,BLR,IXR
+I5990,Siliguri,Kolkata,AIX Connect,A320,D,IXB,CCU
+I5990,Kolkata,Bengaluru,AIX Connect,A320,D,CCU,BLR
+I5990,Bengaluru,Cochin,AIX Connect,A320,D,BLR,COK
+I5992,Cochin,Bengaluru,AIX Connect,A320,D,COK,BLR
+I5992,Bengaluru,Kolkata,AIX Connect,A320,D,BLR,CCU
+I7105,Kolkata,Cooch Behar,IndiaOne Air,CNF,D,CCU,COH
+I7106,Jamshedpur,Kolkata,IndiaOne Air,CNF,D,IXW,CCU
+I7107,Kolkata,Cooch Behar,IndiaOne Air,CNF,D,CCU,COH
+I7108,Jamshedpur,Kolkata,IndiaOne Air,CNF,D,IXW,CCU
+I7206,Kolkata,Jamshedpur,IndiaOne Air,CNF,D,CCU,IXW
+I7207,Cooch Behar,Kolkata,IndiaOne Air,CNF,D,COH,CCU
+IA443,Baghdad,Delhi,Iraqi Airways,B738,I,BGW,DEL
+IA444,Delhi,Baghdad,Iraqi Airways,B738,I,DEL,BGW
+ID6018,Kuala Lumpur,Chennai,Batik Air,B738,I,KUL,MAA
+ID6019,Chennai,Kuala Lumpur,Batik Air,B738,I,MAA,KUL
+IR810,Tehran,Mumbai,Iran Air,A306,I,IKA,BOM
+IR811,Mumbai,Tehran,Iran Air,A306,I,BOM,IKA
+IX1123,Kolkata,Cochin,Air India Express,B38M,D,CCU,COK
+IX1126,Hyderabad,Kolkata,Air India Express,B38M,D,HYD,CCU
+IX1128,Cochin,Kolkata,Air India Express,B38M,D,COK,CCU
+IX1129,Kolkata,Hyderabad,Air India Express,B38M,D,CCU,HYD
+IX1130,Cochin,Bengaluru,AIX Connect,A320,D,COK,BLR
+IX1132,Jaipur,Pune,AIX Connect,A320,D,JAI,PNQ
+IX1132,Pune,Bengaluru,AIX Connect,A320,D,PNQ,BLR
+IX1132,Bengaluru,Cochin,AIX Connect,A320,D,BLR,COK
+IX1148,Hyderabad,Lucknow,Air India Express,B38M,D,HYD,LKO
+IX1170,Surat,Hyderabad,Air India Express,B38M,D,STV,HYD
+IX1170,Hyderabad,Varanasi,Air India Express,B38M,D,HYD,VNS
+IX1171,Varanasi,Hyderabad,Air India Express,B38M,D,VNS,HYD
+IX1228,Bengaluru,Hyderabad,Air India Express,B38M,D,BLR,HYD
+IX1228,Hyderabad,Jaipur,Air India Express,B38M,D,HYD,JAI
+IX1229,Jaipur,Hyderabad,Air India Express,B38M,D,JAI,HYD
+IX1229,Hyderabad,Bengaluru,Air India Express,B38M,D,HYD,BLR
+IX1229,Bengaluru,Mumbai,Air India Express,B38M,D,BLR,BOM
+IX135,Delhi,Sharjah,Air India Express,B38M,I,DEL,SHJ
+IX136,Sharjah,Delhi,Air India Express,B38M,I,SHJ,DEL
+IX1428,Lucknow,Bengaluru,AIX Connect,A320,D,LKO,BLR
+IX1428,Bengaluru,Pune,AIX Connect,A320,D,BLR,PNQ
+IX1428,Pune,Jaipur,AIX Connect,A320,D,PNQ,JAI
+IX1457,Kolkata,Jaipur,Air India Express,B38M,D,CCU,JAI
+IX146,Bahrain,Delhi,Air India Express,B38M,I,BAH,DEL
+IX1595,Bengaluru,Gwalior,Air India Express,B38M,D,BLR,GWL
+IX1595,Gwalior,Delhi,Air India Express,B38M,D,GWL,DEL
+IX1595,Delhi,Ayodhya,Air India Express,B38M,D,DEL,AYJ
+IX1596,Ayodhya,Delhi,Air India Express,B38M,D,AYJ,DEL
+IX1596,Delhi,Gwalior,Air India Express,B38M,D,DEL,GWL
+IX1596,Gwalior,Bengaluru,Air India Express,B38M,D,GWL,BLR
+IX1596,Bengaluru,Kannur,Air India Express,B38M,D,BLR,CNN
+IX1599,Kannur,Bengaluru,Air India Express,B38M,D,CNN,BLR
+IX1622,Varanasi,Bengaluru,Air India Express,B38M,D,VNS,BLR
+IX1622,Bengaluru,Cochin,Air India Express,B38M,D,BLR,COK
+IX1642,Bengaluru,Varanasi,Air India Express,B38M,D,BLR,VNS
+IX1643,Kolkata,Chennai,Air India Express,B38M,D,CCU,MAA
+IX1645,Chennai,Kolkata,Air India Express,B38M,D,MAA,CCU
+IX1756,Jaipur,Kolkata,Air India Express,B38M,D,JAI,CCU
+IX1756,Kolkata,Hyderabad,Air India Express,B38M,D,CCU,HYD
+IX1757,Hyderabad,Kolkata,Air India Express,B38M,D,HYD,CCU
+IX1766,Bengaluru,Jaipur,Air India Express,B38M,D,BLR,JAI
+IX1767,Jaipur,Bengaluru,Air India Express,B38M,D,JAI,BLR
+IX1785,Lucknow,Mumbai,Air India Express,B38M,D,LKO,BOM
+IX1795,Kozhikode,Bengaluru,Air India Express,B38M,D,CCJ,BLR
+IX1795,Bengaluru,Mangalore,Air India Express,B38M,D,BLR,IXE
+IX1797,Thiruvananthapuram,Bengaluru,Air India Express,73H,D,TRV,BLR
+IX1799,Goa,Delhi,Air India Express,B38M,D,GOI,DEL
+IX1799,Delhi,Guwahati,Air India Express,B38M,D,DEL,GAU
+IX1881,Hyderabad,Vijayawada,Air India Express,B38M,D,HYD,VGA
+IX1882,Vijayawada,Hyderabad,Air India Express,B38M,D,VGA,HYD
+IX1882,Hyderabad,Chennai,Air India Express,B38M,D,HYD,MAA
+IX1883,Chennai,Hyderabad,Air India Express,B38M,D,MAA,HYD
+IX1883,Hyderabad,Siliguri,Air India Express,B38M,D,HYD,IXB
+IX1884,Siliguri,Hyderabad,Air India Express,B38M,D,IXB,HYD
+IX1884,Hyderabad,Visakhapatnam,Air India Express,B38M,D,HYD,VTZ
+IX1885,Chennai,Kolkata,Air India Express ,B738,D,MAA,CCU
+IX1886,Kolkata,Chennai,Air India Express ,B738,D,CCU,MAA
+IX1887,Visakhapatnam,Hyderabad,Air India Express,B38M,D,VTZ,HYD
+IX1941,Bengaluru,Jaipur,Air India Express,B38M,D,BLR,JAI
+IX1942,Jaipur,Bengaluru,Air India Express,7M8,D,JAI,BLR
+IX1945,Thiruvananthapuram,Hyderabad,Air India Express,B38M,D,TRV,HYD
+IX1946,Hyderabad,Thiruvananthapuram,Air India Express,B38M,D,HYD,TRV
+IX233,Dammam,Mumbai,Air India Express ,B738,I,DMM,BOM
+IX234,Mumbai,Dammam,Air India Express ,B738,I,BOM,DMM
+IX235,Mumbai,Muscat,Air India Express ,B738,I,BOM,MCT
+IX236,Muscat,Mumbai,Air India Express ,B738,I,MCT,BOM
+IX2472,Bengaluru,Lucknow,AIX Connect,A320,D,BLR,LKO
+IX251,Mumbai,Sharjah,Air India Express,B38M,I,BOM,SHJ
+IX252,Sharjah,Mumbai,Air India Express,B38M,I,SHJ,BOM
+IX254,Dubai,Mumbai,Air India Express ,B738,I,DXB,BOM
+IX2784,Delhi,Lucknow,Air India Express,B38M,D,DEL,LKO
+IX2789,Guwahati,Delhi,Air India Express,B38M,D,GAU,DEL
+IX2789,Delhi,Jaipur,Air India Express,B38M,D,DEL,JAI
+IX296,Abu Dhabi,Mumbai,Air India Express ,B738,I,AUH,BOM
+IX297,Mumbai,Abu Dhabi,Air India Express ,B738,I,BOM,AUH
+IX2992,Mumbai,Bengaluru,Air India Express,B38M,D,BOM,BLR
+IX411,Cochin,Sharjah,AIX Connect,A20N,I,COK,SHJ
+IX412,Sharjah,Cochin,AIX Connect,A20N,I,SHJ,COK
+IX419,Cochin,Abu Dhabi,Air India Express,A20N,I,COK,AUH
+IX420,Abu Dhabi,Cochin,Air India Express,A20N,I,AUH,COK
+IX434,Dubai,Cochin,Air India Express,32N,I,DXB,COK
+IX435,Cochin,Dubai,Air India Express,32N,I,COK,DXB
+IX442,Muscat,Cochin,Air India Express,A20N,I,MCT,COK
+IX443,Cochin,Muscat,Air India Express,A20N,I,COK,MCT
+IX475,Cochin,Doha,Air India Express,A20N,I,COK,DOH
+IX476,Doha,Cochin,Air India Express,A20N,I,DOH,COK
+IX481,Cochin,Dammam,Air India Express,A20N,I,COK,DMM
+IX482,Dammam,Cochin,Air India Express,A20N,I,DMM,COK
+IX517,Kolkata,Hyderabad,Air India Express,B38M,D,CCU,HYD
+IX587,Hyderabad,Kolkata,Air India Express,B38M,D,HYD,CCU
+IX678,Mangalore,Bengaluru,Air India Express,B38M,D,IXE,BLR
+IX678,Bengaluru,Kozhikode,Air India Express,B38M,D,BLR,CCJ
+IX687,Singapore,Chennai,Air India Express ,B738,I,SIN,MAA
+IX688,Chennai,Singapore,Air India Express ,B738,I,MAA,SIN
+IX697,Chennai,Kuwait City,Air India Express ,B738,I,MAA,KWI
+IX698,Kuwait City,Chennai,Air India Express ,B738,I,KWI,MAA
+IX763,Bengaluru,Chennai,Air India Express,B38M,D,BLR,MAA
+IX764,Bengaluru,Ayodhya,Air India Express,B38M,D,BLR,AYJ
+IX764,Ayodhya,Kolkata,Air India Express,B38M,D,AYJ,CCU
+IX765,Kolkata,Ayodhya,Air India Express,B38M,D,CCU,AYJ
+IX765,Ayodhya,Bengaluru,Air India Express,B38M,D,AYJ,BLR
+IX769,Jaipur,Delhi,Air India Express,B38M,D,JAI,DEL
+IX769,Delhi,Goa,Air India Express,B38M,D,DEL,GOI
+IX775,Guwahati,Delhi,Air India Express,B38M,D,GAU,DEL
+IX782,Chennai,Bengaluru,Air India Express,B38M,D,MAA,BLR
+IX782,Bengaluru,Mangalore,Air India Express,B38M,D,BLR,IXE
+IX783,Delhi,Guwahati,Air India Express,B38M,D,DEL,GAU
+IX784,Guwahati,Delhi,Air India Express,B38M,D,GAU,DEL
+IX787,Delhi,Guwahati,Air India Express,B38M,D,DEL,GAU
+IX792,Mangalore,Bengaluru,Air India Express,B38M,D,IXE,BLR
+IX792,Bengaluru,Thiruvananthapuram,Air India Express,B38M,D,BLR,TRV
+IX840,Dubai,Goa,Air India Express,73H,I,DXB,GOI
+IX891,Cochin,Hyderabad,Air India Express,B38M,D,COK,HYD
+IX929,Hyderabad,Dammam,Air India Express ,B738,I,HYD,DMM
+IX930,Dammam,Hyderabad,Air India Express ,B738,I,DMM,HYD
+IX932,Varanasi,Bengaluru,Air India Express,B38M,D,VNS,BLR
+IX934,Thiruvananthapuram,Bengaluru,Air India Express,B38M,D,TRV,BLR
+IX934,Bengaluru,Varanasi,Air India Express,B38M,D,BLR,VNS
+IX937,Varanasi,Bengaluru,Air India Express,B38M,D,VNS,BLR
+IX938,Bengaluru,Varanasi,Air India Express,B38M,D,BLR,VNS
+IX953,Amritsar,Hyderabad,Air India Express,B38M,D,ATQ,HYD
+IX953,Hyderabad,Lucknow,Air India Express,B38M,D,HYD,LKO
+IX954,Hyderabad,Amritsar,Air India Express,B38M,D,HYD,ATQ
+IX955,Lucknow,Hyderabad,Air India Express,B38M,D,LKO,HYD
+IX955,Hyderabad,Cochin,Air India Express,B38M,D,HYD,COK
+IX968,Bengaluru,Thiruvananthapuram,Air India Express,B38M,D,BLR,TRV
+IX972,Cochin,Bengaluru,Air India Express,B38M,D,COK,BLR
+IX972,Bengaluru,Hyderabad,Air India Express,B38M,D,BLR,HYD
+IX972,Hyderabad,Goa,Air India Express,B38M,D,HYD,GOI
+IX974,Goa,Hyderabad,Air India Express,B38M,D,GOI,HYD
+IX974,Hyderabad,Bengaluru,Air India Express,B38M,D,HYD,BLR
+IX974,Bengaluru,Pune,Air India Express,B38M,D,BLR,PNQ
+IX982,Pune,Bengaluru,Air India Express,B38M,D,PNQ,BLR
+IX995,Hyderabad,Riyadh,Air India Express,B38M,I,HYD,RUH
+IX996,Riyadh,Hyderabad,Air India Express,B38M,I,RUH,HYD
+IX997,Hyderabad,Jeddah,Air India Express,B38M,I,HYD,JED
+IX998,Jeddah,Hyderabad,Air India Express,B38M,I,JED,HYD
+J259,Baku,Mumbai,Azerbaijan Airlines,A20N,I,GYD,BOM
+J260,Mumbai,Baku,Azerbaijan Airlines,A20N,I,BOM,GYD
+J9401,Kuwait City,Mumbai,Jazeera Airways,A320,I,KWI,BOM
+J9402,Mumbai,Kuwait City,Jazeera Airways,A320,I,BOM,KWI
+J9405,Kuwait City,Cochin,Jazeera Airways,A20N,I,KWI,COK
+J9406,Cochin,Kuwait City,Jazeera Airways,A20N,I,COK,KWI
+J9409,Kuwait City,Delhi,Jazeera Airways,A320,I,KWI,DEL
+J9410,Delhi,Kuwait City,Jazeera Airways,A320,I,DEL,KWI
+JL30,Delhi,Tokyo,Japan Airlines,B789,I,DEL,HND
+JL39,Tokyo,Delhi,Japan Airlines,B789,I,HND,DEL
+JL753,Tokyo,Bengaluru,Japan Airlines,B788,I,NRT,BLR
+JL754,Bengaluru,Tokyo,Japan Airlines,B788,I,BLR,NRT
+KB202,Paro,Delhi,Druk Air,A20N,I,PBH,DEL
+KB203,Delhi,Paro,Druk Air,A20N,I,DEL,PBH
+KB210,Paro,Kolkata,Druk Air,A319,I,PBH,CCU
+KB211,Kolkata,Paro,Druk Air,A319,I,CCU,PBH
+KC907,Almaty,Delhi,Air Astana,A21N,I,ALA,DEL
+KC908,Delhi,Almaty,Air Astana,A21N,I,DEL,ALA
+KE9575,Hanoi,Delhi,Korean Air Cargo,B77L,I,HAN,DEL
+KE9575,Delhi,Vienna,Korean Air Cargo,B77L,I,DEL,VIE
+KL871,Amsterdam,Delhi,KLM,B78X,I,AMS,DEL
+KL872,Delhi,Amsterdam,KLM,B78X,I,DEL,AMS
+KL877,Amsterdam,Mumbai,KLM,A332,I,AMS,BOM
+KL878,Mumbai,Amsterdam,KLM,A332,I,BOM,AMS
+KL880,Bengaluru,Amsterdam,KLM,B772,I,BLR,AMS
+KQ202,Nairobi,Mumbai,Kenya Airways,B738,I,NBO,BOM
+KQ203,Mumbai,Nairobi,Kenya Airways,B738,I,BOM,NBO
+KQ204,Nairobi,Mumbai,Kenya Airways,B738,I,NBO,BOM
+KQ205,Mumbai,Nairobi,Kenya Airways,B738,I,BOM,NBO
+KU301,Kuwait City,Mumbai,Kuwait Airways,A20N,I,KWI,BOM
+KU302,Mumbai,Kuwait City,Kuwait Airways,A20N,I,BOM,KWI
+KU303,Kuwait City,Mumbai,Kuwait Airways,A320,I,KWI,BOM
+KU304,Mumbai,Kuwait City,Kuwait Airways,A320,I,BOM,KWI
+KU345,Kuwait City,Ahmedabad,Kuwait Airways,A320,I,KWI,AMD
+KU346,Ahmedabad,Kuwait City,Kuwait Airways,A320,I,AMD,KWI
+KU357,Kuwait City,Cochin,Kuwait Airways,A20N,I,KWI,COK
+KU358,Cochin,Kuwait City,Kuwait Airways,A20N,I,COK,KWI
+KU381,Kuwait City,Delhi,Kuwait Airways,A338,I,KWI,DEL
+KU382,Delhi,Kuwait City,Kuwait Airways,A338,I,DEL,KWI
+KU383,Kuwait City,Delhi,Kuwait Airways,A20N,I,KWI,DEL
+KU384,Delhi,Kuwait City,Kuwait Airways,A20N,I,DEL,KWI
+LH754,Frankfurt,Bengaluru,Lufthansa,B748,I,FRA,BLR
+LH755,Bengaluru,Frankfurt,Lufthansa,B748,I,BLR,FRA
+LH756,Frankfurt,Mumbai,Lufthansa,B789,I,FRA,BOM
+LH757,Mumbai,Frankfurt,Lufthansa,B789,I,BOM,FRA
+LH758,Frankfurt,Chennai,Lufthansa,A343,I,FRA,MAA
+LH759,Chennai,Frankfurt,Lufthansa,A343,I,MAA,FRA
+LH760,Frankfurt,Delhi,Lufthansa ,A343,I,FRA,DEL
+LH761,Delhi,Frankfurt,Lufthansa ,A343,I,DEL,FRA
+LH762,Munich,Delhi,Lufthansa,A388,I,MUC,DEL
+LH763,Delhi,Munich,Lufthansa,A388,I,DEL,MUC
+LH766,Munich,Mumbai,Lufthansa,A346,I,MUC,BOM
+LH767,Mumbai,Munich,Lufthansa,A346,I,BOM,MUC
+LH8474,Frankfurt,Bengaluru,Lufthansa Cargo,B77L,I,FRA,BLR
+LH8474,Bengaluru,Hong Kong,Lufthansa Cargo,B77L,I,BLR,HKG
+LO71,Warsaw,Delhi,LOT,B789,I,WAW,DEL
+LO72,Delhi,Warsaw,LOT,B789,I,DEL,WAW
+LX146,Zurich,Delhi,Swiss,A333,I,ZRH,DEL
+LX147,Delhi,Zurich,Swiss,A333,I,DEL,ZRH
+LX154,Zurich,Mumbai,Swiss,A333,I,ZRH,BOM
+LX155,Mumbai,Zurich,Swiss,A333,I,BOM,ZRH
+MA6303,Sharjah,Mumbai,MAE Aircraft Management,73Y,I,SHJ,BOM
+MA6304,Mumbai,Bahrain,MAE Aircraft Management,73Y,I,BOM,BAH
+MH106,Kuala Lumpur,Ahmedabad,Malaysia Airlines,B738,I,KUL,AMD
+MH107,Ahmedabad,Kuala Lumpur,Malaysia Airlines,B738,I,AMD,KUL
+MH108,Kuala Lumpur,Cochin,Malaysia Airlines ,B738,I,KUL,COK
+MH109,Cochin,Kuala Lumpur,Malaysia Airlines,B738,I,COK,KUL
+MH172,Kuala Lumpur,Delhi,Malaysia Airlines,B738,I,KUL,DEL
+MH173,Delhi,Kuala Lumpur,Malaysia Airlines,B738,I,DEL,KUL
+MH174,Kuala Lumpur,Mumbai,Malaysia Airlines,B738,I,KUL,BOM
+MH175,Mumbai,Kuala Lumpur,Malaysia Airlines,B738,I,BOM,KUL
+MH180,Kuala Lumpur,Chennai,Malaysia Airlines ,B738,I,KUL,MAA
+MH181,Chennai,Kuala Lumpur,Malaysia Airlines ,B738,I,MAA,KUL
+MH182,Kuala Lumpur,Chennai,Malaysia Airlines,B738,I,KUL,MAA
+MH183,Chennai,Kuala Lumpur,Malaysia Airlines,B738,I,MAA,KUL
+MH190,Kuala Lumpur,Delhi,Malaysia Airlines,A333,I,KUL,DEL
+MH191,Delhi,Kuala Lumpur,Malaysia Airlines,A333,I,DEL,KUL
+MH192,Kuala Lumpur,Bengaluru,Malaysia Airlines,B738,I,KUL,BLR
+MH193,Bengaluru,Kuala Lumpur,Malaysia Airlines ,B738,I,BLR,KUL
+MH194,Kuala Lumpur,Mumbai,Malaysia Airlines,A333,I,KUL,BOM
+MH195,Mumbai,Kuala Lumpur,Malaysia Airlines,A333,I,BOM,KUL
+MH198,Kuala Lumpur,Hyderabad,Malaysia Airlines,B738,I,KUL,HYD
+MH199,Hyderabad,Kuala Lumpur,Malaysia Airlines ,B738,I,HYD,KUL
+MK748,Port Louis,Mumbai,Air Mauritius,A332,I,MRU,BOM
+MK749,Mumbai,Port Louis,Air Mauritius,A332,I,BOM,MRU
+MS517,Cairo,Mumbai,Egyptair Cargo,A332,I,CAI,BOM
+MS518,Mumbai,Cairo,Egyptair Cargo,A332,I,BOM,CAI
+MS968,Cairo,Mumbai,Egyptair,B738,I,CAI,BOM
+MS969,Mumbai,Cairo,Egyptair,B738,I,BOM,CAI
+MS973,Cairo,Delhi,Egyptair,A20N,I,CAI,DEL
+MS974,Delhi,Cairo,Egyptair,A20N,I,DEL,CAI
+MU555,Kunming,Kolkata,China Eastern Airlines,738,I,KMG,CCU
+MU556,Kolkata,Kunming,China Eastern Airlines,738,I,CCU,KMG
+NH829,Tokyo,Mumbai,All Nippon Airways,B789,I,NRT,BOM
+NH830,Mumbai,Tokyo,All Nippon Airways,B789,I,BOM,NRT
+NH837,Tokyo,Delhi,All Nippon Airways,B789,I,HND,DEL
+NH838,Delhi,Tokyo,All Nippon Airways,B789,I,DEL,HND
+NR600,Bengaluru,Dhaalu Island,Manta Air,AT7,I,BLR,DDD
+NR602,Dhaalu Island,Bengaluru,Manta Air,AT7,I,DDD,BLR
+O3103,Shenzhen,Chennai,SF Airlines,73F,I,SZX,MAA
+O3104,Chennai,Shenzhen,SF Airlines,73F,I,MAA,SZX
+O3228,Delhi,Chengdu,SF Airlines,B763,I,DEL,CTU
+O3229,Chengdu,Chennai,SF Airlines,73F,I,CTU,MAA
+O37069,Shenzhen,Chennai,SF Airlines,73F,I,SZX,MAA
+O37070,Chennai,Shenzhen,SF Airlines,73F,I,MAA,SZX
+O37131,Shenzhen,Delhi,SF Airlines,73F,I,SZX,DEL
+OD205,Kuala Lumpur,Delhi,Batik Air,B38M,I,KUL,DEL
+OD206,Delhi,Kuala Lumpur,Batik Air,B38M,I,DEL,KUL
+OD215,Kuala Lumpur,Mumbai,Batik Air,B38M,I,KUL,BOM
+OD216,Mumbai,Kuala Lumpur,Batik Air,B38M,I,BOM,KUL
+OD231,Kuala Lumpur,Cochin,Batik Air,B38M,I,KUL,COK
+OV3891,Sharjah,Mumbai,SalamAir,321,I,SHJ,BOM
+OV3898,Mumbai,Ra'sal-Khaymah,SalamAir,321,I,BOM,RKT
+OZ767,Seoul,Delhi,Asiana Airlines,B772,I,ICN,DEL
+OZ768,Delhi,Seoul,Asiana Airlines,B772,I,DEL,ICN
+QF67,Sydney,Bengaluru,Qantas,A332,I,SYD,BLR
+QF68,Bengaluru,Sydney,Qantas,A332,I,BLR,SYD
+QP1102,Ahmedabad,Mumbai,Akasa Air,B38M,D,AMD,BOM
+QP1104,Bengaluru,Mumbai,Akasa Air,B38M,D,BLR,BOM
+QP1107,Mumbai,Ahmedabad,Akasa Air,B38M,D,BOM,AMD
+QP1108,Ahmedabad,Mumbai,Akasa Air,B38M,D,AMD,BOM
+QP1109,Bengaluru,Mumbai,Akasa Air,B38M,D,BLR,BOM
+QP1110,Mumbai,Bengaluru,Akasa Air,B38M,D,BOM,BLR
+QP1120,Mumbai,Delhi,Akasa Air,B38M,D,BOM,DEL
+QP1124,Mumbai,Kolkata,Akasa Air,B38M,D,BOM,CCU
+QP1125,Kolkata,Mumbai,Akasa Air,B38M,D,CCU,BOM
+QP1127,Mumbai,Delhi,Akasa Air,B38M,D,BOM,DEL
+QP1128,Delhi,Mumbai,Akasa Air,B38M,D,DEL,BOM
+QP1134,Bengaluru,Guwahati,Akasa Air,B38M,D,BLR,GAU
+QP1135,Guwahati,Bengaluru,Akasa Air,B38M,D,GAU,BLR
+QP1142,Goa,Pune,Akasa Air,B38M,D,GOX,PNQ
+QP1143,Pune,Goa,Akasa Air,B38M,D,PNQ,GOX
+QP1145,Ahmedabad,Delhi,Akasa Air,B38M,D,AMD,DEL
+QP1146,Delhi,Ahmedabad,Akasa Air,B38M,D,DEL,AMD
+QP1172,Mumbai,Kolkata,Akasa Air,B38M,D,BOM,CCU
+QP1173,Kolkata,Mumbai,Akasa Air,B38M,D,CCU,BOM
+QP1311,Bengaluru,Pune,Akasa Air,B38M,D,BLR,PNQ
+QP1312,Pune,Bengaluru,Akasa Air,B38M,D,PNQ,BLR
+QP1317,Bengaluru,Pune,Akasa Air,B38M,D,BLR,PNQ
+QP1318,Pune,Bengaluru,Akasa Air,B38M,D,PNQ,BLR
+QP1323,Bengaluru,Guwahati,Akasa Air,B38M,D,BLR,GAU
+QP1324,Guwahati,Bengaluru,Akasa Air,B38M,D,GAU,BLR
+QP1325,Bengaluru,Ahmedabad,Akasa Air,B38M,D,BLR,AMD
+QP1332,Ahmedabad,Bengaluru,Akasa Air,B38M,D,AMD,BLR
+QP1334,Delhi,Ahmedabad,Akasa Air,B38M,D,DEL,AMD
+QP1340,Bengaluru,Mumbai,Akasa Air,B38M,D,BLR,BOM
+QP1341,Mumbai,Bengaluru,Akasa Air,B38M,D,BOM,BLR
+QP1342,Ahmedabad,Delhi,Akasa Air,B38M,D,AMD,DEL
+QP1349,Mumbai,Goa,Akasa Air,B38M,D,BOM,GOX
+QP1350,Delhi,Bengaluru,Akasa Air,B38M,D,DEL,BLR
+QP1355,Delhi,Goa,Akasa Air,B38M,D,DEL,GOX
+QP1358,Goa,Delhi,Akasa Air,B38M,D,GOX,DEL
+QP1359,Bengaluru,Delhi,Akasa Air,B38M,D,BLR,DEL
+QP1364,Bengaluru,Pune,Akasa Air,B38M,D,BLR,PNQ
+QP1365,Pune,Bengaluru,Akasa Air,B38M,D,PNQ,BLR
+QP1366,Bengaluru,Mumbai,Akasa Air,B38M,D,BLR,BOM
+QP1367,Mumbai,Bengaluru,Akasa Air,B38M,D,BOM,BLR
+QP1368,Bengaluru,Cochin,Akasa Air,B38M,D,BLR,COK
+QP1369,Cochin,Bengaluru,Akasa Air,B38M,D,COK,BLR
+QP1371,Goa,Mumbai,Akasa Air,B38M,D,GOX,BOM
+QP1372,Bengaluru,Siliguri,Akasa Air,B38M,D,BLR,IXB
+QP1373,Siliguri,Bengaluru,Akasa Air,B38M,D,IXB,BLR
+QP1375,Bengaluru,Mumbai,Akasa Air,B38M,D,BLR,BOM
+QP1376,Mumbai,Bengaluru,Akasa Air,B38M,D,BOM,BLR
+QP1377,Bengaluru,Kolkata,Akasa Air,B38M,D,BLR,CCU
+QP1378,Delhi,Goa,Akasa Air,B38M,D,DEL,GOX
+QP1379,Goa,Delhi,Akasa Air,B38M,D,GOX,DEL
+QP1380,Mumbai,Goa,Akasa Air,B38M,D,BOM,GOX
+QP1382,Bhubaneswar,Pune,Akasa Air,B38M,D,BBI,PNQ
+QP1383,Pune,Bhubaneswar,Akasa Air,B38M,D,PNQ,BBI
+QP1384,Bhubaneswar,Bengaluru,Akasa Air,B38M,D,BBI,BLR
+QP1385,Mumbai,Siliguri,Akasa Air,B38M,D,BOM,IXB
+QP1386,Siliguri,Mumbai,Akasa Air,B38M,D,IXB,BOM
+QP1394,Mumbai,Goa,Akasa Air,B38M,D,BOM,GOX
+QP1397,Goa,Bengaluru,Akasa Air,B38M,D,GOX,BLR
+QP1401,Lucknow,Bengaluru,Akasa Air,B38M,D,LKO,BLR
+QP1405,Hyderabad,Delhi,Akasa Air,B38M,D,HYD,DEL
+QP1406,Delhi,Hyderabad,Akasa Air,B38M,D,DEL,HYD
+QP1407,Hyderabad,Delhi,Akasa Air,B38M,D,HYD,DEL
+QP1409,Delhi,Hyderabad,Akasa Air,B38M,D,DEL,HYD
+QP1410,Mumbai,Delhi,Akasa Air,B38M,D,BOM,DEL
+QP1411,Delhi,Mumbai,Akasa Air,B38M,D,DEL,BOM
+QP1421,Bengaluru,Varanasi,Akasa Air,B38M,D,BLR,VNS
+QP1424,Varanasi,Bengaluru,Akasa Air,B38M,D,VNS,BLR
+QP1431,Hyderabad,Bengaluru,Akasa Air,B38M,D,HYD,BLR
+QP1432,Bengaluru,Hyderabad,Akasa Air,B38M,D,BLR,HYD
+QP1451,Mumbai,Lucknow,Akasa Air,B38M,D,BOM,LKO
+QP1462,Bengaluru,Goa,Akasa Air,B38M,D,BLR,GOX
+QP1463,Goa,Mumbai,Akasa Air,B38M,D,GOX,BOM
+QP1465,Goa,Mumbai,Akasa Air,B38M,D,GOX,BOM
+QP1485,Bengaluru,Chennai,Akasa Air,B38M,D,BLR,MAA
+QP1485,Chennai,Port Blair,Akasa Air,B38M,D,MAA,IXZ
+QP1486,Port Blair,Chennai,Akasa Air,B38M,D,IXZ,MAA
+QP1486,Chennai,Bengaluru,Akasa Air,B38M,D,MAA,BLR
+QP1491,Mumbai,Varanasi,Akasa Air,B38M,D,BOM,VNS
+QP1492,Varanasi,Mumbai,Akasa Air,B38M,D,VNS,BOM
+QP1497,Varanasi,Mumbai,Akasa Air,B38M,D,VNS,BOM
+QP1498,Mumbai,Varanasi,Akasa Air,B38M,D,BOM,VNS
+QP1503,Mumbai,Guwahati,Akasa Air,B38M,D,BOM,GAU
+QP1504,Guwahati,Mumbai,Akasa Air,B38M,D,GAU,BOM
+QP1505,Ahmedabad,Pune,Akasa Air,B38M,D,AMD,PNQ
+QP1508,Ahmedabad,Pune,Akasa Air,B38M,D,AMD,PNQ
+QP1509,Pune,Ahmedabad,Akasa Air,B38M,D,PNQ,AMD
+QP1510,Pune,Ahmedabad,Akasa Air,B38M,D,PNQ,AMD
+QP1518,Mumbai,Cochin,Akasa Air,B38M,D,BOM,COK
+QP1519,Cochin,Mumbai,Akasa Air,B38M,D,COK,BOM
+QP1524,Ahmedabad,Mumbai,Akasa Air,B38M,D,AMD,BOM
+QP1524,Mumbai,Lucknow,Akasa Air,B38M,D,BOM,LKO
+QP1525,Lucknow,Mumbai,Akasa Air,B38M,D,LKO,BOM
+QP1525,Mumbai,Ahmedabad,Akasa Air,B38M,D,BOM,AMD
+QP1526,Lucknow,Mumbai,Akasa Air,B38M,D,LKO,BOM
+QP1527,Bengaluru,Lucknow,Akasa Air,B38M,D,BLR,LKO
+QP1533,Ahmedabad,Goa,Akasa Air,B38M,D,AMD,GOX
+QP1534,Goa,Ahmedabad,Akasa Air,B38M,D,GOX,AMD
+QP1541,Kolkata,Bengaluru,Akasa Air,B38M,D,CCU,BLR
+QP1550,Bengaluru,Pune,Akasa Air,B38M,D,BLR,PNQ
+QP1551,Pune,Bengaluru,Akasa Air,B38M,D,PNQ,BLR
+QP1572,Bengaluru,Bhubaneswar,Akasa Air,B38M,D,BLR,BBI
+QP1607,Pune,Delhi,Akasa Air,B38M,D,PNQ,DEL
+QP1607,Delhi,Ayodhya,Akasa Air,B38M,D,DEL,AYJ
+QP1608,Ayodhya,Delhi,Akasa Air,B38M,D,AYJ,DEL
+QP1608,Delhi,Pune,Akasa Air,B38M,D,DEL,PNQ
+QP1637,Mumbai,Srinagar,Akasa Air,B38M,D,BOM,SXR
+QP1638,Srinagar,Mumbai,Akasa Air,B38M,D,SXR,BOM
+QP1642,Mumbai,Hyderabad,Akasa Air,B38M,D,BOM,HYD
+QP1643,Hyderabad,Mumbai,Akasa Air,B38M,D,HYD,BOM
+QP1651,Bengaluru,Goa,Akasa Air,B38M,D,BLR,GOX
+QP1652,Goa,Bengaluru,Akasa Air,B38M,D,GOX,BLR
+QP1719,Delhi,Mumbai,Akasa Air,B38M,D,DEL,BOM
+QP1736,Bengaluru,Mumbai,Akasa Air,B38M,D,BLR,BOM
+QP1738,Mumbai,Bengaluru,Akasa Air,B38M,D,BOM,BLR
+QP1739,Mumbai,Bengaluru,Akasa Air,B38M,D,BOM,BLR
+QP1781,Mumbai,Ahmedabad,Akasa Air,B38M,D,BOM,AMD
+QP1850,Bengaluru,Siliguri,Akasa Air,B38M,D,BLR,IXB
+QP1851,Siliguri,Bengaluru,Akasa Air,B38M,D,IXB,BLR
+QP71,Doha,Mumbai,Akasa Air,B38M,I,DOH,BOM
+QR500,Doha,Hyderabad,Qatar Airways,B788,I,DOH,HYD
+QR501,Hyderabad,Doha,Qatar Airways,B788,I,HYD,DOH
+QR514,Doha,Cochin,Qatar Airways,A333,I,DOH,COK
+QR515,Cochin,Doha,Qatar Airways,A333,I,COK,DOH
+QR516,Doha,Cochin,Qatar Airways,A333,I,DOH,COK
+QR517,Cochin,Doha,Qatar Airways,A333,I,COK,DOH
+QR522,Doha,Goa,Qatar Airways,A320,I,DOH,GOI
+QR523,Goa,Doha,Qatar Airways,A320,I,GOI,DOH
+QR528,Doha,Chennai,Qatar Airways,B789,I,DOH,MAA
+QR529,Chennai,Doha,Qatar Airways,B789,I,MAA,DOH
+QR534,Doha,Ahmedabad,Qatar Airways,A320,I,DOH,AMD
+QR535,Ahmedabad,Doha,Qatar Airways,A320,I,AMD,DOH
+QR540,Doha,Kolkata,Qatar Airways,A359,I,DOH,CCU
+QR541,Kolkata,Doha,Qatar Airways,A359,I,CCU,DOH
+QR556,Doha,Mumbai,Qatar Airways ,B77W,I,DOH,BOM
+QR557,Mumbai,Doha,Qatar Airways ,B77W,I,BOM,DOH
+QR570,Doha,Delhi,Qatar Airways,B788,I,DOH,DEL
+QR571,Delhi,Doha,Qatar Airways,B788,I,DEL,DOH
+QR572,Doha,Bengaluru,Qatar Airways,B77W,I,DOH,BLR
+QR573,Bengaluru,Doha,Qatar Airways,B77W,I,BLR,DOH
+QR578,Doha,Delhi,Qatar Airways,A359,I,DOH,DEL
+QR579,Delhi,Doha,Qatar Airways,A359,I,DEL,DOH
+QR8602,Doha,Mumbai,Qatar Cargo,B77L,I,DOH,BOM
+QR8603,Mumbai,Doha,Qatar Cargo,B77L,I,BOM,DOH
+QR8622,Doha,Chennai,Qatar Cargo,B77L,I,DOH,MAA
+QR8623,Chennai,Doha,Qatar Cargo,B77L,I,MAA,DOH
+QR8662,Doha,Delhi,Qatar Cargo,B77L,I,DOH,DEL
+QR8663,Delhi,Doha,Qatar Cargo,B77L,I,DEL,DOH
+QY546,Leipzig,Delhi,DHL,A332,I,LEJ,DEL
+RA205,Kathmandu,Delhi,Nepal Airlines,A332,I,KTM,DEL
+RA206,Delhi,Kathmandu,Nepal Airlines,A332,I,DEL,KTM
+RH9375,Hong Kong,Chennai,Hong Kong Air Cargo,A332,I,HKG,MAA
+RH9376,Chennai,Hong Kong,Hong Kong Air Cargo,A332,I,MAA,HKG
+RH9457,Hong Kong,Delhi,Hong Kong Air Cargo,A332,I,HKG,DEL
+RH9458,Delhi,Hong Kong,Hong Kong Air Cargo,A332,I,DEL,HKG
+S5107,Belgaum,Ahmedabad,Star Air,E145,D,IXG,AMD
+S5108,Ahmedabad,Belgaum,Star Air,E145,D,AMD,IXG
+S5111,Belgaum,Mumbai,Star Air,E75L,D,IXG,BOM
+S5112,Mumbai,Belgaum,Star Air,E75L,D,BOM,IXG
+S5131,Bengaluru,Jamnagar,Star Air,E145,D,BLR,JGA
+S5132,Jamnagar,Bengaluru,Star Air,ER4,D,JGA,BLR
+S5149,Jamnagar,Hyderabad,Star Air,ER4,D,JGA,HYD
+S5150,Hyderabad,Jamnagar,Star Air,ER4,D,HYD,JGA
+S5151,Bengaluru,Hyderabad,Star Air,E75L,D,BLR,HYD
+S5152,Hyderabad,Bengaluru,Star Air,E75L,D,HYD,BLR
+S5157,Ahmedabad,Bhuj,Star Air,E145,D,AMD,BHJ
+S5158,Bhuj,Ahmedabad,Star Air,E145,D,BHJ,AMD
+S5161,Mumbai,Kolhapur,Star Air,E75L,D,BOM,KLH
+S5162,Kolhapur,Mumbai,Star Air,E75L,D,KLH,BOM
+S5173,Hyderabad,Pune,Star Air,E75L,D,HYD,PNQ
+S5174,Pune,Hyderabad,Star Air,E75L,D,PNQ,HYD
+S5183,Bengaluru,Nanded,Star Air,E75L,D,BLR,NDC
+S5184,Nanded,Bengaluru,Star Air,E75L,D,NDC,BLR
+S5194,Bengaluru,Kolhapur,Star Air,E75L,D,BLR,KLH
+S5195,Kolhapur,Bengaluru,Star Air,E75L,D,KLH,BLR
+S5200,Pune,Kishangarh,Star Air,E75L,D,PNQ,KQH
+S5201,Kishangarh,Pune,Star Air,E75L,D,KQH,PNQ
+S5212,Hyderabad,Shivamogga,Star Air,E75L,D,HYD,RQY
+S5213,Shivamogga,Hyderabad,Star Air,ERJ,D,RQY,HYD
+SC2475,Chengdu,Delhi,Shandong Airlines,73F,I,TFU,DEL
+SC2476,Delhi,Chengdu,Shandong Airlines,73F,I,DEL,TFU
+SG105,Delhi,Chennai,Corendon Airlines,B738,D,DEL,MAA
+SG106,Chennai,Delhi,Corendon Airlines,B738,D,MAA,DEL
+SG1077,Jaipur,Pune,SpiceJet,DH8D,D,JAI,PNQ
+SG1078,Pune,Jaipur,SpiceJet,DH8D,D,PNQ,JAI
+SG1079,Pune,Bhavnagar,SpiceJet,DH8D,D,PNQ,BHU
+SG1080,Bhavnagar,Pune,SpiceJet,DH8D,D,BHU,PNQ
+SG1081,Bhavnagar,Mumbai,SpiceJet,DH8D,D,BHU,BOM
+SG1082,Mumbai,Bhavnagar,SpiceJet,DH8D,D,BOM,BHU
+SG11,Delhi,Dubai,Corendon Airlines,B738,I,DEL,DXB
+SG115,Mumbai,Darbhanga,SpiceJet,B38M,D,BOM,DBR
+SG116,Darbhanga,Mumbai,SpiceJet,B38M,D,DBR,BOM
+SG12,Dubai,Delhi,Corendon Airlines,B738,I,DXB,DEL
+SG121,Delhi,Leh,SpiceJet,B737,D,DEL,IXL
+SG122,Leh,Delhi,SpiceJet,B737,D,IXL,DEL
+SG123,Delhi,Leh,SpiceJet,B737,D,DEL,IXL
+SG124,Leh,Delhi,SpiceJet,B737,D,IXL,DEL
+SG126,Leh,Delhi,SpiceJet,B737,D,IXL,DEL
+SG13,Mumbai,Dubai,SpiceJet,B38M,I,BOM,DXB
+SG14,Dubai,Mumbai,SpiceJet,B38M,I,DXB,BOM
+SG15,Ahmedabad,Dubai,SpiceJet,A320,I,AMD,DXB
+SG16,Dubai,Ahmedabad,SpiceJet,A320,I,DXB,AMD
+SG160,Hyderabad,Delhi,SpiceJet,B738,D,HYD,DEL
+SG160,Delhi,Jammu,SpiceJet,B738,D,DEL,IXJ
+SG161,Jammu,Delhi,SpiceJet,B738,D,IXJ,DEL
+SG161,Delhi,Hyderabad,SpiceJet,B738,D,DEL,HYD
+SG163,Mumbai,Siliguri,SpiceJet,B738,D,BOM,IXB
+SG168,Siliguri,Mumbai,SpiceJet,B738,D,IXB,BOM
+SG17,Dubai,Cochin,Corendon Airlines,B38M,I,DXB,COK
+SG18,Cochin,Dubai,Corendon Airlines,B38M,I,COK,DXB
+SG184,Goa,Pune,SpiceJet,B738,D,GOX,PNQ
+SG184,Pune,Delhi,SpiceJet,B738,D,PNQ,DEL
+SG185,Delhi,Pune,SpiceJet,B738,D,DEL,PNQ
+SG185,Pune,Goa,SpiceJet,B738,D,PNQ,GOX
+SG2131,Hyderabad,Shirdi,SpiceJet,DH8D,D,HYD,SAG
+SG2131,Shirdi,Bengaluru,SpiceJet,DH8D,D,SAG,BLR
+SG2138,Bengaluru,Shirdi,SpiceJet,DH8D,D,BLR,SAG
+SG2138,Shirdi,Hyderabad,SpiceJet,DH8D,D,SAG,HYD
+SG2347,Delhi,Kandla,SpiceJet,DH8,D,DEL,IXY
+SG2348,Kandla,Delhi,SpiceJet,DH8,D,IXY,DEL
+SG2448,Delhi,Shillong,SpiceJet,DH8D,D,DEL,SHL
+SG2449,Shillong,Delhi,SpiceJet,DH8D,D,SHL,DEL
+SG251,Delhi,Kolkata,SpiceJet,B738,D,DEL,CCU
+SG2696,Hyderabad,Tirupati,SpiceJet,DH8D,D,HYD,TIR
+SG2700,Hyderabad,Madurai,SpiceJet,DH8D,D,HYD,IXM
+SG2701,Madurai,Hyderabad,SpiceJet,DH8D,D,IXM,HYD
+SG2702,Hyderabad,Tirupati,SpiceJet,DH8D,D,HYD,TIR
+SG2703,Tirupati,Hyderabad,SpiceJet,DH8D,D,TIR,HYD
+SG2704,Hyderabad,Goa,SpiceJet,DH8D,D,HYD,GOX
+SG2705,Goa,Hyderabad,SpiceJet,DH8D,D,GOX,HYD
+SG2812,Tirupati,Hyderabad,SpiceJet,DH8D,D,TIR,HYD
+SG2905,Mumbai,Kandla,SpiceJet,DH8D,D,BOM,IXY
+SG2906,Kandla,Mumbai,SpiceJet,DH8D,D,IXY,BOM
+SG2917,Hyderabad,Tirupati,SpiceJet,DH8D,D,HYD,TIR
+SG2918,Tirupati,Hyderabad,SpiceJet,DH8D,D,TIR,HYD
+SG2937,Delhi,Dharamsala,SpiceJet,DH8D,D,DEL,DHM
+SG2938,Dharamsala,Delhi,SpiceJet,DH8D,D,DHM,DEL
+SG2939,Delhi,Dharamsala,SpiceJet,DH8D,D,DEL,DHM
+SG2940,Dharamsala,Delhi,SpiceJet,DH8D,D,DHM,DEL
+SG2950,Delhi,Dharamsala,SpiceJet,DH8D,D,DEL,DHM
+SG2951,Dharamsala,Delhi,SpiceJet,DH8D,D,DHM,DEL
+SG2966,Kolkata,Pakyong,SpiceJet,DH8,D,CCU,PYG
+SG2967,Pakyong,Kolkata,SpiceJet,DH8,D,PYG,CCU
+SG2989,Delhi,Varanasi,SpiceJet,DH8D,D,DEL,VNS
+SG2990,Varanasi,Delhi,SpiceJet,DH8D,D,VNS,DEL
+SG322,Chennai,Ayodhya,Corendon Airlines,B738,D,MAA,AYJ
+SG323,Ayodhya,Chennai,Corendon Airlines,B738,D,AYJ,MAA
+SG324,Ayodhya,Mumbai,Corendon Airlines,B738,D,AYJ,BOM
+SG325,Mumbai,Ayodhya,Corendon Airlines,B738,D,BOM,AYJ
+SG3651,Kolkata,Guwahati,SpiceJet,DH8D,D,CCU,GAU
+SG3652,Guwahati,Kolkata,SpiceJet,DH8D,D,GAU,CCU
+SG3779,Kolkata,Tezpur,SpiceJet,DH8D,D,CCU,TEZ
+SG3780,Tezpur,Kolkata,SpiceJet,DH8D,D,TEZ,CCU
+SG3781,Kolkata,Siliguri,SpiceJet,DH8,D,CCU,IXB
+SG3782,Siliguri,Kolkata,SpiceJet,DH8,D,IXB,CCU
+SG3798,Kolkata,Shillong,SpiceJet,DH8,D,CCU,SHL
+SG3799,Shillong,Kolkata,SpiceJet,DH8,D,SHL,CCU
+SG38,Jeddah,Mumbai,SpiceJet,B38M,I,JED,BOM
+SG471,Delhi,Ayodhya,SpiceJet,B737,D,DEL,AYJ
+SG472,Ayodhya,Delhi,SpiceJet,B737,D,AYJ,DEL
+SG475,Srinagar,Delhi,SpiceJet ,B739,D,SXR,DEL
+SG476,Delhi,Darbhanga,SpiceJet ,B38M,D,DEL,DBR
+SG491,Ahmedabad,Goa,SpiceJet,A320,D,AMD,GOX
+SG492,Goa,Ahmedabad,SpiceJet,A320,D,GOX,AMD
+SG495,Delhi,Darbhanga,SpiceJet,B737,D,DEL,DBR
+SG498,Mumbai,Goa,SpiceJet,B738,D,BOM,GOX
+SG499,Goa,Mumbai,SpiceJet,B738,D,GOX,BOM
+SG5,Delhi,Dubai,SpiceJet,73H,I,DEL,DXB
+SG509,Mumbai,Srinagar,SpiceJet,B38M,D,BOM,SXR
+SG51,Muscat,Pune,SpiceJet ,B38M,I,MCT,PNQ
+SG51,Pune,Dubai,SpiceJet ,B38M,I,PNQ,DXB
+SG510,Srinagar,Mumbai,SpiceJet,B38M,D,SXR,BOM
+SG511,Ahmedabad,Ayodhya,SpiceJet,A320,D,AMD,AYJ
+SG512,Ayodhya,Ahmedabad,SpiceJet,A320,D,AYJ,AMD
+SG515,Kolkata,Mumbai,SpiceJet,B38M,D,CCU,BOM
+SG516,Mumbai,Kolkata,SpiceJet,B38M,D,BOM,CCU
+SG52,Dubai,Pune,SpiceJet ,B38M,I,DXB,PNQ
+SG529,Bengaluru,Delhi,SpiceJet,B738,D,BLR,DEL
+SG531,Bengaluru,Patna,SpiceJet,B738,D,BLR,PAT
+SG532,Patna,Bengaluru,SpiceJet,B738,D,PAT,BLR
+SG59,Mumbai,Dubai,Corendon Airlines,B38M,I,BOM,DXB
+SG6,Dubai,Delhi,SpiceJet,73H,I,DXB,DEL
+SG60,Dubai,Mumbai,Corendon Airlines,B38M,I,DXB,BOM
+SG611,Ahmedabad,Chennai,SpiceJet,A320,D,AMD,MAA
+SG611,Chennai,Hyderabad,SpiceJet,A320,D,MAA,HYD
+SG611,Hyderabad,Varanasi,SpiceJet,A320,D,HYD,VNS
+SG616,Varanasi,Hyderabad,SpiceJet,A320,D,VNS,HYD
+SG616,Hyderabad,Chennai,SpiceJet,A320,D,HYD,MAA
+SG616,Chennai,Ahmedabad,SpiceJet,A320,D,MAA,AMD
+SG680,Port Blair,Chennai,SpiceJet,B38M,D,IXZ,MAA
+SG7003,Delhi,Mumbai,SpiceXpress,B737,D,DEL,BOM
+SG7012,Mumbai,Ra'sal-Khaymah,SpiceXpress,B737,I,BOM,RKT
+SG709,Delhi,Mumbai,SpiceJet,B737,D,DEL,BOM
+SG710,Mumbai,Delhi,SpiceJet,B737,D,BOM,DEL
+SG7662,Guiyang,Kolkata,SpiceXpress,B737,I,KWE,CCU
+SG7662,Kolkata,Delhi,SpiceXpress,B737,D,CCU,DEL
+SG8125,Delhi,Leh,SpiceJet,B737,D,DEL,IXL
+SG8150,Delhi,Srinagar,SpiceJet ,B739,D,DEL,SXR
+SG8151,Srinagar,Delhi,SpiceJet ,B739,D,SXR,DEL
+SG8151,Delhi,Bengaluru,SpiceJet ,B739,D,DEL,BLR
+SG8152,Delhi,Guwahati,SpiceJet,B738,D,DEL,GAU
+SG8157,Delhi,Mumbai,SpiceJet,B38M,D,DEL,BOM
+SG8158,Mumbai,Delhi,SpiceJet,B38M,D,BOM,DEL
+SG8169,Guwahati,Delhi,SpiceJet,B738,D,GAU,DEL
+SG8171,Delhi,Goa,SpiceJet,B738,D,DEL,GOX
+SG8172,Goa,Delhi,SpiceJet,B738,D,GOX,DEL
+SG8187,Ahmedabad,Siliguri,SpiceJet ,B738,D,AMD,IXB
+SG8193,Delhi,Ahmedabad,SpiceJet ,B738,D,DEL,AMD
+SG8194,Ahmedabad,Delhi,SpiceJet ,B738,D,AMD,DEL
+SG8199,Siliguri,Delhi,SpiceJet ,B738,D,IXB,DEL
+SG8252,Mumbai,Delhi,SpiceJet,B738,D,BOM,DEL
+SG8269,Delhi,Mumbai,SpiceJet,B738,D,DEL,BOM
+SG83,Kolkata,Bangkok,SpiceJet,B38M,I,CCU,BKK
+SG8373,Kolkata,Delhi,SpiceJet,B738,D,CCU,DEL
+SG8373,Delhi,Srinagar,SpiceJet,B738,D,DEL,SXR
+SG8374,Srinagar,Delhi,SpiceJet,B738,D,SXR,DEL
+SG8385,Mumbai,Srinagar,SpiceJet,B38M,D,BOM,SXR
+SG8386,Srinagar,Mumbai,SpiceJet,B38M,D,SXR,BOM
+SG84,Bangkok,Kolkata,SpiceJet,B38M,I,BKK,CCU
+SG8471,Delhi,Patna,SpiceJet,B737,D,DEL,PAT
+SG8472,Patna,Delhi,SpiceJet,B737,D,PAT,DEL
+SG8473,Delhi,Srinagar,SpiceJet ,B739,D,DEL,SXR
+SG8477,Darbhanga,Delhi,SpiceJet ,B38M,D,DBR,DEL
+SG8494,Srinagar,Delhi,SpiceJet,B738,D,SXR,DEL
+SG8496,Darbhanga,Delhi,SpiceJet,B737,D,DBR,DEL
+SG8536,Delhi,Bengaluru,SpiceJet,B738,D,DEL,BLR
+SG8537,Bengaluru,Delhi,SpiceJet ,B739,D,BLR,DEL
+SG8681,Chennai,Port Blair,SpiceJet,B38M,D,MAA,IXZ
+SG869,Kolkata,Port Blair,SpiceJet,B38M,D,CCU,IXZ
+SG87,Delhi,Bangkok,SpiceJet,B38M,I,DEL,BKK
+SG873,Port Blair,Kolkata,SpiceJet,B38M,D,IXZ,CCU
+SG88,Bangkok,Delhi,SpiceJet,B38M,I,BKK,DEL
+SG8841,Delhi,Siliguri,SpiceJet,B38M,D,DEL,IXB
+SG8842,Siliguri,Delhi,SpiceJet,B38M,D,IXB,DEL
+SG8895,Bengaluru,Siliguri,SpiceJet,B738,D,BLR,IXB
+SG8896,Siliguri,Bengaluru,SpiceJet,B738,D,IXB,BLR
+SG8903,Delhi,Siliguri,SpiceJet ,B738,D,DEL,IXB
+SG8904,Siliguri,Ahmedabad,SpiceJet ,B738,D,IXB,AMD
+SG8913,Delhi,Srinagar,SpiceJet,B38M,D,DEL,SXR
+SG8914,Srinagar,Delhi,SpiceJet,B38M,D,SXR,DEL
+SG8938,Delhi,Pune,SpiceJet ,B38M,D,DEL,PNQ
+SG8946,Delhi,Shirdi,SpiceJet,B738,D,DEL,SAG
+SG8946,Shirdi,Chennai,SpiceJet,B738,D,SAG,MAA
+SG8947,Chennai,Shirdi,SpiceJet,B738,D,MAA,SAG
+SG8947,Shirdi,Delhi,SpiceJet,B738,D,SAG,DEL
+SG8949,Delhi,Srinagar,SpiceJet,B738,D,DEL,SXR
+SG8961,Srinagar,Delhi,SpiceJet ,B739,D,SXR,DEL
+SG9035,Delhi,Mumbai,SpiceJet,B738,D,DEL,BOM
+SG937,Delhi,Srinagar,SpiceJet ,B739,D,DEL,SXR
+SG937,Pune,Delhi,SpiceJet ,B38M,D,PNQ,DEL
+SG944,Mumbai,Srinagar,SpiceJet,B738,D,BOM,SXR
+SG945,Srinagar,Mumbai,SpiceJet,B738,D,SXR,BOM
+SG947,Hyderabad,Pune,SpiceJet,B738,D,HYD,PNQ
+SG948,Pune,Hyderabad,SpiceJet,B738,D,PNQ,HYD
+SL210,Bangkok,Cochin,Thai Lion Air,B738,I,DMK,COK
+SL211,Cochin,Bangkok,Thai Lion Air,B738,I,COK,DMK
+SL216,Bangkok,Bengaluru,Thai Lion Air,B738,I,DMK,BLR
+SL218,Bangkok,Mumbai,Thai Lion Air,B738,I,DMK,BOM
+SL219,Mumbai,Bangkok,Thai Lion Air,B738,I,BOM,DMK
+SQ401,Delhi,Singapore,Singapore Airlines,B78X,I,DEL,SIN
+SQ402,Singapore,Delhi,Singapore Airlines,B78X,I,SIN,DEL
+SQ403,Delhi,Singapore,Singapore Airlines,A388,I,DEL,SIN
+SQ406,Singapore,Delhi,Singapore Airlines,A388,I,SIN,DEL
+SQ421,Mumbai,Singapore,Singapore Airlines,A359,I,BOM,SIN
+SQ422,Singapore,Mumbai,Singapore Airlines,A359,I,SIN,BOM
+SQ423,Mumbai,Singapore,Singapore Airlines,A388,I,BOM,SIN
+SQ424,Singapore,Mumbai,Singapore Airlines,A388,I,SIN,BOM
+SQ426,Singapore,Mumbai,Singapore Airlines,A359,I,SIN,BOM
+SQ504,Singapore,Ahmedabad,Singapore Airlines,A359,I,SIN,AMD
+SQ505,Ahmedabad,Singapore,Singapore Airlines,A359,I,AMD,SIN
+SQ508,Singapore,Bengaluru,Singapore Airlines,A359,I,SIN,BLR
+SQ509,Bengaluru,Singapore,Singapore Airlines,A359,I,BLR,SIN
+SQ510,Singapore,Bengaluru,Singapore Airlines,A359,I,SIN,BLR
+SQ511,Bengaluru,Singapore,Singapore Airlines,A359,I,BLR,SIN
+SQ516,Singapore,Kolkata,Singapore Airlines,B38M,I,SIN,CCU
+SQ517,Kolkata,Singapore,Singapore Airlines,B38M,I,CCU,SIN
+SQ518,Singapore,Hyderabad,Singapore Airlines,B38M,I,SIN,HYD
+SQ519,Hyderabad,Singapore,Singapore Airlines,B38M,I,HYD,SIN
+SQ522,Singapore,Hyderabad,Singapore Airlines,A359,I,SIN,HYD
+SQ523,Hyderabad,Singapore,Singapore Airlines,A359,I,HYD,SIN
+SQ524,Singapore,Chennai,Singapore Airlines,B38M,I,SIN,MAA
+SQ525,Chennai,Singapore,Singapore Airlines,B38M,I,MAA,SIN
+SQ528,Singapore,Chennai,Singapore Airlines,B78X,I,SIN,MAA
+SQ529,Chennai,Singapore,Singapore Airlines,B78X,I,MAA,SIN
+SQ534,Singapore,Cochin,Singapore Airlines,B38M,I,SIN,COK
+SQ535,Cochin,Singapore,Singapore Airlines,B38M,I,COK,SIN
+SQ536,Singapore,Cochin,Singapore Airlines,B38M,I,SIN,COK
+SQ537,Cochin,Singapore,Singapore Airlines,B38M,I,COK,SIN
+SQ7971,Amsterdam,Mumbai,Singapore Airlines,74Y,I,AMS,BOM
+SQ7971,Mumbai,Singapore,Singapore Airlines,74Y,I,BOM,SIN
+SU232,Moscow,Delhi,Aeroflot,A359,I,SVO,DEL
+SU233,Delhi,Moscow,Aeroflot,A359,I,DEL,SVO
+SV740,Riyadh,Mumbai,Saudia,A333,I,RUH,BOM
+SV741,Mumbai,Riyadh,Saudia,A333,I,BOM,RUH
+SV750,Riyadh,Hyderabad,Saudia,A333,I,RUH,HYD
+SV751,Hyderabad,Riyadh,Saudia,A333,I,HYD,RUH
+SV756,Jeddah,Delhi,Saudia,B77W,I,JED,DEL
+SV757,Delhi,Jeddah,Saudia,B77W,I,DEL,JED
+SV758,Jeddah,Delhi,Saudia,B77W,I,JED,DEL
+SV759,Delhi,Jeddah,Saudia,B77W,I,DEL,JED
+SV770,Jeddah,Mumbai,Saudia,A333,I,JED,BOM
+SV771,Mumbai,Jeddah,Saudia,A333,I,BOM,JED
+SV774,Riyadh,Cochin,Saudia,A333,I,RUH,COK
+SV775,Cochin,Riyadh,Saudia,A333,I,COK,RUH
+TC400,Dar-es-Salaam,Mumbai,Air Tanzania,B39M,I,DAR,BOM
+TC401,Mumbai,Dar-es-Salaam,Air Tanzania,B39M,I,BOM,DAR
+TG313,Bangkok,Kolkata,Thai Airways,B788,I,BKK,CCU
+TG314,Kolkata,Bangkok,Thai Airways,B788,I,CCU,BKK
+TG315,Bangkok,Delhi,Thai Airways,A359,I,BKK,DEL
+TG316,Delhi,Bangkok,Thai Airways,A359,I,DEL,BKK
+TG317,Bangkok,Mumbai,Thai Airways,B788,I,BKK,BOM
+TG318,Mumbai,Bangkok,Thai Airways,B788,I,BOM,BKK
+TG323,Bangkok,Delhi,Thai Airways,A320,I,BKK,DEL
+TG324,Delhi,Bangkok,Thai Airways,A320,I,DEL,BKK
+TG325,Bangkok,Bengaluru,Thai Airways ,A359,I,BKK,BLR
+TG326,Bengaluru,Bangkok,Thai Airways,B788,I,BLR,BKK
+TG329,Bangkok,Hyderabad,Thai Airways,B788,I,BKK,HYD
+TG330,Hyderabad,Bangkok,Thai Airways,B788,I,HYD,BKK
+TG331,Bangkok,Delhi,Thai Airways,A333,I,BKK,DEL
+TG332,Delhi,Bangkok,Thai Airways,A333,I,DEL,BKK
+TG337,Bangkok,Chennai,Thai Airways,B772,I,BKK,MAA
+TG338,Chennai,Bangkok,Thai Airways,B772,I,MAA,BKK
+TG343,Bangkok,Ahmedabad,Thai Airways,A320,I,BKK,AMD
+TG344,Ahmedabad,Bangkok,Thai Airways,A320,I,AMD,BKK
+TG348,Cochin,Bangkok,Thai Airways,A320,I,COK,BKK
+TK6260,Doha,Hyderabad,Turkish Airlines,33X,I,DOH,HYD
+TK6261,Hyderabad,Istanbul,Turkish Cargo,A332,I,HYD,IST
+TK6298,Istanbul,Chennai,Turkish Airlines,33X,I,IST,MAA
+TK6299,Chennai,Istanbul,Turkish Airlines,33X,I,MAA,IST
+TK6466,Istanbul,Mumbai,Turkish Cargo,A332,I,IST,BOM
+TK6578,Hyderabad,Istanbul,Turkish Cargo,A332,I,HYD,IST
+TK716,Istanbul,Delhi,Turkish Airlines,B77W,I,IST,DEL
+TK717,Delhi,Istanbul,Turkish Airlines,B77W,I,DEL,IST
+TK720,Istanbul,Mumbai,Turkish Airlines,B77W,I,IST,BOM
+TK721,Mumbai,Istanbul,Turkish Airlines,B77W,I,BOM,IST
+TR578,Singapore,Chennai,Scoot,A320,I,SIN,MAA
+TR579,Chennai,Singapore,Scoot,A320,I,MAA,SIN
+UA82,New York,Delhi,United Airlines,B789,I,EWR,DEL
+UA83,Delhi,New York,United Airlines,B789,I,DEL,EWR
+UK105,Mumbai,Singapore,Vistara,A21N,I,BOM,SIN
+UK106,Singapore,Mumbai,Vistara,A21N,I,SIN,BOM
+UK107,Mumbai,Singapore,Vistara,A21N,I,BOM,SIN
+UK108,Singapore,Mumbai,Vistara,A21N,I,SIN,BOM
+UK110,Singapore,Pune,Vistara,A21N,I,SIN,PNQ
+UK111,Pune,Singapore,Vistara,A21N,I,PNQ,SIN
+UK115,Delhi,Singapore,Vistara,A21N,I,DEL,SIN
+UK116,Singapore,Delhi,Vistara,A21N,I,SIN,DEL
+UK121,Delhi,Bangkok,Vistara,A21N,I,DEL,BKK
+UK122,Bangkok,Delhi,Vistara,A21N,I,BKK,DEL
+UK123,Mumbai,Bangkok,Vistara ,A21N,I,BOM,BKK
+UK124,Bangkok,Mumbai,Vistara ,A21N,I,BKK,BOM
+UK131,Mumbai,Colombo,Vistara,A21N,I,BOM,CMB
+UK132,Colombo,Mumbai,Vistara,A21N,I,CMB,BOM
+UK145,Delhi,Denpasar,Vistara,B789,I,DEL,DPS
+UK146,Denpasar,Delhi,Vistara,B789,I,DPS,DEL
+UK155,Delhi,Kathmandu,Vistara,A20N,I,DEL,KTM
+UK156,Kathmandu,Delhi,Vistara,A20N,I,KTM,DEL
+UK157,Delhi,Kathmandu,Vistara,A20N,I,DEL,KTM
+UK158,Kathmandu,Delhi,Vistara,A20N,I,KTM,DEL
+UK161,Delhi,Hong Kong,Vistara,A21N,I,DEL,HKG
+UK162,Hong Kong,Delhi,Vistara,A21N,I,HKG,DEL
+UK17,Delhi,London,Vistara,B789,I,DEL,LHR
+UK18,London,Delhi,Vistara,B789,I,LHR,DEL
+UK181,Delhi,Dhaka,Vistara ,A20N,I,DEL,DAC
+UK182,Dhaka,Delhi,Vistara ,A20N,I,DAC,DEL
+UK183,Mumbai,Dhaka,Vistara,A20N,I,BOM,DAC
+UK184,Dhaka,Mumbai,Vistara,A20N,I,DAC,BOM
+UK201,Mumbai,Dubai,Vistara,A21N,I,BOM,DXB
+UK202,Dubai,Mumbai,Vistara,A21N,I,DXB,BOM
+UK21,Delhi,Paris,Vistara,B789,I,DEL,CDG
+UK233,Mumbai,Muscat,Vistara,A20N,I,BOM,MCT
+UK234,Muscat,Mumbai,Vistara,A20N,I,MCT,BOM
+UK235,Mumbai,Jeddah,Vistara,A20N,I,BOM,JED
+UK236,Jeddah,Mumbai,Vistara,A20N,I,JED,BOM
+UK237,Mumbai,Dammam,Vistara,A20N,I,BOM,DMM
+UK238,Dammam,Mumbai,Vistara,A20N,I,DMM,BOM
+UK24,Paris,Mumbai,Vistara,B789,I,CDG,BOM
+UK241,Mumbai,Port Louis,Vistara,A21N,I,BOM,MRU
+UK242,Port Louis,Mumbai,Vistara,A21N,I,MRU,BOM
+UK25,Delhi,Frankfurt,Vistara,B789,I,DEL,FRA
+UK255,Mumbai,Abu Dhabi,Vistara,A21N,I,BOM,AUH
+UK256,Abu Dhabi,Mumbai,Vistara,A21N,I,AUH,BOM
+UK26,Frankfurt,Delhi,Vistara,B789,I,FRA,DEL
+UK27,Mumbai,Frankfurt,Vistara,B789,I,BOM,FRA
+UK271,Mumbai,Male,Vistara,A20N,I,BOM,MLE
+UK272,Male,Mumbai,Vistara,A20N,I,MLE,BOM
+UK273,Delhi,Male,Vistara,A20N,I,DEL,MLE
+UK274,Male,Delhi,Vistara,A20N,I,MLE,DEL
+UK28,Frankfurt,Mumbai,Vistara,B789,I,FRA,BOM
+UK285,Mumbai,Doha,Vistara,A20N,I,BOM,DOH
+UK501,Bengaluru,Cochin,Vistara,A20N,D,BLR,COK
+UK502,Cochin,Bengaluru,Vistara,A20N,D,COK,BLR
+UK503,Bengaluru,Cochin,Vistara,A20N,D,BLR,COK
+UK504,Cochin,Bengaluru,Vistara,A20N,D,COK,BLR
+UK505,Bengaluru,Cochin,Vistara,A20N,D,BLR,COK
+UK506,Cochin,Bengaluru,Vistara,A20N,D,COK,BLR
+UK508,Port Blair,Bengaluru,Vistara,A20N,D,IXZ,BLR
+UK509,Bengaluru,Port Blair,Vistara,A20N,D,BLR,IXZ
+UK513,Mumbai,Goa,Vistara,A20N,D,BOM,GOX
+UK514,Goa,Mumbai,Vistara,A20N,D,GOX,BOM
+UK515,Mumbai,Cochin,Vistara,A20N,D,BOM,COK
+UK516,Cochin,Mumbai,Vistara,A20N,D,COK,BOM
+UK517,Mumbai,Cochin,Vistara,A20N,D,BOM,COK
+UK518,Cochin,Mumbai,Vistara,A20N,D,COK,BOM
+UK521,Mumbai,Coimbatore,Vistara,A20N,D,BOM,CJB
+UK522,Coimbatore,Mumbai,Vistara,A20N,D,CJB,BOM
+UK523,Bengaluru,Thiruvananthapuram,Vistara,A20N,D,BLR,TRV
+UK524,Thiruvananthapuram,Bengaluru,Vistara,A20N,D,TRV,BLR
+UK525,Bengaluru,Thiruvananthapuram,Vistara,A20N,D,BLR,TRV
+UK526,Thiruvananthapuram,Bengaluru,Vistara,A20N,D,TRV,BLR
+UK531,Mumbai,Hyderabad,Vistara,A20N,D,BOM,HYD
+UK532,Coimbatore,Delhi,Vistara,A20N,D,CJB,DEL
+UK533,Delhi,Coimbatore,Vistara,A20N,D,DEL,CJB
+UK534,Hyderabad,Mumbai,Vistara,A20N,D,HYD,BOM
+UK551,Mumbai,Thiruvananthapuram,Vistara,A20N,D,BOM,TRV
+UK552,Thiruvananthapuram,Mumbai,Vistara,A20N,D,TRV,BOM
+UK554,Goa,Delhi,Vistara,A20N,D,GOX,DEL
+UK555,Delhi,Goa,Vistara,A20N,D,DEL,GOX
+UK556,Goa,Delhi,Vistara,A20N,D,GOX,DEL
+UK561,Mumbai,Jaipur,Vistara,A20N,D,BOM,JAI
+UK562,Jaipur,Mumbai,Vistara,A20N,D,JAI,BOM
+UK563,Mumbai,Jaipur,Vistara,A20N,D,BOM,JAI
+UK564,Jaipur,Mumbai,Vistara,A20N,D,JAI,BOM
+UK565,Mumbai,Jaipur,Vistara,A20N,D,BOM,JAI
+UK566,Jaipur,Mumbai,Vistara,A20N,D,JAI,BOM
+UK573,Ahmedabad,Bengaluru,Vistara,A20N,D,AMD,BLR
+UK574,Bengaluru,Ahmedabad,Vistara,A20N,D,BLR,AMD
+UK575,Ahmedabad,Bengaluru,Vistara,A20N,D,AMD,BLR
+UK576,Bengaluru,Ahmedabad,Vistara,A20N,D,BLR,AMD
+UK583,Bengaluru,Goa,Vistara,A20N,D,BLR,GOI
+UK584,Goa,Bengaluru,Vistara,A20N,D,GOI,BLR
+UK587,Mumbai,Goa,Vistara,A20N,D,BOM,GOX
+UK588,Goa,Mumbai,Vistara,A20N,D,GOX,BOM
+UK589,Hyderabad,Goa,Vistara,A20N,D,HYD,GOX
+UK590,Goa,Hyderabad,Vistara,A20N,D,GOX,HYD
+UK591,Hyderabad,Goa,Vistara,A20N,D,HYD,GOX
+UK592,Goa,Hyderabad,Vistara,A20N,D,GOX,HYD
+UK597,Ahmedabad,Goa,Vistara,A20N,D,AMD,GOI
+UK598,Goa,Ahmedabad,Vistara,A20N,D,GOI,AMD
+UK601,Delhi,Leh,Vistara,A20N,D,DEL,IXL
+UK602,Leh,Delhi,Vistara,A20N,D,IXL,DEL
+UK611,Delhi,Srinagar,Vistara,A20N,D,DEL,SXR
+UK612,Srinagar,Delhi,Vistara,A20N,D,SXR,DEL
+UK613,Mumbai,Udaipur,Vistara,A20N,D,BOM,UDR
+UK614,Udaipur,Mumbai,Vistara,A20N,D,UDR,BOM
+UK617,Delhi,Dehradun,Vistara,A20N,D,DEL,DED
+UK618,Dehradun,Delhi,Vistara,A20N,D,DED,DEL
+UK619,Mumbai,Dehradun,Vistara,A20N,D,BOM,DED
+UK620,Dehradun,Mumbai,Vistara,A20N,D,DED,BOM
+UK621,Mumbai,Varanasi,Vistara,A20N,D,BOM,VNS
+UK622,Varanasi,Mumbai,Vistara,A20N,D,VNS,BOM
+UK623,Mumbai,Udaipur,Vistara,A20N,D,BOM,UDR
+UK624,Udaipur,Mumbai,Vistara,A20N,D,UDR,BOM
+UK627,Delhi,Udaipur,Vistara,A20N,D,DEL,UDR
+UK628,Udaipur,Delhi,Vistara,A20N,D,UDR,DEL
+UK633,Bengaluru,Udaipur,Vistara,A20N,D,BLR,UDR
+UK634,Udaipur,Bengaluru,Vistara,A20N,D,UDR,BLR
+UK637,Delhi,Chandigarh,Vistara,A20N,D,DEL,IXC
+UK641,Delhi,Lucknow,Vistara,A20N,D,DEL,LKO
+UK642,Lucknow,Delhi,Vistara,A20N,D,LKO,DEL
+UK643,Delhi,Srinagar,Vistara,A20N,D,DEL,SXR
+UK644,Srinagar,Delhi,Vistara,A20N,D,SXR,DEL
+UK657,Bengaluru,Chandigarh,Vistara,A20N,D,BLR,IXC
+UK658,Chandigarh,Bengaluru,Vistara,A20N,D,IXC,BLR
+UK659,Mumbai,Chandigarh,Vistara,A20N,D,BOM,IXC
+UK660,Chandigarh,Mumbai,Vistara,A20N,D,IXC,BOM
+UK673,Delhi,Varanasi,Vistara,A20N,D,DEL,VNS
+UK674,Varanasi,Delhi,Vistara,A20N,D,VNS,DEL
+UK691,Delhi,Amritsar,Vistara,A20N,D,DEL,ATQ
+UK692,Amritsar,Delhi,Vistara,A20N,D,ATQ,DEL
+UK693,Delhi,Amritsar,Vistara,A20N,D,DEL,ATQ
+UK694,Amritsar,Delhi,Vistara,A20N,D,ATQ,DEL
+UK695,Mumbai,Amritsar,Vistara,A20N,D,BOM,ATQ
+UK696,Amritsar,Mumbai,Vistara,A20N,D,ATQ,BOM
+UK697,Delhi,Amritsar,Vistara,A20N,D,DEL,ATQ
+UK698,Amritsar,Delhi,Vistara,A20N,D,ATQ,DEL
+UK705,Delhi,Kolkata,Vistara,A20N,D,DEL,CCU
+UK706,Kolkata,Delhi,Vistara,A20N,D,CCU,DEL
+UK706,Delhi,Chandigarh,Vistara,A20N,D,DEL,IXC
+UK707,Chandigarh,Delhi,Vistara,A20N,D,IXC,DEL
+UK707,Delhi,Kolkata,Vistara,A20N,D,DEL,CCU
+UK708,Kolkata,Delhi,Vistara,A20N,D,CCU,DEL
+UK715,Delhi,Patna,Vistara,A20N,D,DEL,PAT
+UK716,Patna,Delhi,Vistara,A20N,D,PAT,DEL
+UK717,Delhi,Patna,Vistara,A20N,D,DEL,PAT
+UK718,Patna,Delhi,Vistara,A20N,D,PAT,DEL
+UK720,Kolkata,Delhi,Vistara,A20N,D,CCU,DEL
+UK721,Delhi,Guwahati,Vistara,A20N,D,DEL,GAU
+UK722,Guwahati,Delhi,Vistara,A20N,D,GAU,DEL
+UK725,Delhi,Siliguri,Vistara,A20N,D,DEL,IXB
+UK726,Siliguri,Delhi,Vistara,A20N,D,IXB,DEL
+UK727,Delhi,Kolkata,Vistara,A20N,D,DEL,CCU
+UK737,Delhi,Kolkata,Vistara,A20N,D,DEL,CCU
+UK738,Kolkata,Delhi,Vistara,A20N,D,CCU,DEL
+UK741,Delhi,Guwahati,Vistara,A20N,D,DEL,GAU
+UK742,Guwahati,Delhi,Vistara,A20N,D,GAU,DEL
+UK747,Delhi,Kolkata,Vistara,A20N,D,DEL,CCU
+UK747,Kolkata,Port Blair,Vistara,A20N,D,CCU,IXZ
+UK753,Delhi,Ranchi,Vistara,A20N,D,DEL,IXR
+UK754,Ranchi,Delhi,Vistara,A20N,D,IXR,DEL
+UK761,Bengaluru,Kolkata,Vistara,A20N,D,BLR,CCU
+UK762,Kolkata,Bengaluru,Vistara,A20N,D,CCU,BLR
+UK763,Bengaluru,Kolkata,Vistara,A20N,D,BLR,CCU
+UK764,Kolkata,Bengaluru,Vistara,A20N,D,CCU,BLR
+UK765,Bengaluru,Kolkata,Vistara,A20N,D,BLR,CCU
+UK766,Kolkata,Bengaluru,Vistara,A20N,D,CCU,BLR
+UK771,Mumbai,Kolkata,Vistara,A20N,D,BOM,CCU
+UK772,Kolkata,Mumbai,Vistara,A20N,D,CCU,BOM
+UK773,Mumbai,Kolkata,Vistara,A20N,D,BOM,CCU
+UK774,Kolkata,Mumbai,Vistara,A20N,D,CCU,BOM
+UK778,Port Blair,Kolkata,Vistara,A20N,D,IXZ,CCU
+UK778,Kolkata,Delhi,Vistara,A20N,D,CCU,DEL
+UK781,Delhi,Bhubaneswar,Vistara,A20N,D,DEL,BBI
+UK782,Bhubaneswar,Delhi,Vistara,A20N,D,BBI,DEL
+UK785,Delhi,Bhubaneswar,Vistara,A20N,D,DEL,BBI
+UK786,Bhubaneswar,Delhi,Vistara,A20N,D,BBI,DEL
+UK787,Delhi,Bhubaneswar,Vistara,A20N,D,DEL,BBI
+UK788,Bhubaneswar,Delhi,Vistara,A20N,D,BBI,DEL
+UK793,Delhi,Raipur,Vistara,A20N,D,DEL,RPR
+UK794,Raipur,Delhi,Vistara,A20N,D,RPR,DEL
+UK797,Delhi,Raipur,Vistara,A20N,D,DEL,RPR
+UK798,Raipur,Delhi,Vistara,A20N,D,RPR,DEL
+UK801,Delhi,Bengaluru,Vistara,A20N,D,DEL,BLR
+UK802,Bengaluru,Delhi,Vistara,A20N,D,BLR,DEL
+UK807,Delhi,Bengaluru,Vistara,A20N,D,DEL,BLR
+UK808,Bengaluru,Delhi,Vistara,A20N,D,BLR,DEL
+UK809,Delhi,Bengaluru,Vistara,A20N,D,DEL,BLR
+UK810,Bengaluru,Delhi,Vistara,A20N,D,BLR,DEL
+UK811,Delhi,Bengaluru,Vistara,A20N,D,DEL,BLR
+UK813,Delhi,Bengaluru,Vistara,A20N,D,DEL,BLR
+UK814,Bengaluru,Delhi,Vistara,A20N,D,BLR,DEL
+UK815,Delhi,Bengaluru,Vistara,A20N,D,DEL,BLR
+UK816,Bengaluru,Delhi,Vistara,A20N,D,BLR,DEL
+UK817,Delhi,Bengaluru,Vistara,A21N,D,DEL,BLR
+UK818,Bengaluru,Delhi,Vistara,A21N,D,BLR,DEL
+UK819,Delhi,Bengaluru,Vistara ,A20N,D,DEL,BLR
+UK820,Bengaluru,Delhi,Vistara ,A20N,D,BLR,DEL
+UK821,Mumbai,Chennai,Vistara,A20N,D,BOM,MAA
+UK822,Chennai,Mumbai,Vistara,A20N,D,MAA,BOM
+UK827,Mumbai,Chennai,Vistara,A20N,D,BOM,MAA
+UK828,Chennai,Mumbai,Vistara,A20N,D,MAA,BOM
+UK832,Chennai,Delhi,Vistara,A20N,D,MAA,DEL
+UK833,Delhi,Chennai,Vistara,A20N,D,DEL,MAA
+UK834,Chennai,Delhi,Vistara,A20N,D,MAA,DEL
+UK835,Delhi,Chennai,Vistara,A20N,D,DEL,MAA
+UK836,Chennai,Delhi,Vistara,A20N,D,MAA,DEL
+UK839,Delhi,Chennai,Vistara,A20N,D,DEL,MAA
+UK840,Bengaluru,Mumbai,Vistara,A20N,D,BLR,BOM
+UK841,Mumbai,Goa,Vistara,A20N,D,BOM,GOI
+UK842,Goa,Mumbai,Vistara,A20N,D,GOI,BOM
+UK843,Mumbai,Goa,Vistara ,A21N,D,BOM,GOI
+UK844,Goa,Mumbai,Vistara,A21N,D,GOI,BOM
+UK847,Delhi,Goa,Vistara,A21N,D,DEL,GOI
+UK848,Goa,Delhi,Vistara,A21N,D,GOI,DEL
+UK849,Mumbai,Bengaluru,Vistara,A20N,D,BOM,BLR
+UK850,Bengaluru,Mumbai,Vistara,A20N,D,BLR,BOM
+UK851,Mumbai,Bengaluru,Vistara,A20N,D,BOM,BLR
+UK852,Bengaluru,Mumbai,Vistara,A20N,D,BLR,BOM
+UK853,Mumbai,Bengaluru,Vistara,A20N,D,BOM,BLR
+UK854,Bengaluru,Mumbai,Vistara,A20N,D,BLR,BOM
+UK855,Delhi,Goa,Vistara,A20N,D,DEL,GOI
+UK856,Goa,Delhi,Vistara,A20N,D,GOI,DEL
+UK857,Mumbai,Bengaluru,Vistara,A20N,D,BOM,BLR
+UK859,Delhi,Hyderabad,Vistara,A20N,D,DEL,HYD
+UK860,Hyderabad,Delhi,Vistara,A20N,D,HYD,DEL
+UK863,Mumbai,Bengaluru,Vistara,A20N,D,BOM,BLR
+UK864,Bengaluru,Mumbai,Vistara,A20N,D,BLR,BOM
+UK865,Mumbai,Bengaluru,Vistara,A20N,D,BOM,BLR
+UK866,Bengaluru,Mumbai,Vistara,A20N,D,BLR,BOM
+UK868,Bengaluru,Delhi,Vistara,A20N,D,BLR,DEL
+UK869,Mumbai,Hyderabad,Vistara,A20N,D,BOM,HYD
+UK870,Hyderabad,Delhi,Vistara,A20N,D,HYD,DEL
+UK871,Delhi,Hyderabad,Vistara,A20N,D,DEL,HYD
+UK872,Hyderabad,Mumbai,Vistara,A20N,D,HYD,BOM
+UK873,Mumbai,Hyderabad,Vistara,A20N,D,BOM,HYD
+UK874,Hyderabad,Mumbai,Vistara,A20N,D,HYD,BOM
+UK875,Mumbai,Hyderabad,Vistara,A20N,D,BOM,HYD
+UK876,Hyderabad,Mumbai,Vistara,A20N,D,HYD,BOM
+UK877,Mumbai,Hyderabad,Vistara,A20N,D,BOM,HYD
+UK878,Hyderabad,Mumbai,Vistara,A20N,D,HYD,BOM
+UK879,Delhi,Hyderabad,Vistara,A20N,D,DEL,HYD
+UK880,Hyderabad,Delhi,Vistara,A20N,D,HYD,DEL
+UK881,Bengaluru,Goa,Vistara,A20N,D,BLR,GOI
+UK882,Goa,Bengaluru,Vistara,A20N,D,GOI,BLR
+UK883,Delhi,Cochin,Vistara,A20N,D,DEL,COK
+UK884,Cochin,Delhi,Vistara,A20N,D,COK,DEL
+UK885,Delhi,Cochin,Vistara,A20N,D,DEL,COK
+UK886,Cochin,Delhi,Vistara,A20N,D,COK,DEL
+UK887,Bengaluru,Hyderabad,Vistara,A20N,D,BLR,HYD
+UK888,Hyderabad,Bengaluru,Vistara,A20N,D,HYD,BLR
+UK890,Hyderabad,Delhi,Vistara,A20N,D,HYD,DEL
+UK893,Bengaluru,Hyderabad,Vistara,A20N,D,BLR,HYD
+UK894,Hyderabad,Bengaluru,Vistara,A20N,D,HYD,BLR
+UK895,Delhi,Thiruvananthapuram,Vistara,A20N,D,DEL,TRV
+UK896,Thiruvananthapuram,Delhi,Vistara,A20N,D,TRV,DEL
+UK897,Bengaluru,Hyderabad,Vistara,A20N,D,BLR,HYD
+UK898,Hyderabad,Bengaluru,Vistara,A20N,D,HYD,BLR
+UK899,Delhi,Hyderabad,Vistara,A20N,D,DEL,HYD
+UK902,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK906,Ahmedabad,Delhi,Vistara,A20N,D,AMD,DEL
+UK910,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK911,Delhi,Indore,Vistara,A20N,D,DEL,IDR
+UK912,Indore,Delhi,Vistara,A20N,D,IDR,DEL
+UK913,Delhi,Indore,Vistara,A20N,D,DEL,IDR
+UK914,Indore,Delhi,Vistara,A20N,D,IDR,DEL
+UK918,Ahmedabad,Mumbai,Vistara,A20N,D,AMD,BOM
+UK919,Mumbai,Ahmedabad,Vistara,A20N,D,BOM,AMD
+UK927,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK928,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK929,Delhi,Ahmedabad,Vistara,A20N,D,DEL,AMD
+UK930,Mumbai,Delhi,Vistara,A21N,D,BOM,DEL
+UK933,Delhi,Mumbai,Vistara,A21N,D,DEL,BOM
+UK935,Delhi,Pune,Vistara,A21N,D,DEL,PNQ
+UK936,Ahmedabad,Mumbai,Vistara,A20N,D,AMD,BOM
+UK939,Mumbai,Ahmedabad,Vistara,A20N,D,BOM,AMD
+UK940,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK941,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK943,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK944,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK945,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK949,Mumbai,Ahmedabad,Vistara,A20N,D,BOM,AMD
+UK950,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK951,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK952,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK954,Mumbai,Delhi,Vistara,A21N,D,BOM,DEL
+UK955,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK956,Ahmedabad,Mumbai,Vistara,A20N,D,AMD,BOM
+UK960,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK963,Delhi,Mumbai,Vistara,A21N,D,DEL,BOM
+UK966,Ahmedabad,Delhi,Vistara,A21N,D,AMD,DEL
+UK969,Delhi,Ahmedabad,Vistara,A21N,D,DEL,AMD
+UK970,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK971,Delhi,Pune,Vistara,A20N,D,DEL,PNQ
+UK972,Pune,Delhi,Vistara,A20N,D,PNQ,DEL
+UK973,Delhi,Pune,Vistara,A20N,D,DEL,PNQ
+UK974,Pune,Delhi,Vistara,A20N,D,PNQ,DEL
+UK975,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK976,Ahmedabad,Delhi,Vistara,A20N,D,AMD,DEL
+UK977,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK979,Delhi,Ahmedabad,Vistara,A20N,D,DEL,AMD
+UK981,Delhi,Mumbai,Vistara,A21N,D,DEL,BOM
+UK983,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK985,Delhi,Mumbai,Vistara,A21N,D,DEL,BOM
+UK986,Mumbai,Delhi,Vistara,A21N,D,BOM,DEL
+UK988,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK991,Delhi,Pune,Vistara,A20N,D,DEL,PNQ
+UK992,Pune,Delhi,Vistara,A20N,D,PNQ,DEL
+UK993,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK994,Mumbai,Delhi,Vistara,A20N,D,BOM,DEL
+UK995,Delhi,Mumbai,Vistara,A20N,D,DEL,BOM
+UK996,Mumbai,Delhi,Vistara,A21N,D,BOM,DEL
+UK998,Pune,Delhi,Vistara,A21N,D,PNQ,DEL
+UK999,Delhi,Mumbai,Vistara ,A21N,D,DEL,BOM
+UL121,Colombo,Chennai,SriLankan Airlines,A333,I,CMB,MAA
+UL122,Chennai,Colombo,SriLankan Airlines,A333,I,MAA,CMB
+UL125,Colombo,Chennai,SriLankan Airlines,320,I,CMB,MAA
+UL126,Chennai,Colombo,SriLankan Airlines,320,I,MAA,CMB
+UL127,Colombo,Chennai,SriLankan Airlines,A21N,I,CMB,MAA
+UL128,Chennai,Colombo,SriLankan Airlines,A21N,I,MAA,CMB
+UL141,Colombo,Mumbai,SriLankan Airlines ,A332,I,CMB,BOM
+UL142,Mumbai,Colombo,SriLankan Airlines ,A332,I,BOM,CMB
+UL143,Colombo,Mumbai,SriLankan Airlines,320,I,CMB,BOM
+UL144,Mumbai,Colombo,SriLankan Airlines,320,I,BOM,CMB
+UL165,Colombo,Cochin,FitsAir,A320,I,CMB,COK
+UL166,Cochin,Colombo,FitsAir,A320,I,COK,CMB
+UL171,Colombo,Bengaluru,SriLankan Airlines,A320,I,CMB,BLR
+UL172,Bengaluru,Colombo,SriLankan Airlines,A320,I,BLR,CMB
+UL191,Colombo,Delhi,SriLankan Airlines,A320,I,CMB,DEL
+UL192,Delhi,Colombo,SriLankan Airlines,A320,I,DEL,CMB
+UL195,Colombo,Delhi,FitsAir,A320,I,CMB,DEL
+UL196,Delhi,Colombo,FitsAir,A320,I,DEL,CMB
+VJ1805,Ho Chi Minh City,Ahmedabad,VietJet Air ,A21N,I,SGN,AMD
+VJ1806,Ahmedabad,Ho Chi Minh City,VietJet Air ,A21N,I,AMD,SGN
+VJ1811,Ho Chi Minh City,Cochin,VietJet Air,A321,I,SGN,COK
+VJ1812,Cochin,Ho Chi Minh City,VietJet Air,A321,I,COK,SGN
+VJ1926,Ahmedabad,Hanoi,VietJet Air,A320,I,AMD,HAN
+VJ884,Mumbai,Ho Chi Minh City,VietJet Air,A333,I,BOM,SGN
+VJ895,Ho Chi Minh City,Delhi,VietJet Air,A333,I,SGN,DEL
+VJ907,Hanoi,Mumbai,VietJet Air,A21N,I,HAN,BOM
+VN970,Delhi,Hanoi,Vietnam Airlines,A21N,I,DEL,HAN
+VN971,Hanoi,Delhi,Vietnam Airlines,A21N,I,HAN,DEL
+VN978,Mumbai,Ho Chi Minh City,Vietnam Airlines,A21N,I,BOM,SGN
+VN979,Ho Chi Minh City,Mumbai,Vietnam Airlines,A21N,I,SGN,BOM
+VQ721,Dhaka,Kolkata,NovoAir,AT75,I,DAC,CCU
+VQ722,Kolkata,Dhaka,NovoAir,AT75,I,CCU,DAC
+VS300,London,Delhi,Virgin Atlantic,B789,I,LHR,DEL
+VS301,Delhi,London,Virgin Atlantic,B789,I,DEL,LHR
+VS302,London,Delhi,Virgin Atlantic,A35K,I,LHR,DEL
+VS303,Delhi,London,Virgin Atlantic,A35K,I,DEL,LHR
+VS316,London,Bengaluru,Virgin Atlantic,B789,I,LHR,BLR
+VS317,Bengaluru,London,Virgin Atlantic,B789,I,BLR,LHR
+VS354,London,Mumbai,Virgin Atlantic,B789,I,LHR,BOM
+VS355,Mumbai,London,Virgin Atlantic,B789,I,BOM,LHR
+W571,Tehran,Delhi,Mahan Air,A343,I,IKA,DEL
+WY201,Muscat,Mumbai,Oman Air,B739,I,MCT,BOM
+WY202,Mumbai,Muscat,Oman Air,B739,I,BOM,MCT
+WY223,Muscat,Cochin,Oman Air,B38M,I,MCT,COK
+WY224,Cochin,Muscat,Oman Air,B38M,I,COK,MCT
+WY225,Muscat,Cochin,Oman Air,B738,I,MCT,COK
+WY2251,Muscat,Chennai,Oman Air Cargo,B738,I,MCT,MAA
+WY2252,Chennai,Muscat,Oman Air Cargo,B738,I,MAA,MCT
+WY226,Cochin,Muscat,Oman Air,B738,I,COK,MCT
+WY235,Muscat,Hyderabad,Oman Air,B738,I,MCT,HYD
+WY236,Hyderabad,Muscat,Oman Air,B738,I,HYD,MCT
+WY241,Muscat,Delhi,Oman Air,B38M,I,MCT,DEL
+WY242,Delhi,Muscat,Oman Air,B38M,I,DEL,MCT
+WY245,Muscat,Delhi,Oman Air,B739,I,MCT,DEL
+WY246,Delhi,Muscat,Oman Air,B739,I,DEL,MCT
+WY251,Muscat,Chennai,Oman Air,B38M,I,MCT,MAA
+WY252,Chennai,Muscat,Oman Air,B38M,I,MAA,MCT
+WY253,Muscat,Chennai,Oman Air,B38M,I,MCT,MAA
+WY254,Chennai,Muscat,Oman Air,B38M,I,MAA,MCT
+WY281,Muscat,Bengaluru,Oman Air,B38M,I,MCT,BLR
+WY282,Bengaluru,Muscat,Oman Air,B38M,I,BLR,MCT
+XY321,Riyadh,Mumbai,flynas,A20N,I,RUH,BOM
+XY322,Mumbai,Riyadh,flynas,A20N,I,BOM,RUH
+XY325,Riyadh,Hyderabad,flynas,A20N,I,RUH,HYD
+XY326,Hyderabad,Riyadh,flynas,A20N,I,HYD,RUH
+XY329,Riyadh,Delhi,flynas,A20N,I,RUH,DEL
+XY330,Delhi,Riyadh,flynas,A20N,I,DEL,RUH
+XY833,Dammam,Mumbai,flynas ,A20N,I,DMM,BOM
+XY834,Mumbai,Dammam,flynas ,A20N,I,BOM,DMM
+YG9040,Delhi,Nanning,YTO Cargo Airlines,75F,I,DEL,NNG
+YG9049,Hangzhou,Kolkata,YTO Cargo Airlines,75F,I,HGH,CCU
+YG9103,Kunming,Mumbai,YTO Cargo Airlines,75F,I,KMG,BOM
+YG9129,Kunming,Chennai,YTO Cargo Airlines,737,I,KMG,MAA
+YG9130,Chennai,Kunming,YTO Cargo Airlines,737,I,MAA,KMG
+YG9141,Nanning,Chennai,YTO Cargo Airlines,B763,I,NNG,MAA
+YG9142,Chennai,Nanning,YTO Cargo Airlines,B763,I,MAA,NNG
+YG9149,Nanning,Mumbai,YTO Cargo Airlines,75F,I,NNG,BOM
+YG9150,Mumbai,Nanning,YTO Cargo Airlines,75F,I,BOM,NNG
+YG9172,Delhi,Guangzhou,YTO Cargo Airlines,75F,I,DEL,CAN
+ZO103,Delhi,Ayodhya,Zooom,CR2,D,DEL,AYJ
+ZO104,Ayodhya,Delhi,Zooom,CR2,D,AYJ,DEL

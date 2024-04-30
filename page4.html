@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIS Portal</title>
+    <link rel="stylesheet" href="ol.css">
+    <style>
+        /* Add your styles here */
+        * {
+            box-sizing: border-box;
+        }
+        h1{
+            color: #FEFFA5;
+        }
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+
+        #header {
+            background-color: #466365;
+            position: fixed;
+            top: 0;
+            width: 80%;
+            height: 80px;
+            text-align: center;
+        }
+
+        #map {
+            height: 95%;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 20%;
+            background-color: black;
+        }
+
+        /* Right panel */
+        #rpanel {
+            background-color: #769fb6;
+            height: 100%;
+            width: 20%;
+            position: fixed;
+            top: 0px;
+            right: 0;
+            border-left: 5px solid #C33C54;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        /* Styles for the popup */
+        #popup {
+            background-color: #D4CDF4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .navButton{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <div id="header">
+        <h1>Departures by Airline</h1>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Right Panel -->
+    <div id="rpanel">
+        <!-- Domestic Airlines Radio Button -->
+        <div>
+            <input type="radio" id="domAirlinesRadio" name="airlineType" />
+            <label for="domAirlinesRadio">Domestic Airlines</label>
+        </div>
+
+        <!-- International Airlines Radio Button -->
+        <div>
+            <input type="radio" id="intAirlinesRadio" name="airlineType" />
+            <label for="intAirlinesRadio">International Airlines</label>
+        </div>
+
+        <!-- Reset view button -->
+        <button id="resetButton">Reset View</button>
+
+        <!-- Buttons to go to different pages -->
+        <div id="buttonContainer">
+            <button class="navButton" onclick="openPage('page1.html')">Know Your Airports</button>
+            <button class="navButton" onclick="openPage('page2.html')">Airport Statistics for 2022-2023</button>
+            <button class="navButton" onclick="openPage('page3.html')">Total Flights per Day</button>
+            <button class="navButton" onclick="openPage('page4.html')">Departures by Airline</button>
+            <button class="navButton" onclick="openPage('page5.html')">Top Domestic Destinations</button>
+            <button class="navButton" onclick="openPage('page6.html')">Top International Destinations</button>
+            <button class="navButton" onclick="openPage('page7.html')">Flight Finder</button>
+            <button class="navButton" onclick="openPage('index.html')">Back to Home Page</button>
+        </div>
+    </div>
+
+    <script src="ol.js"></script>
+    <script>
+        // Initialize the map
+        // Initialize the map
+// Initialize the map
+// Initialize the map
+var map = new ol.Map({
+    view: new ol.View({
+        center: [9000000, 2500000],
+        zoom: 4.8
+    }),
+    target: 'map'
+});
+
+// Store the initial view for resetting
+var initialView = map.getView().getCenter();
+var initialZoom = map.getView().getZoom();
+
+// Layers
+var osmLayer = new ol.layer.Tile({
+    source: new ol.source.OSM()
+});
+
+var googleMapTileLayer = new ol.layer.Tile({
+    source: new ol.source.XYZ({
+        url: 'https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}',
+        attributions: '&copy;&nbsp;<a href="https://developers.google.com/maps/documentation/tile" target="_blank">Google Tile Map Contributors</a>',
+        attributionsCollapsible: false
+    }),
+    visible: false,
+    opacity: 1,
+    title: 'Google Map layer'
+});
+
+// Layer group
+var tileLayerGroup = new ol.layer.Group({
+    layers: [googleMapTileLayer, osmLayer]
+});
+
+map.addLayer(tileLayerGroup);
+
+// Popup container and overlay
+var popupContainer = document.createElement('div');
+popupContainer.className = 'ol-popup';
+popupContainer.id = 'popup';
+document.body.appendChild(popupContainer);
+
+var popupOverlay = new ol.Overlay({
+    element: popupContainer,
+    positioning: 'center',
+    stopEvent: false,
+    offset: [50, -200]
+});
+
+map.addOverlay(popupOverlay);
+
+// Layers for Domestic and International Airlines
+var domAirlinesLayer = null;
+var intAirlinesLayer = null;
+
+// Function to handle popups for different layers
+// Function to handle popups for different layers
+// Function to handle popups for different layers
+// Function to handle popups for different layers
+function handlePopup(event) {
+    // Hide the popup by default
+    popupOverlay.setPosition(undefined);
+
+    // Find the clicked feature and layer
+    var feature = map.forEachFeatureAtPixel(event.pixel, function(feature, layer) {
+        return feature;
+    });
+
+    // If feature exists, proceed with creating the popup
+    if (feature) {
+        // Get the clicked location in map coordinates
+        var clickedCoordinate = event.coordinate;
+
+        // Get the feature's properties (attributes)
+        var attributes = feature.getProperties();
+
+        // Access the 'City' property to use in the <h3> tag
+        var city = attributes.City || '';
+
+        // Construct the popup content
+        var popupContent = '<h3>' + city + '</h3><ul>';
+        for (var key in attributes) {
+            // Exclude the 'IATA', 'ObjectID', 'City' properties, and properties with value '0' from the popup content
+            if (attributes.hasOwnProperty(key) && key !== 'IATA' && key !== 'ObjectID' && key !== 'City' && attributes[key] !== 0 && key !== 'geometry') {
+                popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+            }
+        }
+        popupContent += '</ul>';
+
+        // Set the popup content and position
+        popupContainer.innerHTML = popupContent;
+        popupOverlay.setPosition(clickedCoordinate);
+
+        // Zoom in on the clicked point
+        map.getView().setCenter(clickedCoordinate);
+        map.getView().setZoom(6);
+    }
+}
+
+
+
+// Function to add DomAirlines.json layer
+function addDomAirlinesLayer() {
+    // Fetch the DomAirlines.json file
+    fetch('DomAirlines.json')
+        .then(response => response.json())
+        .then(data => {
+            // Create a vector source from the GeoJSON data
+            var vectorSource = new ol.source.Vector({
+                features: new ol.format.GeoJSON().readFeatures(data, {
+                    featureProjection: 'EPSG:3857'
+                })
+            });
+
+            // Create a new vector layer for DomAirlines.json data
+            domAirlinesLayer = new ol.layer.Vector({
+                source: vectorSource,
+                style: new ol.style.Style({
+                    image: new ol.style.Circle({
+                        radius: 5,
+                        fill: new ol.style.Fill({
+                            color: 'blue'
+                        }),
+                        stroke: new ol.style.Stroke({
+                            color: 'black',
+                            width: 1
+                        })
+                    })
+                }),
+                visible: false // Initialize with layer hidden
+            });
+
+            // Add the layer to the map
+            map.addLayer(domAirlinesLayer);
+        })
+        .catch(error => {
+            console.error('Error loading DomAirlines.json:', error);
+        });
+}
+
+// Function to add IntAirlines.json layer
+function addIntAirlinesLayer() {
+    // Fetch the IntAirlines.json file
+    fetch('IntAirlines.json')
+        .then(response => response.json())
+        .then(data => {
+            // Create a vector source from the GeoJSON data
+            var vectorSource = new ol.source.Vector({
+                features: new ol.format.GeoJSON().readFeatures(data, {
+                    featureProjection: 'EPSG:3857'
+                })
+            });
+
+            // Create a new vector layer for IntAirlines.json data
+            intAirlinesLayer = new ol.layer.Vector({
+                source: vectorSource,
+                style: new ol.style.Style({
+                    image: new ol.style.Circle({
+                        radius: 5,
+                        fill: new ol.style.Fill({
+                            color: 'green'
+                        }),
+                        stroke: new ol.style.Stroke({
+                            color: 'black',
+                            width: 1
+                        })
+                    })
+                }),
+                visible: false // Initialize with layer hidden
+            });
+
+            // Add the layer to the map
+            map.addLayer(intAirlinesLayer);
+        })
+        .catch(error => {
+            console.error('Error loading IntAirlines.json:', error);
+        });
+}
+
+// Add reset button functionality
+document.getElementById('resetButton').addEventListener('click', function() {
+    map.getView().setCenter(initialView);
+    map.getView().setZoom(initialZoom);
+    popupOverlay.setPosition(undefined);
+    // Turn off both layers
+    if (domAirlinesLayer) {
+        domAirlinesLayer.setVisible(false);
+    }
+    if (intAirlinesLayer) {
+        intAirlinesLayer.setVisible(false);
+    }
+});
+
+// Function to toggle between DomAirlines and IntAirlines layers
+function toggleAirlinesLayers() {
+    // Add event listeners to the radio buttons
+    document.getElementById('domAirlinesRadio').addEventListener('change', function(event) {
+        if (event.target.checked) {
+            // Hide the International Airlines layer and show the Domestic Airlines layer
+            if (intAirlinesLayer) {
+                intAirlinesLayer.setVisible(false);
+            }
+            if (domAirlinesLayer) {
+                domAirlinesLayer.setVisible(true);
+            }
+        }
+    });
+
+    document.getElementById('intAirlinesRadio').addEventListener('change', function(event) {
+        if (event.target.checked) {
+            // Hide the Domestic Airlines layer and show the International Airlines layer
+            if (domAirlinesLayer) {
+                domAirlinesLayer.setVisible(false);
+            }
+            if (intAirlinesLayer) {
+                intAirlinesLayer.setVisible(true);
+            }
+        }
+    });
+}
+
+// Function to open different pages
+function openPage(url) {
+    window.location.href = url;
+}
+
+// Initialize the DomAirlines and IntAirlines layers
+addDomAirlinesLayer();
+addIntAirlinesLayer();
+
+// Initialize the toggle function for DomAirlines and IntAirlines layers
+toggleAirlinesLayers();
+
+// Add a click event listener to the map
+map.on('click', function(event) {
+    // Call the handlePopup function on each map click
+    handlePopup(event);
+});
+
+    </script>
+</body>
+</html>

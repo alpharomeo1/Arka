@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIS Portal</title>
+    <link rel="stylesheet" href="ol.css">
+    <style>
+        /* Add your styles here */
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+
+        #header {
+            background-color: #466365;
+            position: fixed;
+            top: 0;
+            width: 80%;
+            height: 80px;
+            text-align: center;
+        }
+        h1{
+            color: #FEFFA5;
+        }
+        #map {
+            height: 95%;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 20%;
+            background-color: black;
+        }
+
+        /* Right panel */
+        #rpanel {
+            background-color: #769fb6;
+            height: 100%;
+            width: 20%;
+            position: fixed;
+            top: 0px;
+            right: 0;
+            border-left: 5px solid #C33C54;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        /* Styles for the popup */
+        #popup {
+            background-color: #D4CDF4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .navButton{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <div id="header">
+        <h1>Top Domestic Destinations</h1>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Right Panel -->
+    <div id="rpanel">
+        <!-- Reset view button -->
+        <button id="resetButton">Reset View</button>
+
+        <!-- Buttons to go to different pages -->
+        <div id="buttonContainer">
+            <button class="navButton" onclick="openPage('page1.html')">Know Your Airports</button>
+            <button class="navButton" onclick="openPage('page2.html')">Airport Statistics for 2022-2023</button>
+            <button class="navButton" onclick="openPage('page3.html')">Total Flights per Day</button>
+            <button class="navButton" onclick="openPage('page4.html')">Departures by Airline</button>
+            <button class="navButton" onclick="openPage('page5.html')">Top Domestic Destinations</button>
+            <button class="navButton" onclick="openPage('page6.html')">Top International Destinations</button>
+            <button class="navButton" onclick="openPage('page7.html')">Flight Finder</button>
+            <button class="navButton" onclick="openPage('index.html')">Back to Home Page</button>
+        </div>
+    </div>
+
+    <script src="ol.js"></script>
+    <script>
+        // Initialize the map
+        var map = new ol.Map({
+            view: new ol.View({
+                center: [9000000, 2500000],
+                zoom: 4.8
+            }),
+            target: 'map'
+        });
+
+        // Store the initial view for resetting
+        var initialView = map.getView().getCenter();
+        var initialZoom = map.getView().getZoom();
+
+        // Layers
+        var osmLayer = new ol.layer.Tile({
+            source: new ol.source.OSM()
+        });
+
+        var googleMapTileLayer = new ol.layer.Tile({
+            source: new ol.source.XYZ({
+                url: 'https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}',
+                attributions: '&copy;&nbsp;<a href="https://developers.google.com/maps/documentation/tile" target="_blank">Google Tile Map Contributors</a>',
+                attributionsCollapsible: false
+            }),
+            visible: false,
+            opacity: 1,
+            title: 'Google Map layer'
+        });
+
+        // Layer group
+        var tileLayerGroup = new ol.layer.Group({
+            layers: [googleMapTileLayer, osmLayer]
+        });
+
+        map.addLayer(tileLayerGroup);
+
+        // Popup container and overlay
+        var popupContainer = document.createElement('div');
+        popupContainer.className = 'ol-popup';
+        popupContainer.id = 'popup';
+        document.body.appendChild(popupContainer);
+
+        var popupOverlay = new ol.Overlay({
+            element: popupContainer,
+            positioning: 'center',
+            stopEvent: false,
+            offset: [10, 0]
+        });
+
+        map.addOverlay(popupOverlay);
+
+        // Function to handle popups for different layers
+        function handlePopup(event, layer) {
+            // Hide the popup by default
+            popupOverlay.setPosition(undefined);
+
+            // Find the clicked feature
+            map.forEachFeatureAtPixel(event.pixel, function(feature, clickedLayer) {
+                if (clickedLayer === layer) {
+                    // Get the clicked location in map coordinates
+                    var clickedCoordinate = event.coordinate;
+
+                    // Get the feature's properties (attributes)
+                    var attributes = feature.getProperties();
+
+                    // Get the "Origin" property and use it as the heading
+                    var origin = attributes["Origin"] || "No Origin";
+
+                    // Construct the popup content
+                    var popupContent = '<h3>' + origin + '</h3><ul>';
+                    for (var key in attributes) {
+                        // Skip the "Origin" property as we are using it as the heading
+                        if (attributes.hasOwnProperty(key) && key !== 'Origin' && key !== 'geometry' && key !== 'ObjectID') {
+                            popupContent += '<li><strong>' + key + ':</strong> ' + attributes[key] + '</li>';
+                        }
+                    }
+                    popupContent += '</ul>';
+
+                    // Set the popup content and position
+                    popupContainer.innerHTML = popupContent;
+                    popupOverlay.setPosition(clickedCoordinate);
+
+                    // Zoom in on the clicked point
+                    var view = map.getView();
+                    view.setCenter(clickedCoordinate);
+                    view.setZoom(6);
+                }
+            });
+        }
+
+        // Function to add TopDomL.json layer
+        function addTopDomLLayer() {
+            // Fetch the TopDomL.json file
+            fetch('TopDomL.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Create a vector source from the GeoJSON data
+                    var vectorSource = new ol.source.Vector({
+                        features: new ol.format.GeoJSON().readFeatures(data, {
+                            featureProjection: 'EPSG:3857'
+                        })
+                    });
+
+                    // Create a new vector layer for TopDomL.json data
+                    var topDomLLayer = new ol.layer.Vector({
+                        source: vectorSource,
+                        style: new ol.style.Style({
+                            stroke: new ol.style.Stroke({
+                                color: 'blue',
+                                width: 2
+                            })
+                        })
+                    });
+
+                    // Add the layer to the map
+                    map.addLayer(topDomLLayer);
+                })
+                .catch(error => {
+                    console.error('Error loading TopDomL.json:', error);
+                });
+        }
+
+        // Function to add TopDomP.json layer
+        function addDeparturesLayer() {
+            // Fetch the TopDomP.json file
+            fetch('TopDomP.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Create a vector source from the GeoJSON data
+                    var vectorSource = new ol.source.Vector({
+                        features: new ol.format.GeoJSON().readFeatures(data, {
+                            featureProjection: 'EPSG:3857'
+                        })
+                    });
+
+                    // Create a new vector layer for TopDomP.json data
+                    var departuresLayer = new ol.layer.Vector({
+                        source: vectorSource,
+                        style: new ol.style.Style({
+                            image: new ol.style.Circle({
+                                radius: 5,
+                                fill: new ol.style.Fill({
+                                    color: 'yellow'
+                                }),
+                                stroke: new ol.style.Stroke({
+                                    color: 'black',
+                                    width: 1
+                                })
+                            })
+                        })
+                    });
+
+                    // Add the layer to the map
+                    map.addLayer(departuresLayer);
+
+                    // Add event listener for popups on the TopDomP layer
+                    map.on('click', function(event) {
+                        handlePopup(event, departuresLayer);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading TopDomP.json:', error);
+                });
+        }
+
+        // Add reset button functionality
+        document.getElementById('resetButton').addEventListener('click', function() {
+            map.getView().setCenter(initialView);
+            map.getView().setZoom(initialZoom);
+            popupOverlay.setPosition(undefined);
+        });
+
+        // Function to open different pages
+        function openPage(url) {
+            window.location.href = url;
+        }
+
+        // Add the TopDomL layer
+        addTopDomLLayer();
+
+        // Add the Departures layer (TopDomP.json)
+        addDeparturesLayer();
+    </script>
+</body>
+
+</html>
